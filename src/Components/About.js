@@ -23,7 +23,6 @@ class About extends React.Component{
             <div className="tab-content mb-3 ml-lg-5 ml-2" id="pills-tabContent">
             <div className="tab-pane fade show active ml-md-3" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
               <p className = "blockquote mt-4 mr-5">
-                MAE WAS HERE
                 Waffle Time started on September of 1998 in the province of Iloilo, Philippines as a simple business venture. The first outlet was in The Atrium Mall, Gen. Luna St., Iloilo City.
                 With 7 profitable outlets, the owners were very optimist that the concept and brand is ready for expansion.
               </p>
