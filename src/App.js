@@ -11,6 +11,8 @@ import Maps from './Components/Map';
 import PartyPackage from './Components/PartyPackage.js';
 import Franchise from './Components/Franchise';
 import Popup from './Components/Popup';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 
 class App extends Component {
 
