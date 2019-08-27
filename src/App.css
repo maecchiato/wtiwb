@@ -154,12 +154,7 @@ nav .nav-link:visited {
     }
 }
 
-/* @media only screen and (max-width: 600px) {
-    .navbar-nav {
-        height: 100vh;
-    }
-} */
-@media only screen and (mix-width: 120px) {
+@media only screen and (max-width: 600px) {
     .navbar-nav {
         height: 100vh;
     }
