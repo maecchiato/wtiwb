@@ -36,7 +36,7 @@ body, html {
 
 .headline {
     /* Headline / H12 • 60 Playfair Display */
-    font-family: 'Playfair', sans-serif !important;
+    font-family: 'Playfair', serif !important;
     font-style: normal;
     font-weight: 800;
     font-size: 5vw;
@@ -46,6 +46,33 @@ body, html {
     letter-spacing: 0.2vw;
     width: 80%;
     color: var(--black);
+    background-color: white;
+}
+
+.subheadline {
+    /* Headline / H5 • 24 Playfair Bold */
+    font-family: 'Playfair', serif !important;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.5vw;
+    /* identical to box height */
+    letter-spacing: 0.2vw;
+    text-transform: uppercase;
+    /* Main (Red) */
+    color: #AF0700;
+}
+
+.body-reg {
+    /* Body / 16 Lato Regular */
+    font-family: Lato;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 185%;
+    /* or 30px */
+    letter-spacing: 0.1vw;
+    /* Gray 1 */
+    color: #333333;
+    width: 70%;
 }
 
 /*  Boootstrap Overrides */
@@ -56,9 +83,6 @@ body, html {
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
-    
-    
-
     /* identical to box height */
     letter-spacing: 1px;
     word-spacing: 5px;
@@ -117,7 +141,6 @@ nav .nav-link:visited {
     #logo {
         width: 200px !important;
         top: 10% !important;
-        
     }
     #home-section {
         /* padding-bottom: 20% !important; */
@@ -158,6 +181,10 @@ nav .nav-link:visited {
     .navbar-nav {
         height: 100vh;
     }
+
+    .body-reg{
+        font-size: 8px;
+    }
 }
 
 .vl {
@@ -190,12 +217,11 @@ nav .nav-link:visited {
 #logo {
     width: 200px;
     position: absolute;
-    top:15%;
+    top: 15%;
     padding-top: 8px;
     left: 43%;
     transition: .3s;
-    
-}   
+}
 
 #admin-section {
     background-color: #32a5fd;
@@ -246,10 +272,15 @@ nav .nav-link:visited {
 /* ABOUT SECTION */
 
 #about-section {
-    background-color: purple;
+    /* background-color: purple; */
     color: black;
     padding-top: 50px;
     padding-bottom: 175px;
+}
+
+#about-body {
+    padding-top: 3%;
+    background-color: #32a5fd;
 }
 
 #row1 {
