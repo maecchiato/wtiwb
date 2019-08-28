@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Modal from 'react-modal';
 import waffle from './Layouts/img/waffle.png';
 import ourwaffles from './Layouts/img/our-waffle.png'
 import rec from './Layouts/img/Heading/rec.jpg'
