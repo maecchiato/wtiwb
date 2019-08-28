@@ -150,7 +150,8 @@ nav .nav-link:visited {
     #about-section {
         color: black;
         padding-top: 1% !important;
-        padding-bottom: 5% !important;
+        padding-bottom: 1% !important;
+        padding-left: 10%;
     }
     #waffles-waffle {
         margin-top: 80px !important;
@@ -184,6 +185,7 @@ nav .nav-link:visited {
     }
     .body-reg {
         font-size: 12px;
+        width: 100%;
     }
     .subheadline{
         font-size: 16px;
@@ -191,6 +193,7 @@ nav .nav-link:visited {
 
     #about-section{
         padding-left: 5% !important;
+        padding-bottom: 0.5% !important;
     }
 }
 
@@ -283,7 +286,7 @@ nav .nav-link:visited {
     /* background-size: cover; */
     color: black;
     padding-top: 50px;
-    padding-bottom: 175px;
+    padding-bottom: 50px;
 }
 
 #about-body{
@@ -300,6 +303,7 @@ nav .nav-link:visited {
     position: relative;
     /* White */
     background: #FDFDFD;
+    border: whitesmoke;
     box-sizing: border-box;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
@@ -364,13 +368,17 @@ nav .nav-link:visited {
 /* WAFFLES SECTION */
 
 #waffles-section {
-    background-color: #fee300;
+    /* background-color: #fee300; */
+    background-image: url(../src/Components/Layouts/img/waffle-bg.jpg);
+    background-size: cover;
     color: white;
     padding-top: 75px;
 }
 
 #waffles-waffle {
     margin-top: 25px;
+    background-position: center;
+
 }
 
 #waffle-definition-title-1 {
@@ -829,6 +837,11 @@ nav .nav-link:visited {
     #about-section{
         padding-left: 12% !important;
         background-image: url(../src/Components/Layouts/img/about-bg.jpg);
+        padding-bottom: 1% !important;
+    }
+
+    #waffles-section{
+        padding-bottom: 28%;
     }
 
 }

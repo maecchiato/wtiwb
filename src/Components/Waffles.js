@@ -9,7 +9,6 @@ class waffles extends React.Component{
     return(
       <div id = "waffles-section" className = "row justify-content-sm-center">
         <div className = "col-xl-6 col-lg-6 col-md-6 col-sm-auto col-xs-auto ">
-        <img id = "waffles-waffle" src = {waffle} className = "img-fluid d-block mx-auto mt-lg-5 mt-xl-5 mb-3" />
         </div>
         <div className = "col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
           <img src = {ourwaffles} className = "img-fluid d-block mx-auto" alt = "Our Waffle Story"/>
@@ -30,7 +29,6 @@ class waffles extends React.Component{
               </p>
             </span>
         </div>
-        <img id = "waffle-curve" src = {curve} className = "img-fluid"/>
       </div>
     )
   }
