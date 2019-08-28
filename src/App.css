@@ -38,15 +38,14 @@ body, html {
     /* Headline / H12 • 60 Playfair Display */
     font-family: 'Playfair', serif !important;
     font-style: normal;
-    font-weight: 800;
-    font-size: 5vw;
+    font-weight: bolder;
+    font-size: 72px;
     line-height: 6vw;
     display: flex;
     align-items: flex-end;
-    letter-spacing: 0.2vw;
-    width: 80%;
+    letter-spacing: 1.5px;
+    width: 90%;
     color: var(--black);
-    background-color: white;
 }
 
 .subheadline {
@@ -68,7 +67,7 @@ body, html {
     font-style: normal;
     font-size: 16px;
     line-height: 185%;
-    /* or 30px */
+    width: 85%;
     letter-spacing: 0.1vw;
     /* Gray 1 */
     color: #333333;
@@ -149,12 +148,9 @@ nav .nav-link:visited {
         margin-top: 16% !important;
     }
     #about-section {
-        /* background-image: url(./Components/Layouts/img/about-bg.jpg); */
-        background-size: cover;
         color: black;
         padding-top: 1% !important;
         padding-bottom: 5% !important;
-        padding-left: 10% !important;
     }
     #waffles-waffle {
         margin-top: 80px !important;
@@ -283,14 +279,20 @@ nav .nav-link:visited {
 /* ABOUT SECTION */
 
 #about-section {
-    /* background-color: purple; */
+    /* background-image: url(./Components/Layouts/img/about-bg.jpg); */
+    /* background-size: cover; */
     color: black;
     padding-top: 50px;
     padding-bottom: 175px;
 }
 
-#about-body {
+#about-body{
     padding-top: 3%;
+}
+
+#body-reg{
+    padding-top: 3%;
+    
     /* background-color: #32a5fd; */
 }
 
@@ -315,7 +317,7 @@ nav .nav-link:visited {
     /* Main (Red) */
     color: #AF0700;
     padding: 15px;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .btn-small:hover{
@@ -825,8 +827,10 @@ nav .nav-link:visited {
     }
 
     #about-section{
-        padding-left: 5% !important;
+        padding-left: 12% !important;
+        background-image: url(../src/Components/Layouts/img/about-bg.jpg);
     }
+
 }
 
 .card-back {
