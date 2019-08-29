@@ -7,13 +7,25 @@ import rec from './Layouts/img/Heading/rec.jpg'
 class waffles extends React.Component {
   render() {
     return (
-      <div id="waffles-section" className="row justify-content-lg-center">
+      <div id="waffles-section" className="container-fluid justify-content-lg-center">
         <div id="waffle-heading" className="row justify-content-center">
           <p className="headline-h3 justify-content-center">Our Waffles</p>
           <img src={rec}></img>
         </div>
-        <div className="container-fluid row">
+        <div class="container-fluid row">
+          <div class="col-xl-4">
+            asdasdasdasdasd
+          </div>
+          <div class="col-xl-4">
+            asdasdasdasdasd
+          </div>
+          <div class="col-xl-4">
+            asdasdasdasdasd
+          </div>
         </div>
+
+
+
         {/* <div className="col-xl-6 col-lg-6 col-md-6 col-sm-auto col-xs-auto ">
             <p>sdcdscsdcsdcsd</p>
           </div> */}

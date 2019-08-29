@@ -57,8 +57,7 @@ body, html {
     line-height: 48px;
     display: flex;
     letter-spacing: 1.5px;
-    padding-top: 8%;
-    width: 90%;
+    width: 100%;
     color: var(--black);
 }
 
@@ -88,6 +87,12 @@ body, html {
 }
 
 /*  Boootstrap Overrides */
+
+.container-fluid{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    background-position: cover;
+}
 
 .navbar-nav {
     font-family: 'Lato', sans-serif !important;
@@ -167,6 +172,11 @@ nav .nav-link:visited {
         padding-bottom: 1% !important;
         padding-left: 10%;
     }
+
+    #waffles-section{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
     #waffles-waffle {
         margin-top: 80px !important;
     }
@@ -215,6 +225,11 @@ nav .nav-link:visited {
     #about-section{
         padding-top: 5px !important;
         padding-bottom: 0.5% !important;
+    }
+
+    #waffles-section{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
     }
 }
 
@@ -275,14 +290,14 @@ nav .nav-link:visited {
 }
 
 .btn-wide {
-    background: rgba(255, 255, 255, 0.9);
+    background: #FDFDFD;
+    border: whitesmoke;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     position: absolute;
     top: 20%;
     font-family: 'Lato', sans-serif !important;
     font-size: 2vw;
-    border-radius: 3px;
     z-index: 2;
     color: var(--red);
     width: fit-content;
@@ -378,10 +393,11 @@ nav .nav-link:visited {
     background-size: cover;
     color: white;
     padding-top: 75px;
+
 }
 
 #waffle-heading{
-    padding-top: 7%;
+    padding-top: 8%;
 }
 
 #waffle-cards{
@@ -855,6 +871,8 @@ nav .nav-link:visited {
 
     #waffles-section{
         padding-bottom: 28%;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
     }
 
 }
