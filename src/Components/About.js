@@ -23,7 +23,7 @@ class About extends React.Component {
       //   <div className="col-xl-4 col-lg-4 col-md-3 col-sm-12 col-xs-12 text-center">
       //     <img className="img-fluid mt-5" src={waffy} />
       //   </div>
-      <div id="about-section" class="row">
+      <div id="about-section" class="row justify-content">
         <p className="headline">Mula Noon, Hanggang Ngayon, Laking Waffle Time!</p>
         <img src={rec}></img>
         <div className="container-fluid row">

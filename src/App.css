@@ -40,7 +40,7 @@ body, html {
     font-style: normal;
     font-weight: bolder;
     font-size: 72px;
-    line-height: 6vw;
+    line-height: 80px;
     display: flex;
     align-items: flex-end;
     letter-spacing: 1.5px;
@@ -178,10 +178,17 @@ nav .nav-link:visited {
     .navbar-nav {
         height: 100vh;
     }
+
+    #logo{
+        left: 5% !important;
+        width: 150px !important;
+    }
+
     .headline{
         font-size: 24px;
         line-height: 32px;
         width: 100%;
+        padding-left: 5%;
     }
     .body-reg {
         font-size: 12px;
@@ -192,7 +199,7 @@ nav .nav-link:visited {
     }
 
     #about-section{
-        padding-left: 5% !important;
+        padding-top: 5px !important;
         padding-bottom: 0.5% !important;
     }
 }
@@ -835,7 +842,7 @@ nav .nav-link:visited {
     }
 
     #about-section{
-        padding-left: 12% !important;
+        padding-left: 8% !important;
         background-image: url(../src/Components/Layouts/img/about-bg.jpg);
         padding-bottom: 1% !important;
     }
