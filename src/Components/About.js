@@ -6,25 +6,8 @@ import rec from './Layouts/img/Heading/rec.jpg'
 class About extends React.Component {
   render() {
     return (
-      // <div id="about-section" className="row">
-      //   <div className="col-xl-8 col-lg-8 col-md-9 col-sm-12 col-xs-12">
-      //   </div>
-      //   <div className="col-xl-4 col-lg-4 col-md-3 col-sm-12 col-xs-12 text-left">
-      //     <img className="img-fluid mt-5" src={waffy} />
-      //   </div>
-      // </div>
-
-      // <div id="about-section" class="container-fluid row">
-      //   <p className="headline">Mula Noon, Hanggang Ngayon, Laking Waffle Time!</p>
-      //   <img className="img-fluid" src={rec} />
-      //   <div className="col-xl-8 col-lg-8 col-md-9 col-sm-12 col-xs-12">
-      //     <p>hsgdhgskgdkgsdkgksh</p>
-      //   </div>
-      //   <div className="col-xl-4 col-lg-4 col-md-3 col-sm-12 col-xs-12 text-center">
-      //     <img className="img-fluid mt-5" src={waffy} />
-      //   </div>
       <div id="about-section" class="row justify-content">
-        <p className="headline">Mula Noon, Hanggang Ngayon, Laking Waffle Time!</p>
+        <p className="headline-h2">Mula Noon, Hanggang Ngayon, Laking Waffle Time!</p>
         <img src={rec}></img>
         <div className="container-fluid row">
           <div id="about-body" className="col-xl-8 col-lg-8 col-md-9 col-sm-12 col-xs-12">
@@ -35,10 +18,8 @@ class About extends React.Component {
           </div>
           <div className="container-fluid col-xl-4 col-lg-4 col-md-3 col-sm-12 col-xs-12 text-left">
             <img className="img-fluid mt-12" src={waffy} />
-          </div>
-          
-        </div>
-        
+          </div>     
+        </div>    
       </div>
 
     )

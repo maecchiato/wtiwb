@@ -34,8 +34,8 @@ body, html {
 
 /* Style Components */
 
-.headline {
-    /* Headline / H12 • 60 Playfair Display */
+.headline-h2 {
+    /* Headline / H2 • 60 Playfair Display */
     font-family: 'Playfair', serif !important;
     font-style: normal;
     font-weight: bolder;
@@ -44,6 +44,20 @@ body, html {
     display: flex;
     align-items: flex-end;
     letter-spacing: 1.5px;
+    width: 90%;
+    color: var(--black);
+}
+
+.headline-h3 {
+    /* Headline / H2 • 60 Playfair Display */
+    font-family: 'Playfair', serif !important;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 56px;
+    line-height: 48px;
+    display: flex;
+    letter-spacing: 1.5px;
+    padding-top: 8%;
     width: 90%;
     color: var(--black);
 }
@@ -184,7 +198,7 @@ nav .nav-link:visited {
         width: 150px !important;
     }
 
-    .headline{
+    .headline-h2{
         font-size: 24px;
         line-height: 32px;
         width: 100%;
@@ -236,7 +250,7 @@ nav .nav-link:visited {
     position: absolute;
     top: 15%;
     padding-top: 8px;
-    left: 43%;
+    left: 42%;
     transition: .3s;
 }
 
@@ -336,22 +350,6 @@ nav .nav-link:visited {
     color: white;
 }
 
-#row1 {
-    background-color: #FED74A;
-}
-
-#row2 {
-    background-color: green;
-}
-
-#col1 {
-    background-color: #AF0700;
-}
-
-#col2 {
-    background-color: turquoise;
-}
-
 .about-info {
     font-family: 'Playfair', sans-serif !important;
     color: red !important;
@@ -380,6 +378,14 @@ nav .nav-link:visited {
     background-size: cover;
     color: white;
     padding-top: 75px;
+}
+
+#waffle-heading{
+    padding-top: 7%;
+}
+
+#waffle-cards{
+    background-color: aquamarine;
 }
 
 #waffles-waffle {

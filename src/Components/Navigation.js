@@ -82,7 +82,6 @@ class Navigation extends React.Component {
               <a className = "nav-item nav-link mr-md-1 text-center" onClick = {this.closeMenuToggler} href = "#waffles-section">OUR WAFFLE</a>
               <a className = "nav-item nav-link mr-md-1 text-center" onClick = {this.closeMenuToggler} href = "#foundation-section">OUR FOUNDATION</a>
               <a className = "nav-item nav-link mr-md-1 text-center" onClick = {this.closeMenuToggler} href = "#events-section">EVENTS</a>
-
               </div>
               <div className = "navbar-nav ml-auto">
               <a className = "nav-item nav-link mr-md-1 text-center" onClick = {this.closeMenuToggler} href = "#party-package-section">PARTY PACKAGE</a>
