@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Modal from 'react-modal';
 import waffle from './Layouts/img/waffle.png';
 import ourwaffles from './Layouts/img/our-waffle.png'
 import rec from './Layouts/img/Heading/rec.jpg'
@@ -7,29 +7,20 @@ import rec from './Layouts/img/Heading/rec.jpg'
 class waffles extends React.Component {
   render() {
     return (
-      <div id="waffles-section" className="container-fluid justify-content-lg-center">
-        <div id="waffle-heading" className="row justify-content-center">
-          <p className="headline-h3 justify-content-center">Our Waffles</p>
-          <img src={rec}></img>
-        </div>
-        <div class="container-fluid row">
-          <div class="col-xl-4">
-            trial
+      <div id="waffles-section" className="container-fluid row justify-content-lg-center">
+          <p id="waffles-heading" className="headline-h3 justify-content-center">Our Waffles</p>
+          <div id="rec-bottom" ><img src={rec}></img></div>
+<div id="waffles-card-section" className="row container-fluid">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-auto col-xs-auto ">50%</div>
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-auto col-xs-auto ">50%</div>
           </div>
-          <div class="col-xl-4">
-            trial
-          </div>
-          <div class="col-xl-4">
-            asdasdasdasdasd
-          </div>
-        </div>
 
 
 
         {/* <div className="col-xl-6 col-lg-6 col-md-6 col-sm-auto col-xs-auto ">
             <p>sdcdscsdcsdcsd</p>
           </div> */}
-        {/* <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    {/* <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <img src={ourwaffles} className="img-fluid d-block mx-auto" alt="Our Waffle Story" />
             <span id="waffles-definition">
               <span className="waffle-definition-box">
@@ -49,7 +40,7 @@ class waffles extends React.Component {
             </span>
           </div> */}
 
-      </div>
+      </div >
 
     )
   }

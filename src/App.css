@@ -94,6 +94,11 @@ body, html {
     background-position: cover;
 }
 
+.row{
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+}
+
 .navbar-nav {
     font-family: 'Lato', sans-serif !important;
     font-style: normal;
@@ -265,7 +270,7 @@ nav .nav-link:visited {
     position: absolute;
     top: 15%;
     padding-top: 8px;
-    left: 42%;
+    left: 43%;
     transition: .3s;
 }
 
@@ -396,12 +401,18 @@ nav .nav-link:visited {
 
 }
 
-#waffle-heading{
-    padding-top: 8%;
+#waffles-heading{
+    padding-top: 10%;
 }
 
-#waffle-cards{
+#rec-bottom{
+    width: 100%;
+text-align:  center;
+}
+
+#waffles-card-section{
     background-color: aquamarine;
+    justify-content: center;
 }
 
 #waffles-waffle {
