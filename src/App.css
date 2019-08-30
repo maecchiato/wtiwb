@@ -22,6 +22,10 @@
     padding-top: 500px;
 }
 
+#add-margin{
+    margin-left:2%;
+}
+
 nav {
     z-index: 3;
     color: white;
@@ -74,7 +78,7 @@ body, html {
     color: #AF0700;
 }
 
-.body-reg {
+.body-reg-16 {
     /* Body / 16 Lato Regular */
     font-family: Lato;
     font-style: normal;
@@ -86,15 +90,42 @@ body, html {
     color: #333333;
 }
 
+.body-reg-14 {
+    /* Body / 14 Lato Regular */
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 175%;
+    /* or 24px */
+    text-align: center;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.card-title {
+    font-family: 'Playfair', serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    align-content: center;
+    letter-spacing: 1px;
+    padding: 8%;
+    /* Main (Red) */
+    color: var(--red);
+}
+
 /*  Boootstrap Overrides */
 
-.container-fluid{
+.container-fluid {
     padding-left: 0px !important;
     padding-right: 0px !important;
     background-position: cover;
 }
 
-.row{
+.row {
     margin-left: 0% !important;
     margin-right: 0% !important;
 }
@@ -177,10 +208,10 @@ nav .nav-link:visited {
         padding-bottom: 1% !important;
         padding-left: 10%;
     }
-
-    #waffles-section{
+    #waffles-section {
         padding-left: 0px !important;
         padding-right: 0px !important;
+        background-size: cover !important;
     }
     #waffles-waffle {
         margin-top: 80px !important;
@@ -201,40 +232,74 @@ nav .nav-link:visited {
     #waffle {
         margin-bottom: 4% !important;
     }
+
+    #waffles-card-section{
+        padding-left: 15% !important;
+        padding-right: 15% !important;
+    }
+
+    #waffles-heading{
+        padding-top: 15% !important;
+    }
 }
 
 @media only screen and (max-width: 600px) {
     .navbar-nav {
         height: 100vh;
     }
-
-    #logo{
+    #logo {
         left: 5% !important;
         width: 150px !important;
     }
-
-    .headline-h2{
+    .headline-h2 {
         font-size: 24px;
         line-height: 32px;
         width: 100%;
         padding-left: 5%;
     }
-    .body-reg {
-        font-size: 12px;
+    .body-reg-16 {
+        font-size: 14px;
         width: 100%;
     }
-    .subheadline{
+    .subheadline {
         font-size: 16px;
     }
-
-    #about-section{
+    #about-section {
         padding-top: 5px !important;
         padding-bottom: 0.5% !important;
     }
-
-    #waffles-section{
+    #waffles-section {
         padding-left: 0px !important;
         padding-right: 0px !important;
+    }
+    #waffles-section {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    #waffles-card-section {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .headline-h3{
+        font-size: 40px !important;
+    }
+
+    .card-item{
+        padding: 3% !important;
+    }
+
+    .card-title{
+        padding: 2% !important;
+        font-size: 18px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .body-reg-14{
+        font-size: 12px !important;
+        padding-right: 2% !important;
+        padding-left: 2% !important;
     }
 }
 
@@ -330,13 +395,12 @@ nav .nav-link:visited {
     padding-bottom: 50px;
 }
 
-#about-body{
+#about-body {
     padding-top: 3%;
 }
 
-#body-reg{
+#body-reg {
     padding-top: 3%;
-    
     /* background-color: #32a5fd; */
 }
 
@@ -365,7 +429,33 @@ nav .nav-link:visited {
     margin-top: 5%;
 }
 
-.btn-small:hover{
+.btn-med {
+    position: relative;
+    /* White */
+    background: #FDFDFD;
+    border: whitesmoke;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    width: 250px;
+    /* Button / 16 Lato ExtraBold */
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    /* Main (Red) */
+    color: #AF0700;
+    padding: 15px;
+    margin-top: 3%;
+}
+
+.btn-small:hover {
     background: #AF0700;
     color: white;
 }
@@ -396,29 +486,36 @@ nav .nav-link:visited {
     /* background-color: #fee300; */
     background-image: url(../src/Components/Layouts/img/waffle-bg.jpg);
     background-size: cover;
+    background-position: center;
     color: white;
     padding-top: 75px;
-
 }
 
-#waffles-heading{
-    padding-top: 10%;
-}
-
-#rec-bottom{
+#rec-bottom {
     width: 100%;
-text-align:  center;
+    text-align: center;
 }
 
-#waffles-card-section{
-    background-color: aquamarine;
-    justify-content: center;
+#waffles-card-section {
+    padding-top: 3%;
+    text-align: center;
+}
+
+#color1 {
+    background-color: #AF0700;
+}
+
+#color2 {
+    background-color: green;
+}
+
+#color3 {
+    background-color: blue;
 }
 
 #waffles-waffle {
     margin-top: 25px;
     background-position: center;
-
 }
 
 #waffle-definition-title-1 {
@@ -431,9 +528,7 @@ text-align:  center;
     color: white !important;
 }
 
-#waffle-definition-2 {
-    background-color: #32a5fd !important;
-}
+#waffle-definition-2 {}
 
 #waffle-definition-title-2 {
     color: #32a5fd;
@@ -451,9 +546,14 @@ text-align:  center;
     text-shadow: 0.5px 0.5px #fa0002;
 }
 
-.add-box {
-    border-radius: 10px;
-    padding: 10px;
+.card-item {
+    background-color: white;
+    opacity: 0.9;
+    color: var(--black);
+    border: 3px solid #C42E27;
+    border-radius: 5px;
+    padding: 10%;
+    margin-bottom: 3%;
 }
 
 .force-center {
@@ -873,19 +973,21 @@ text-align:  center;
         left: 0;
         z-index: 1030;
     }
-
-    #about-section{
+    #about-section {
         padding-left: 8% !important;
         background-image: url(../src/Components/Layouts/img/about-bg.jpg);
         padding-bottom: 1% !important;
     }
-
-    #waffles-section{
-        padding-bottom: 28%;
+    #waffles-section {
+        padding-bottom: 10%;
         padding-left: 0px !important;
         padding-right: 0px !important;
+        background-size: cover !important;
     }
 
+    #waffles-heading {
+        padding-top: 8% !important;
+    }
 }
 
 .card-back {
