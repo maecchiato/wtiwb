@@ -901,3 +901,11 @@ nav .nav-link:visited {
     pointer-events: none;
     height: 100%;
 }
+
+/* Mission-Vision-Section */
+
+#mission-vision-section{
+    background-color: #FDFDFD;
+    height: 100%;
+}
+
