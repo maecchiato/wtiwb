@@ -17,7 +17,7 @@ class waffles extends React.Component {
             trial
           </div>
           <div class="col-xl-4">
-            asdasdasdasdasd
+            trial
           </div>
           <div class="col-xl-4">
             asdasdasdasdasd
