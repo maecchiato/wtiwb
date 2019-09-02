@@ -13,9 +13,10 @@
 */
 
 :root {
-    --red: rgb(119, 6, 2);
+    --main-red:#AF0700;
     --yellow: #FED74A;
     --black: #353535;
+    --sec-red: #890f00;
 }
 
 .add-padding {
@@ -75,7 +76,7 @@ body, html {
     letter-spacing: 0.2vw;
     text-transform: uppercase;
     /* Main (Red) */
-    color: #AF0700;
+    color: var(--main-red);
 }
 
 .body-reg-16 {
@@ -113,7 +114,7 @@ body, html {
     align-content: center;
     letter-spacing: 1px;
     /* Main (Red) */
-    color: var(--red);
+    color: var(--main-red);
 }
 
 /*  Boootstrap Overrides */
@@ -173,8 +174,8 @@ nav .nav-link:visited {
 }
 
 .btn-primary {
-    background-color: #fa0002 !important;
-    border-color: #fa0002 !important;
+    background-color: var(--main-red) !important;
+    border-color: var(--main-red) !important;
 }
 
 .slick-prev:before, .slick-next:before {
@@ -371,7 +372,7 @@ nav .nav-link:visited {
     font-family: 'Lato', sans-serif !important;
     font-size: 2vw;
     z-index: 2;
-    color: var(--red);
+    color: var(--main-red);
     width: fit-content;
     padding-left: 6%;
     padding-right: 6%;
@@ -383,7 +384,7 @@ nav .nav-link:visited {
 }
 
 .btn-wide:hover {
-    background: var(--red);
+    background: var(--main-red);
     color: white;
 }
 
@@ -425,13 +426,13 @@ nav .nav-link:visited {
     letter-spacing: 3px;
     text-transform: uppercase;
     /* Main (Red) */
-    color: #AF0700;
+    color: var(--main-red);
     padding: 15px;
     margin-top: 5%;
 }
 
 .btn-small:hover {
-    background: #AF0700;
+    background: var(--main-red);
     color: white;
 }
 
@@ -456,20 +457,20 @@ nav .nav-link:visited {
     letter-spacing: 3px;
     text-transform: uppercase;
     /* Main (Red) */
-    color: #AF0700;
+    color: var(--main-red);
     padding: 15px;
     margin-top: 3%;
 }
 
 .btn-med:hover {
-    background: #AF0700;
+    background:var(--main-red);
     color: white;
 }
 
 
 .about-info {
     font-family: 'Playfair', sans-serif !important;
-    color: red !important;
+    color: var(--red) !important;
 }
 
 .about-info :hover {
@@ -575,7 +576,7 @@ nav .nav-link:visited {
 }
 
 .waffle-definition-box {
-    background-color: red;
+    background-color: var(--main-red);
 }
 
 #waffle-curve {
