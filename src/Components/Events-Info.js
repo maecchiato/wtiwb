@@ -39,7 +39,6 @@ class Map extends React.Component{
             />
         </div>
           <img src = {year20IMG} className = "img-fluid d-xl-none d-block" />
-
         </div>
       </div>
       <div className = "col-xl-7 col-lg-7 col-md-7 col-xs-12 col-sm-12">

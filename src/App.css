@@ -20,7 +20,7 @@
 }
 
 .add-padding {
-    padding-top: 500px;
+    padding-top: 5%;
 }
 
 #add-margin{
@@ -51,6 +51,10 @@ body, html {
     letter-spacing: 1.5px;
     width: 90%;
     color: var(--black);
+}
+
+.full-width{
+    width: 100%;
 }
 
 .headline-h3 {
@@ -216,6 +220,13 @@ nav .nav-link:visited {
     #waffles-waffle {
         margin-top: 80px !important;
     }
+
+    #foundation-section {
+        color: black;
+        padding-top: 1% !important;
+        padding-bottom: 1% !important;
+        padding-left: 10%;
+    }
     #social-media {
         position: absolute;
         bottom: 3%;
@@ -271,6 +282,7 @@ nav .nav-link:visited {
     #about-section {
         padding-top: 5px !important;
         padding-bottom: 0.5% !important;
+        padding-left: 5% !important;
     }
     #waffles-section {
         padding-left: 0px !important;
@@ -281,6 +293,12 @@ nav .nav-link:visited {
     #waffles-card-section {
         padding-left: 0px !important;
         padding-right: 0px !important;
+    }
+
+    #foundation-section {
+        padding-top: 5px !important;
+        padding-bottom: 0.5% !important;
+        padding-left: 5% !important;
     }
 
     .headline-h3{
@@ -582,6 +600,14 @@ nav .nav-link:visited {
 #waffle-curve {
     width: 100%;
     padding-top: 100px;
+}
+
+/* FOUNDATION SECTION */
+#foundation-section {
+    color: black;
+    padding-top: 5%;
+    padding-bottom: 10% !important;
+
 }
 
 /* EVENTS SECTION  */
@@ -1007,6 +1033,11 @@ nav .nav-link:visited {
     .card-title{
         padding: 8% !important;
     }
+
+    #foundation-section {
+        padding-left: 8% !important;
+        padding-bottom: 5% !important;
+    }
 }
 
 .card-back {
@@ -1031,5 +1062,11 @@ nav .nav-link:visited {
 
 .youtube-display {
     pointer-events: none;
-    height: 100%;
+    height: 350px;
+    width: 80%;
+}
+
+#foundation-video{
+    background-image: url(../src/Components/Layouts/img/foundation-bg.jpg);
+    background-size: contain;
 }

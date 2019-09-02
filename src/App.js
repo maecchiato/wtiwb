@@ -5,6 +5,7 @@ import Navigation from './Components/Navigation';
 import Home from './Components/Home';
 import About from './Components/About';
 import Waffles from './Components/Waffles';
+import Foundation from './Components/Foundation';
 import Events from './Components/Events';
 import EventsInfo from './Components/Events-Info';
 import Maps from './Components/Map';
@@ -25,6 +26,7 @@ class App extends Component {
           <Home />
           <About />
           <Waffles />
+          <Foundation />
           <Events />
           <EventsInfo />
           <Maps/>
