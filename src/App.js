@@ -27,10 +27,10 @@ class App extends Component {
           <About />
           <Waffles />
           <Foundation />
+          <PartyPackage />
           <Events />
           <EventsInfo />
           <Maps/>
-          <PartyPackage />
           <Franchise />
         </div>
       </div>

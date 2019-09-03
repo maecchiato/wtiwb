@@ -13,7 +13,7 @@
 */
 
 :root {
-    --main-red:#AF0700;
+    --main-red: #AF0700;
     --yellow: #FED74A;
     --black: #353535;
     --sec-red: #890f00;
@@ -23,8 +23,8 @@
     padding-top: 5%;
 }
 
-#add-margin{
-    margin-left:2%;
+#add-margin {
+    margin-left: 2%;
 }
 
 nav {
@@ -53,7 +53,7 @@ body, html {
     color: var(--black);
 }
 
-.full-width{
+.full-width {
     width: 100%;
 }
 
@@ -119,6 +119,31 @@ body, html {
     letter-spacing: 1px;
     /* Main (Red) */
     color: var(--main-red);
+}
+
+.btn-stroke {
+    border: 2px solid var(--main-red);
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    /* Main (Red) */
+    color: var(--main-red);
+    padding: 5%;
+}
+
+.btn-stroke:hover{
+    background-color: var(--main-red);
+    color: white;
 }
 
 /*  Boootstrap Overrides */
@@ -220,7 +245,6 @@ nav .nav-link:visited {
     #waffles-waffle {
         margin-top: 80px !important;
     }
-
     #foundation-section {
         color: black;
         padding-top: 1% !important;
@@ -243,19 +267,15 @@ nav .nav-link:visited {
     #waffle {
         margin-bottom: 4% !important;
     }
-
-    #waffles-card-section{
+    #waffles-card-section {
         padding-left: 15% !important;
         padding-right: 15% !important;
     }
-
-    .card-item{
+    .card-item {
         height: 350px !important;
         padding: 10% !important;
     }
-
-    #waffles-heading{
-    }
+    #waffles-heading {}
 }
 
 @media only screen and (max-width: 600px) {
@@ -281,7 +301,7 @@ nav .nav-link:visited {
     }
     #about-section {
         padding-top: 5px !important;
-        padding-bottom: 0.5% !important;
+        padding-bottom: 10% !important;
         padding-left: 5% !important;
     }
     #waffles-section {
@@ -289,38 +309,36 @@ nav .nav-link:visited {
         padding-right: 0px !important;
         padding-top: 50% !important;
     }
-
     #waffles-card-section {
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
-
     #foundation-section {
         padding-top: 5px !important;
         padding-bottom: 0.5% !important;
         padding-left: 5% !important;
     }
-
-    .headline-h3{
+    .headline-h3 {
         font-size: 40px !important;
     }
-
-    .card-item{
+    .card-item {
         padding: 3% !important;
         height: fit-content !important;
     }
-
-    .card-title{
+    .card-title {
         padding: 2% !important;
         font-size: 18px !important;
         margin-bottom: 0px !important;
         padding: 5% !important;
     }
-
-    .body-reg-14{
+    .body-reg-14 {
         font-size: 12px !important;
         padding-right: 2% !important;
         padding-left: 2% !important;
+    }
+
+   #foundation-video{
+        background-image: none !important;
     }
 }
 
@@ -446,7 +464,7 @@ nav .nav-link:visited {
     /* Main (Red) */
     color: var(--main-red);
     padding: 15px;
-    margin-top: 5%;
+    margin-top: 8%;
 }
 
 .btn-small:hover {
@@ -481,10 +499,9 @@ nav .nav-link:visited {
 }
 
 .btn-med:hover {
-    background:var(--main-red);
+    background: var(--main-red);
     color: white;
 }
-
 
 .about-info {
     font-family: 'Playfair', sans-serif !important;
@@ -517,7 +534,6 @@ nav .nav-link:visited {
     padding-top: 16%;
     padding-bottom: 15%;
 }
-
 
 #rec-bottom {
     width: 100%;
@@ -603,11 +619,11 @@ nav .nav-link:visited {
 }
 
 /* FOUNDATION SECTION */
+
 #foundation-section {
     color: black;
     padding-top: 5%;
     padding-bottom: 10% !important;
-
 }
 
 /* EVENTS SECTION  */
@@ -976,8 +992,11 @@ nav .nav-link:visited {
     font-size: 1.0rem;
 }
 
+/* PARTY PACKAGE SECTION */
+
 #partypackage-section {
-    background-color: #030051;
+    background-image: url(../src/Components/Layouts/img/partypack-bg.jpg);
+    background-size: cover;
     color: white;
     position: relative;
     padding-top: 60px;
@@ -996,6 +1015,13 @@ nav .nav-link:visited {
 .party-package-modal {
     padding: 0 50px 0 50px;
     height: 100%;
+}
+
+#partypack-desc {
+    background-color: white;
+    opacity: 0.8;
+    color: #000000;
+    padding: 5% !important;
 }
 
 .img-cart-display {
@@ -1021,19 +1047,14 @@ nav .nav-link:visited {
         padding-right: 0px !important;
         background-size: cover !important;
     }
-
-    #waffles-heading {
-    }
-
-    .card-item{
+    #waffles-heading {}
+    .card-item {
         height: 350px !important;
         padding: 10% !important;
     }
-
-    .card-title{
+    .card-title {
         padding: 8% !important;
     }
-
     #foundation-section {
         padding-left: 8% !important;
         padding-bottom: 5% !important;
@@ -1066,7 +1087,7 @@ nav .nav-link:visited {
     width: 80%;
 }
 
-#foundation-video{
+#foundation-video {
     background-image: url(../src/Components/Layouts/img/foundation-bg.jpg);
     background-size: contain;
 }

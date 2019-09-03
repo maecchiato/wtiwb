@@ -17,7 +17,7 @@ class About extends React.Component {
             <button className="btn-small">LEARN MORE</button>
           </div>
           <div className="container-fluid col-xl-4 col-lg-4 col-md-3 col-sm-12 col-xs-12 text-left">
-            <img className="img-fluid mt-12" src={waffy} />
+            <img className="img-fluid mt-12 d-lg-block d-none" src={waffy} />
           </div>     
         </div>    
       </div>

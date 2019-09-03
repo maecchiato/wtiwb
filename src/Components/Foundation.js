@@ -37,7 +37,7 @@ class Foundation extends React.Component{
       <img src={rec}></img>
       <div className="container-fluid row">
       <div id="about-body" className = "col-xl-5 col-lg-5 col-md-5 col-xs-12 col-sm-12">
-        <p className = "subheadline add-padding">WHAT'S NEXT FOR WAFFLE TIME?</p>
+        <p className = "subheadline">WHAT'S NEXT FOR WAFFLE TIME?</p>
         <p className = "body-reg-16">While the company has been a main supporter of various community-based academic and environment-related activities, including the empowerment of local producers through trade exhibits, the recently created Waffle Time Foundation is committed to be a front liner or stimulus in the continuing upliftment of the status of education, the environment and social enterprise in the local communities.</p>
         <p className = "body-reg-16 font-weight-bold">
           Cheers to more years of baking freshness!
@@ -46,7 +46,7 @@ class Foundation extends React.Component{
       </div>
       <div id="foundation-video" className = "col-xl-7 col-lg-7 col-md-7 col-xs-12 col-sm-12">
         <div className = "mt-5 youtube-parent h-100">
-          <div className = "youtube-display pt-5 h-50">
+          <div className = "youtube-display pt-5 h-50 d-xl-block d-none">
             <Youtube
               video="q4r7Rkjjlgk"
               autoplay
