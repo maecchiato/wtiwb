@@ -11,7 +11,7 @@ import wafflestorePackageB from './Layouts/img/waffle-store-packageB.jpg';
 
 const customStyles = {
   content: {
-    top: '55%',
+    top: '50%',
     left: '50%',
     right: 'auto',
     bottom: 'auto',
@@ -64,25 +64,20 @@ class PartyPackage extends React.Component {
         >
           <div className="modal-body">
             <div className="row party-package-modal">
-              <div className="col-md-6 col-lg-6 col-xl-6 col-sm-6 col-12">
-                <p className="h2 text-center title pb-5">Package A</p>
+              <div id="package-card" className="col-md-6 col-lg-6 col-xl-6 col-sm-6 col-12">
+                <p className="lato-eb-24 text-center title pb-4">Package A</p>
                 <div className="card-front">
                   <img src={wafflestorePackageA} alt="The Best Value for your Money" classsName="img-fluid img-cart-display d-block" />
                   <div className="card-back">
-                    <p className="mt-5 mx-3 h5">Inclusions:</p>
-                    <ul className="h6">
-                      <li>
-                        100 Assorted Waffles
-                        </li>
+                  <p className="lato-eb-24 text-center title pb-4">Package A</p>
+                    <p className="mt-4 mx-3 highlight ">Inclusions:</p>
+                    <ul className="body-reg-14 text-left">
+                    <li>100 Assorted Waffles</li>
                     </ul>
-                    <p className="mt-5 mx-3 h5">Pricing:</p>
-                    <ul className="h6">
-                      <li>
-                        Manila: P6,000.00
-                          </li>
-                      <li>
-                        Visayas & Mindanao: P5,500.00
-                          </li>
+                    <p className="mt-5 mx-3 highlight">Pricing:</p>
+                    <ul className="body-reg-14 text-left">
+                        <li>P6,000.00 Manila</li>
+                        <li>P5,500.00 Visayas & Mindanao</li>           
                     </ul>
                     <div className="btn-group dropright mt-5 float-right mr-3">
                       <button type="button" className="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -100,29 +95,21 @@ class PartyPackage extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 col-lg-6 col-xl-6 col-sm-6 col-12">
-                <p className="h2 text-center title pb-5">Package B</p>
+              <div id="package-card" className="col-md-6 col-lg-6 col-xl-6 col-sm-6 col-12">
+                <p className="lato-eb-24 text-center title pb-4">Package B</p>
                 <div className="card-front">
                   <img src={wafflestorePackageB} alt="The Best Value for your Money" classsName="img-fluid img-cart-display d-block" />
                   <div className="card-back">
-                    <p className="hello mb-0">
-                      <p className="mt-5 mx-3 h5">Inclusions:</p>
-                      <ul className="h6">
-                        <li>
-                          100 Assorted Waffles
-                          </li>
-                        <li>
-                          100 Iced Teas
-                          </li>
+                  <p className="lato-eb-24 text-center title pb-4">Package B</p>
+                      <p className="mt-3 mx-3 highlight">Inclusions:</p>
+                      <ul className="body-reg-14 text-left">   
+                          <li>100 Assorted Waffles</li>
+                          <li>100 Iced Teas</li>    
                       </ul>
-                      <p className="mt-5 mx-3 h5">Pricing:</p>
-                      <ul className="h6">
-                        <li>
-                          Manila: P7,500.00
-                            </li>
-                        <li>
-                          Visayas & Mindanao: P7,000.00
-                            </li>
+                      <p className="mt-5 mx-3 highlight">Pricing:</p>
+                      <ul className="body-reg-14 text-left">
+                          <li>P7,500.00 Manila</li>
+                          <li>P7,000.00 Visayas & Mindanao</li>
                       </ul>
                       <div className="btn-group dropright mt-5 float-right mr-3">
                         <button type="button" className="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -136,7 +123,6 @@ class PartyPackage extends React.Component {
                           <ReactToolTip effect="float" place="right" type="info" />
                         </div>
                       </div>
-                    </p>
                   </div>
                 </div>
               </div>

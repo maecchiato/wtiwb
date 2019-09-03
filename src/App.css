@@ -139,11 +139,34 @@ body, html {
     /* Main (Red) */
     color: var(--main-red);
     padding: 5%;
+    margin-top: 10%;
 }
 
-.btn-stroke:hover{
+.btn-stroke:hover {
     background-color: var(--main-red);
     color: white;
+}
+
+.lato-eb-24 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.highlight {
+    color: var(--main-red);
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
 }
 
 /*  Boootstrap Overrides */
@@ -336,8 +359,7 @@ nav .nav-link:visited {
         padding-right: 2% !important;
         padding-left: 2% !important;
     }
-
-   #foundation-video{
+    #foundation-video {
         background-image: none !important;
     }
 }
@@ -1007,11 +1029,6 @@ nav .nav-link:visited {
     color: #f3b778
 }
 
-.party-package-modal .title {
-    color: red;
-    font-family: 'Playfair', sans-serif !important;
-}
-
 .party-package-modal {
     padding: 0 50px 0 50px;
     height: 100%;
@@ -1061,19 +1078,29 @@ nav .nav-link:visited {
     }
 }
 
+#package-card {
+    padding: 5%;
+}
+
 .card-back {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(218, 37, 29, 0.95);
-    color: #fff;
+    /* Accent (Yellow) */
+    background: var(--yellow);
+    /* Main (Red) */
+    border: 3px solid var(--main-red);
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: var(--black);
     visibility: hidden;
     opacity: 0;
     border-radius: 20px;
     /* transition effect. not necessary */
     transition: opacity .2s, visibility .2s;
+    padding-top: 9%;
 }
 
 .card-front:hover .card-back {
