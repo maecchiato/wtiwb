@@ -19,7 +19,7 @@ const customStyles = {
     backgroundColor: 'white',
     transform: 'translate(-50%, -50%)',
     overlfow: 'scroll',
-    height: '90vh'
+    height: '85vh'
   },
   overlay: {
     zIndex: '9999'
@@ -80,7 +80,7 @@ class PartyPackage extends React.Component {
                         <li>P5,500.00 Visayas & Mindanao</li>           
                     </ul>
                     <div className="btn-group dropright mt-5 float-right mr-3">
-                      <button type="button" className="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <button type="button" className="btn-stroke dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Inquire Now via
                           </button>
                       <div className="dropdown-menu">
@@ -112,7 +112,7 @@ class PartyPackage extends React.Component {
                           <li>P7,000.00 Visayas & Mindanao</li>
                       </ul>
                       <div className="btn-group dropright mt-5 float-right mr-3">
-                        <button type="button" className="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button type="button" className="btn-stroke dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           Inquire Now via
                             </button>
                         <div className="dropdown-menu">
