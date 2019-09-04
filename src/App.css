@@ -17,6 +17,7 @@
     --yellow: #FED74A;
     --black: #353535;
     --sec-red: #890f00;
+    --sec-accent: #124886;
 }
 
 .add-padding {
@@ -46,10 +47,7 @@ body, html {
     font-weight: bolder;
     font-size: 72px;
     line-height: 80px;
-    display: flex;
-    align-items: flex-end;
     letter-spacing: 1.5px;
-    width: 90%;
     color: var(--black);
 }
 
@@ -64,7 +62,6 @@ body, html {
     font-weight: bolder;
     font-size: 56px;
     line-height: 48px;
-    display: flex;
     letter-spacing: 1.5px;
     width: 100%;
     color: var(--black);
@@ -81,6 +78,17 @@ body, html {
     text-transform: uppercase;
     /* Main (Red) */
     color: var(--main-red);
+}
+
+.headline-h4 {
+    /* Headline / H2 • 60 Playfair Display */
+    font-family: 'Playfair', serif !important;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 1.5px;
+    width: 100%;
 }
 
 .body-reg-16 {
@@ -168,6 +176,18 @@ body, html {
     line-height: 19px;
     letter-spacing: 0.02em;
     text-transform: uppercase;
+}
+
+.overline {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--sec-accent);
 }
 
 /*  Boootstrap Overrides */
@@ -456,6 +476,10 @@ nav .nav-link:visited {
     padding-top: 50px;
 }
 
+#about-headline {
+    width: 90%;
+}
+
 #about-body {
     padding-top: 3%;
 }
@@ -503,7 +527,7 @@ nav .nav-link:visited {
     box-sizing: border-box;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
-    width: 250px;
+    width: 300px;
     /* Button / 16 Lato ExtraBold */
     font-family: Lato;
     font-style: normal;
@@ -656,7 +680,7 @@ nav .nav-link:visited {
     background-color: #fff;
     color: #fa0002;
     padding-top: 95px;
-    padding-bottom: 125px;
+    padding-bottom: 95px;
 }
 
 #event-curve {
@@ -678,9 +702,17 @@ nav .nav-link:visited {
 }
 
 .event-description {
-    font-family: 'Playfair', sans-serif !important;
+        /* Body / 14 Lato Regular */
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        /* font-size: 14px; */
+        line-height: 175%;
+        /* or 24px */
+        text-align: center;
+        letter-spacing: 1px;
+        color: var(--black);
     font-size: 0.72em !important;
-    opacity: .99;
 }
 
 #event-info-section {
@@ -818,13 +850,13 @@ nav .nav-link:visited {
 }
 
 .evt:hover {
-    border-radius: 35px;
+    border-radius: 5px;
     background-color: var(--yellow);
     color: white;
 }
 
 .zoom {
-    padding: 20px;
+    padding: 15px;
     box-sizing: border-box;
     transition: transform .2s;
     width: 5px;
@@ -1118,4 +1150,15 @@ nav .nav-link:visited {
 #foundation-video {
     background-image: url(../src/Components/Layouts/img/foundation-bg.jpg);
     background-size: contain;
+}
+
+#outlet-section{
+    background-color: var(--sec-red);
+    padding: 5%;
+}
+
+#outlet-desc{
+    padding-left: 10%;
+    width: 80%;
+    margin-right: 0px;
 }

@@ -8,7 +8,7 @@ class waffles extends React.Component {
   render() {
     return (
       <div id="waffles-section" class="container-fluid row justify-content">
-        <p id="waffles-heading" className="headline-h3 justify-content-center">Our Waffles</p>
+        <p id="waffles-heading" className="headline-h3 text-center">Our Waffles</p>
         <div id="rec-bottom" ><img src={rec}></img></div>
         <div id="waffles-card-section" className="container-fluid row">
           <div className="col-xl-4 col-lg-4 col-md-4 col-sm-auto col-xs-auto">

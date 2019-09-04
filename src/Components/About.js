@@ -7,7 +7,7 @@ class About extends React.Component {
   render() {
     return (
       <div id="about-section" class="row justify-content">
-        <p className="headline-h2">Mula Noon, Hanggang Ngayon, Laking Waffle Time!</p>
+        <p id="about-headline" className="headline-h2">Mula Noon, Hanggang Ngayon, Laking Waffle Time!</p>
         <img src={rec}></img>
         <div className="container-fluid row">
           <div id="about-body" className="col-xl-8 col-lg-8 col-md-9 col-sm-12 col-xs-12">

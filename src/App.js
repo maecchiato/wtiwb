@@ -29,7 +29,6 @@ class App extends Component {
           <Foundation />
           <PartyPackage />
           <Events />
-          <EventsInfo />
           <Maps/>
           <Franchise />
         </div>
