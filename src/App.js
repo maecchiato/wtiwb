@@ -12,6 +12,8 @@ import Maps from './Components/Map';
 import PartyPackage from './Components/PartyPackage.js';
 import Franchise from './Components/Franchise';
 import Popup from './Components/Popup';
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
@@ -30,7 +32,8 @@ class App extends Component {
           <PartyPackage />
           <Events />
           <Maps/>
-          <Franchise />
+          <Contact/>
+          <Footer/>
         </div>
       </div>
     );
