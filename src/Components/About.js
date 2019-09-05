@@ -6,8 +6,8 @@ import rec from './Layouts/img/Heading/rec.jpg'
 class About extends React.Component {
   render() {
     return (
-      <div id="about-section" class="row justify-content ">
-        <p id="about-headline" className="headline-h2 add-padding">Mula Noon, Hanggang Ngayon, Laking Waffle Time!</p>
+      <div id="about-section" class="row justify-content">
+        <p id="about-headline" className="headline-h2">Mula Noon, Hanggang Ngayon, Laking Waffle Time!</p>
         <img src={rec}></img>
         <div className="container-fluid row">
           <div className="col-xl-8 col-lg-8 col-md-9 col-sm-12 col-xs-12 pt-5">
