@@ -21,7 +21,7 @@
 }
 
 .add-padding {
-    padding-top: 5%;
+    padding-top: 3%;
 }
 
 #add-margin {
@@ -49,10 +49,6 @@ body, html {
     line-height: 80px;
     letter-spacing: 1.5px;
     color: var(--black);
-}
-
-.full-width {
-    width: 100%;
 }
 
 .headline-h3 {
@@ -331,8 +327,8 @@ nav .nav-link:visited {
         width: 150px !important;
     }
     .headline-h2 {
-        font-size: 24px;
-        line-height: 32px;
+        font-size: 40px;
+        line-height: 40px;
         width: 100%;
         padding-left: 5%;
     }
@@ -470,18 +466,12 @@ nav .nav-link:visited {
 /* ABOUT SECTION */
 
 #about-section {
-    /* background-image: url(./Components/Layouts/img/about-bg.jpg); */
-    /* background-size: cover; */
     color: black;
     padding-top: 50px;
 }
 
 #about-headline {
     width: 90%;
-}
-
-#about-body {
-    padding-top: 3%;
 }
 
 #body-reg {
@@ -1089,6 +1079,7 @@ nav .nav-link:visited {
     #about-section {
         padding-left: 8% !important;
         background-image: url(../src/Components/Layouts/img/about-bg.jpg);
+        background-size: cover!important;
         padding-bottom: 3% !important;
     }
     #waffles-section {

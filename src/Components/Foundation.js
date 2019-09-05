@@ -33,10 +33,10 @@ class Foundation extends React.Component{
     //     </div>    
     //   </div>
       <div id = "foundation-section" className = "row justify-content">
-      <p className = "headline-h2 full-width">Waffle Time Foundation</p>
+      <p className = "headline-h2 w-100">Waffle Time Foundation</p>
       <img src={rec}></img>
       <div className="container-fluid row">
-      <div id="about-body" className = "col-xl-5 col-lg-5 col-md-5 col-xs-12 col-sm-12">
+      <div className = "col-xl-5 col-lg-5 col-md-5 col-xs-12 col-sm-12 pt-5">
         <p className = "subheadline">WHAT'S NEXT FOR WAFFLE TIME?</p>
         <p className = "body-reg-16">While the company has been a main supporter of various community-based academic and environment-related activities, including the empowerment of local producers through trade exhibits, the recently created Waffle Time Foundation is committed to be a front liner or stimulus in the continuing upliftment of the status of education, the environment and social enterprise in the local communities.</p>
         <p className = "body-reg-16 font-weight-bold">
