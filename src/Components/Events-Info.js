@@ -18,7 +18,6 @@ class Map extends React.Component{
   render(){
     return(
       <div id = "event-info-section" className = "row">
-      <img id = "event-curve" src = {curve} className = "img-fluid img-vert"/>
       <div className = "col-xl-5 col-lg-5 col-md-5 col-xs-12 col-sm-12">
         <div className = "mt-5 youtube-parent h-100">
           <div className = "youtube-display pt-5 h-50 d-xl-block d-none">
@@ -39,7 +38,6 @@ class Map extends React.Component{
             />
         </div>
           <img src = {year20IMG} className = "img-fluid d-xl-none d-block" />
-
         </div>
       </div>
       <div className = "col-xl-7 col-lg-7 col-md-7 col-xs-12 col-sm-12">

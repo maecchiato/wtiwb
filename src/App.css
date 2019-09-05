@@ -13,18 +13,20 @@
 */
 
 :root {
-    --main-red:#AF0700;
+    --main-red: #AF0700;
     --yellow: #FED74A;
     --black: #353535;
     --sec-red: #890f00;
+    --sec-accent: #124886;
 }
 
 .add-padding {
-    padding-top: 500px;
+    padding-top: 3%;
+    padding-left: 5%;
 }
 
-#add-margin{
-    margin-left:2%;
+#add-margin {
+    margin-left: 2%;
 }
 
 nav {
@@ -46,10 +48,7 @@ body, html {
     font-weight: bolder;
     font-size: 72px;
     line-height: 80px;
-    display: flex;
-    align-items: flex-end;
     letter-spacing: 1.5px;
-    width: 90%;
     color: var(--black);
 }
 
@@ -60,7 +59,6 @@ body, html {
     font-weight: bolder;
     font-size: 56px;
     line-height: 48px;
-    display: flex;
     letter-spacing: 1.5px;
     width: 100%;
     color: var(--black);
@@ -77,6 +75,17 @@ body, html {
     text-transform: uppercase;
     /* Main (Red) */
     color: var(--main-red);
+}
+
+.headline-h4 {
+    /* Headline / H2 • 60 Playfair Display */
+    font-family: 'Playfair', serif !important;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 1.5px;
+    width: 100%;
 }
 
 .body-reg-16 {
@@ -115,6 +124,67 @@ body, html {
     letter-spacing: 1px;
     /* Main (Red) */
     color: var(--main-red);
+}
+
+.btn-stroke {
+    border: 2px solid var(--main-red);
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 14px;
+    background-color: transparent;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    /* Main (Red) */
+    color: var(--main-red);
+    padding: 5%;
+    margin-top: 10%;
+}
+
+.btn-stroke:hover {
+    background-color: var(--main-red);
+    color: white;
+}
+
+.lato-eb-24 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.highlight {
+    color: var(--main-red);
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.overline {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--sec-accent);
 }
 
 /*  Boootstrap Overrides */
@@ -194,6 +264,8 @@ nav .nav-link:visited {
     #logo {
         width: 200px !important;
         top: 10% !important;
+        left: 43% !important;
+        
     }
     #home-section {
         /* padding-bottom: 20% !important; */
@@ -216,6 +288,12 @@ nav .nav-link:visited {
     #waffles-waffle {
         margin-top: 80px !important;
     }
+    #foundation-section {
+        color: black;
+        padding-top: 1% !important;
+        padding-bottom: 1% !important;
+        padding-left: 10%;
+    }
     #social-media {
         position: absolute;
         bottom: 3%;
@@ -232,19 +310,15 @@ nav .nav-link:visited {
     #waffle {
         margin-bottom: 4% !important;
     }
-
-    #waffles-card-section{
+    #waffles-card-section {
         padding-left: 15% !important;
         padding-right: 15% !important;
     }
-
-    .card-item{
+    .card-item {
         height: 350px !important;
         padding: 10% !important;
     }
-
-    #waffles-heading{
-    }
+    #waffles-heading {}
 }
 
 @media only screen and (max-width: 600px) {
@@ -256,8 +330,8 @@ nav .nav-link:visited {
         width: 150px !important;
     }
     .headline-h2 {
-        font-size: 24px;
-        line-height: 32px;
+        font-size: 40px;
+        line-height: 40px;
         width: 100%;
         padding-left: 5%;
     }
@@ -270,39 +344,42 @@ nav .nav-link:visited {
     }
     #about-section {
         padding-top: 5px !important;
-        padding-bottom: 0.5% !important;
+        padding-bottom: 10% !important;
     }
     #waffles-section {
         padding-left: 0px !important;
         padding-right: 0px !important;
         padding-top: 50% !important;
     }
-
     #waffles-card-section {
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
-
-    .headline-h3{
+    #foundation-section {
+        padding-top: 5px !important;
+        padding-bottom: 0.5% !important;
+        padding-left: 5% !important;
+    }
+    .headline-h3 {
         font-size: 40px !important;
     }
-
-    .card-item{
+    .card-item {
         padding: 3% !important;
         height: fit-content !important;
     }
-
-    .card-title{
+    .card-title {
         padding: 2% !important;
         font-size: 18px !important;
         margin-bottom: 0px !important;
         padding: 5% !important;
     }
-
-    .body-reg-14{
+    .body-reg-14 {
         font-size: 12px !important;
         padding-right: 2% !important;
         padding-left: 2% !important;
+    }
+    #foundation-video {
+        background-image: none !important;
     }
 }
 
@@ -338,7 +415,7 @@ nav .nav-link:visited {
     position: absolute;
     top: 15%;
     padding-top: 8px;
-    left: 43%;
+    left: 35%;
     transition: .3s;
 }
 
@@ -391,14 +468,13 @@ nav .nav-link:visited {
 /* ABOUT SECTION */
 
 #about-section {
-    /* background-image: url(./Components/Layouts/img/about-bg.jpg); */
-    /* background-size: cover; */
     color: black;
-    padding-top: 50px;
+    padding-top: 3% !important;
+    padding-left: 5% !important;
 }
 
-#about-body {
-    padding-top: 3%;
+#about-headline {
+    width: 90%;
 }
 
 #body-reg {
@@ -428,7 +504,7 @@ nav .nav-link:visited {
     /* Main (Red) */
     color: var(--main-red);
     padding: 15px;
-    margin-top: 5%;
+    margin-top: 8%;
 }
 
 .btn-small:hover {
@@ -444,7 +520,7 @@ nav .nav-link:visited {
     box-sizing: border-box;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
-    width: 250px;
+    width: 300px;
     /* Button / 16 Lato ExtraBold */
     font-family: Lato;
     font-style: normal;
@@ -463,10 +539,9 @@ nav .nav-link:visited {
 }
 
 .btn-med:hover {
-    background:var(--main-red);
+    background: var(--main-red);
     color: white;
 }
-
 
 .about-info {
     font-family: 'Playfair', sans-serif !important;
@@ -499,7 +574,6 @@ nav .nav-link:visited {
     padding-top: 16%;
     padding-bottom: 15%;
 }
-
 
 #rec-bottom {
     width: 100%;
@@ -584,14 +658,22 @@ nav .nav-link:visited {
     padding-top: 100px;
 }
 
+/* FOUNDATION SECTION */
+
+#foundation-section {
+    color: black;
+    padding-top: 5%;
+    padding-bottom: 10% !important;
+}
+
 /* EVENTS SECTION  */
 
 #events-section {
     font-family: 'Playfair', sans-serif !important;
     background-color: #fff;
     color: #fa0002;
-    padding-top: 95px;
-    padding-bottom: 125px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 #event-curve {
@@ -613,9 +695,17 @@ nav .nav-link:visited {
 }
 
 .event-description {
-    font-family: 'Playfair', sans-serif !important;
+        /* Body / 14 Lato Regular */
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        /* font-size: 14px; */
+        line-height: 175%;
+        /* or 24px */
+        text-align: center;
+        letter-spacing: 1px;
+        color: var(--black);
     font-size: 0.72em !important;
-    opacity: .99;
 }
 
 #event-info-section {
@@ -653,6 +743,10 @@ nav .nav-link:visited {
     right: 0;
     left: 0;
     width: 100%;
+    background-color: var(--sec-red);
+    color: white;
+    position: relative;
+    padding-top: 40px;
 }
 
 #franchise-section {
@@ -753,13 +847,13 @@ nav .nav-link:visited {
 }
 
 .evt:hover {
-    border-radius: 35px;
+    border-radius: 5px;
     background-color: var(--yellow);
     color: white;
 }
 
 .zoom {
-    padding: 20px;
+    padding: 15px;
     box-sizing: border-box;
     transition: transform .2s;
     width: 5px;
@@ -950,21 +1044,19 @@ nav .nav-link:visited {
     font-size: 1.0rem;
 }
 
+/* PARTY PACKAGE SECTION */
+
 #partypackage-section {
-    background-color: #030051;
+    background-image: url(../src/Components/Layouts/img/partypack-bg.jpg);
+    background-size: cover;
     color: white;
     position: relative;
-    padding-top: 60px;
-    padding-bottom: 35px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 #partypackage-section .title {
     color: #f3b778
-}
-
-.party-package-modal .title {
-    color: red;
-    font-family: 'Playfair', sans-serif !important;
 }
 
 .party-package-modal {
@@ -972,11 +1064,21 @@ nav .nav-link:visited {
     height: 100%;
 }
 
+#partypack-desc {
+    background-color: white;
+    opacity: 0.8;
+    color: #000000;
+    padding: 5% !important;
+}
+
 .img-cart-display {
     position: relative;
 }
 
 @media only screen and (min-width: 992px) {
+    #logo{
+        left: 40%;
+    }
     .modal-footer {
         position: fixed;
         bottom: 0;
@@ -987,6 +1089,7 @@ nav .nav-link:visited {
     #about-section {
         padding-left: 8% !important;
         background-image: url(../src/Components/Layouts/img/about-bg.jpg);
+        background-size: cover!important;
         padding-bottom: 3% !important;
     }
     #waffles-section {
@@ -995,18 +1098,22 @@ nav .nav-link:visited {
         padding-right: 0px !important;
         background-size: cover !important;
     }
-
-    #waffles-heading {
-    }
-
-    .card-item{
+    #waffles-heading {}
+    .card-item {
         height: 350px !important;
         padding: 10% !important;
     }
-
-    .card-title{
+    .card-title {
         padding: 8% !important;
     }
+    #foundation-section {
+        padding-left: 8% !important;
+        padding-bottom: 5% !important;
+    }
+}
+
+#package-card {
+    padding: 5%;
 }
 
 .card-back {
@@ -1015,13 +1122,19 @@ nav .nav-link:visited {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(218, 37, 29, 0.95);
-    color: #fff;
+    /* Accent (Yellow) */
+    background: var(--yellow);
+    /* Main (Red) */
+    border: 3px solid var(--main-red);
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: var(--black);
     visibility: hidden;
     opacity: 0;
     border-radius: 20px;
     /* transition effect. not necessary */
     transition: opacity .2s, visibility .2s;
+    padding-top: 9%;
 }
 
 .card-front:hover .card-back {
@@ -1031,13 +1144,22 @@ nav .nav-link:visited {
 
 .youtube-display {
     pointer-events: none;
-    height: 100%;
+    height: 350px;
+    width: 80%;
 }
 
-/* Mission-Vision-Section */
-
-#mission-vision-section{
-    background-color: #FDFDFD;
-    height: 100%;
+#foundation-video {
+    background-image: url(../src/Components/Layouts/img/foundation-bg.jpg);
+    background-size: cover;
 }
 
+#outlet-section{
+    background-color: var(--sec-red);
+    padding: 5%;
+}
+
+#outlet-desc{
+    padding-left: 10%;
+    width: 80%;
+    margin-right: 0px;
+}
