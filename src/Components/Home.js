@@ -41,7 +41,7 @@ class Home extends React.Component {
           <img src={image8} />
         </div>
       </Carousel>
-        <button className="btn-wide" >BECOME A FRANCHISEE!</button>
+        <button className="btn-wide">BECOME A FRANCHISEE!</button>
         </div>
 
     )

@@ -8,6 +8,11 @@
     src: url('./Components/Layouts/fonts/Lato\ regular.ttf');
 }
 
+@font-face{
+    font-family: 'Lato Bold';
+    src: url('./Components/Layouts/fonts/Lato\ 900.ttf');
+}
+
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC');
 @import url('https://fonts.googleapis.com/css?family=Exo+2');
 /*
@@ -135,7 +140,7 @@ body, html {
     border: 2px solid var(--main-red);
     box-sizing: border-box;
     border-radius: 5px;
-    font-family: Lato;
+    font-family: 'Lato Bold';
     font-style: normal;
     font-weight: 800;
     font-size: 12px;
@@ -451,7 +456,7 @@ nav .nav-link:visited {
     border-radius: 5px;
     position: absolute;
     top: 20%;
-    font-family: 'Lato', sans-serif !important;
+    font-family: 'Lato Bold';
     font-size: 2vw;
     z-index: 2;
     color: var(--main-red);
@@ -496,7 +501,7 @@ nav .nav-link:visited {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     /* Button / 16 Lato ExtraBold */
-    font-family: Lato;
+    font-family: 'Lato Bold';
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
@@ -527,7 +532,7 @@ nav .nav-link:visited {
     border-radius: 5px;
     width: 300px;
     /* Button / 16 Lato ExtraBold */
-    font-family: Lato;
+    font-family: 'Lato Bold';
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
