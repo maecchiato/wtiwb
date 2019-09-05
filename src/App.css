@@ -3,6 +3,11 @@
     src: url('./Components/Layouts/fonts/PlayfairDisplay-Regular.ttf') format('truetype');
 }
 
+@font-face{
+    font-family: 'Lato';
+    src: url('./Components/Layouts/fonts/Lato\ regular.ttf');
+}
+
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC');
 @import url('https://fonts.googleapis.com/css?family=Exo+2');
 /*
