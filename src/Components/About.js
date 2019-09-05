@@ -3,7 +3,7 @@ import { Route, Link } from 'react-router-dom';
 // import MissionVission from './Components/MissionVission';
 import waffy from './Layouts/img/waffy-mascot.png';
 import rec from './Layouts/img/Heading/rec.jpg'
-import MissionVision from './MissionVission';
+
 
 
 

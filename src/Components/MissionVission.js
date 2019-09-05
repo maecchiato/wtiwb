@@ -1,13 +1,13 @@
 import React from 'react';
 import '../App.css';
 import rec from './Layouts/img/Heading/rec.jpg';
-import mission1img from './Layouts/img/mission/1998sept.png';
-import mission2img from './Layouts/img/mission/2002may.png';
-import mission3img from './Layouts/img/mission/2002june.png';
-import mission4img from './Layouts/img/mission/2004march.png';
-import mission5img from './Layouts/img/mission/2006-2008.png';
-import mission6img from './Layouts/img/mission/2007-2011.png';
-import mission7img from './Layouts/img/mission/2012.png';
+import mission1img from './Layouts/img/history/1998sept.png';
+import mission2img from './Layouts/img/history/2002may.png';
+import mission3img from './Layouts/img/history/2002june.png';
+import mission4img from './Layouts/img/history/2004march.png';
+import mission5img from './Layouts/img/history/2006-2008.png';
+import mission6img from './Layouts/img/history/2007-2011.png';
+import mission7img from './Layouts/img/history/2012.png';
 
 class MissionVision extends React.Component{
     constructor(){
