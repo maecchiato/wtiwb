@@ -5,7 +5,12 @@ import waffy from './Layouts/img/waffy-mascot.png';
 import rec from './Layouts/img/Heading/rec.jpg'
 import MissionVision from './MissionVission';
 
+
+
 class About extends React.Component {
+  //  nextPath(path){
+  //    this.props.history.push(path);
+  //  }
   render() {
     return (
       <div id="about-section" class="row justify-content">
@@ -28,4 +33,5 @@ class About extends React.Component {
   }
 }
 
-export default About;
+
+export default About
