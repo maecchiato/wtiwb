@@ -134,7 +134,7 @@ class PartyPackage extends React.Component {
           </div>
         </Modal>
 
-        <div id="partypack-desc" className="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+        <div id="partypack-desc" className="col-xl-3 col-lg-4 col-md-12 col-sm-12 col-12">
             <img src={rec}></img>
             <p className="body-reg-14 text-left add-padding">Waffle Time offers party packages to cater everyone’s life events such as Birthday
             Parties, School Events, Fairs, Exhibits, Food Bazaars and many more. As the Pambansang Waffle ng Pilipinas,
@@ -144,7 +144,7 @@ class PartyPackage extends React.Component {
                 Avail Our Packages
             </button>
         </div>
-        <div className="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+        <div className="col-xl-9 col-lg-8 col-md-12 col-sm-12 col-12">
           <div className="text-center pt-5 pt-sm-5 pt-xl-0 pt-lg-3 pt-md-3">
             <img src={title} alt="Party Package of Waffle Time" className="img-fluid d-block ml-auto" />
           </div>
