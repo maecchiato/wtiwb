@@ -3,12 +3,12 @@
     src: url('./Components/Layouts/fonts/PlayfairDisplay-Regular.ttf') format('truetype');
 }
 
-@font-face{
+@font-face {
     font-family: 'Lato';
     src: url('./Components/Layouts/fonts/Lato\ regular.ttf');
 }
 
-@font-face{
+@font-face {
     font-family: 'Lato Bold';
     src: url('./Components/Layouts/fonts/Lato\ 900.ttf');
 }
@@ -124,16 +124,16 @@ body, html {
 }
 
 .contact-body {
-        /* Body / 14 Lato Regular */
-        font-family: Lato;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 10px;
-        line-height: 12px;
-        /* or 24px */
-        text-align: center;
-        letter-spacing: 1px;
-        color: #000000;
+    /* Body / 14 Lato Regular */
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    /* or 24px */
+    text-align: center;
+    letter-spacing: 1px;
+    color: #000000;
 }
 
 .card-title {
@@ -261,10 +261,10 @@ body, html {
 }
 
 .overline {
-    font-family: Lato;
+    font-family: 'Lato Bold';
     font-style: normal;
     font-weight: 900;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 16px;
     /* identical to box height, or 133% */
     letter-spacing: 2px;
@@ -350,7 +350,6 @@ nav .nav-link:visited {
         width: 200px !important;
         top: 10% !important;
         left: 43% !important;
-        
     }
     #home-section {
         /* padding-bottom: 20% !important; */
@@ -424,7 +423,6 @@ nav .nav-link:visited {
         font-size: 14px;
         width: 100%;
     }
-
     .headline-h4 {
         /* Headline / H2 • 60 Playfair Display */
         font-size: 32px;
@@ -573,8 +571,6 @@ nav .nav-link:visited {
     padding-top: 3%;
     /* background-color: #32a5fd; */
 }
-
-
 
 .about-info {
     font-family: 'Playfair', sans-serif !important;
@@ -728,16 +724,16 @@ nav .nav-link:visited {
 }
 
 .event-description {
-        /* Body / 14 Lato Regular */
-        font-family: Lato;
-        font-style: normal;
-        font-weight: normal;
-        /* font-size: 14px; */
-        line-height: 175%;
-        /* or 24px */
-        text-align: center;
-        letter-spacing: 1px;
-        color: var(--black);
+    /* Body / 14 Lato Regular */
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    /* font-size: 14px; */
+    line-height: 175%;
+    /* or 24px */
+    text-align: center;
+    letter-spacing: 1px;
+    color: var(--black);
     font-size: 0.72em !important;
 }
 
@@ -1108,7 +1104,7 @@ nav .nav-link:visited {
 }
 
 @media only screen and (min-width: 992px) {
-    #logo{
+    #logo {
         left: 40%;
     }
     .modal-footer {
@@ -1185,33 +1181,50 @@ nav .nav-link:visited {
     background-size: cover;
 }
 
-#outlet-section{
+#outlet-section {
     background-color: var(--sec-red);
 }
 
-#outlet-desc{
+#outlet-desc {
     padding-left: 10%;
     padding-right: 10%;
     margin-right: 0px !important;
 }
 
 /* CONTACT SECTION */
-#contact-section{
+
+#contact-section {
+    padding-top: 3%;
+    padding-bottom: 6%;
+}
+
+.contact-title {
     position: relative;
-    padding-top: 40px;
+    background-color: var(--yellow);
+    border-radius: 50px;
+    padding: 5%;
+    text-align: center;
+    width: 100%;
 }
 
-.contact-title{
-position: relative;
-background-color: var(--yellow);
+#contact-card-section {
+    padding-top: 3%;
+    text-align: center;
 }
 
-.contact-card{
+.contact-details {
     background: #FDFDFD;
-border: 1px solid rgba(218, 218, 218, 0.5);
-box-sizing: border-box;
-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
-border-radius: 3px;
+    border: 1px solid rgba(218, 218, 218, 0.5);
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
     width: fit-content;
-    padding:5%;
+    width: 100%;
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+    padding-top: 15% !important;
+}
+
+.contact {
+    display: flex;
 }

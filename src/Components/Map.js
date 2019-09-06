@@ -147,8 +147,6 @@ class Maps extends React.Component {
             <p id="outlet-desc" className="body-reg-16 text-white pt-2">Today, Waffle Time boasts of over 400 outlets nationwide and is still actively expanding into new regions and territories. Waffle Time is aiming, from being Ang Pambansang Waffle ng Pilipinas, to become the Best Waffles in the World!</p>
           </div>
         </div>
-
-
       </div>
     )
   }
