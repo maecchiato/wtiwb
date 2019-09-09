@@ -123,6 +123,16 @@ body, html {
     color: #000000;
 }
 
+.caption-12 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 167% */
+    letter-spacing: 0.5px;
+}
+
 .contact-body {
     /* Body / 14 Lato Regular */
     font-family: Lato;
@@ -379,9 +389,8 @@ nav .nav-link:visited {
         padding-left: 10%;
     }
     #social-media {
-        position: absolute;
+        position: relative;
         bottom: 3%;
-        left: 53%;
         z-index: 5;
     }
     .vl {
@@ -445,7 +454,7 @@ nav .nav-link:visited {
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
-    #events-section{
+    #events-section {
         padding-top: 15% !important;
         padding-bottom: 15% !important;
     }
@@ -475,7 +484,6 @@ nav .nav-link:visited {
     #foundation-video {
         background-image: none !important;
     }
-
 }
 
 .vl {
@@ -772,14 +780,17 @@ nav .nav-link:visited {
 }
 
 #footer {
+    background-image: url(./Components/Layouts/img/Footer/footer-bg.jpg);
+    background-size: cover;
     bottom: 0;
     position: relative;
     right: 0;
     left: 0;
     width: 100%;
     background-color: var(--sec-red);
-    color: white;
-    padding-top: 100px;
+    color: var(--yellow);
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 #franchise-section {
@@ -1044,7 +1055,7 @@ nav .nav-link:visited {
 }
 
 #social-media {
-    font-size: 40px !important;
+    font-size: 24px !important;
 }
 
 #social-media a {
@@ -1231,6 +1242,22 @@ nav .nav-link:visited {
     margin-top: 5%;
 }
 
-.fas{
+.fas {
     color: var(--main-red) !important;
+}
+
+/* FOOTER  */
+
+#footer-logo {
+    width: 150px;
+    padding-bottom: 50%;
+}
+
+#logo-copyright{
+    padding-left: 10%;
+}
+
+
+.ft-link:hover{
+    color: var(--yellow) !important;
 }
