@@ -445,6 +445,10 @@ nav .nav-link:visited {
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
+    #events-section{
+        padding-top: 15% !important;
+        padding-bottom: 15% !important;
+    }
     #foundation-section {
         padding-top: 5px !important;
         padding-bottom: 0.5% !important;
@@ -471,6 +475,7 @@ nav .nav-link:visited {
     #foundation-video {
         background-image: none !important;
     }
+
 }
 
 .vl {
@@ -1208,7 +1213,6 @@ nav .nav-link:visited {
 }
 
 #contact-card-section {
-    padding-top: 3%;
     text-align: center;
 }
 
@@ -1222,9 +1226,8 @@ nav .nav-link:visited {
     width: 100%;
     padding-right: 10% !important;
     padding-left: 10% !important;
-    padding-top: 15% !important;
 }
 
-.contact {
-    display: flex;
+.contact-card {
+    margin-top: 5%;
 }

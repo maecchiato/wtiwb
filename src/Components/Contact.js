@@ -23,7 +23,7 @@ class Contact extends React.Component {
 {/* *************************************** */}
                     <div className="contact-card col-xl-2 col-lg-2 col-md-12 col-sm-auto col-xs-auto text-center">
                         <div className="mx-3"><p className="contact-title overline">Iloilo Head Office</p></div>
-                        <div className="contact-details">
+                        <div className="contact-details pt-3">
 
                             <p className="contact-body text-left mb-2 mt-2">
                                 <i className="fas fa-home mr-2"></i>
@@ -45,8 +45,8 @@ class Contact extends React.Component {
                     </div>
 {/* *************************************** */}
                     <div className="contact-card col-xl-2 col-lg-2 col-md-12 col-sm-auto col-xs-auto text-center">
-                        <div className="mx-3"><p className="contact-title overline">Iloilo Head Office</p></div>
-                        <div className="contact-details">
+                        <div className="mx-3"><p className="contact-title overline">Metro Manila</p></div>
+                        <div className="contact-details pt-3">
 
                             <p className="contact-body text-left mb-2 mt-2">
                                 <i className="fas fa-home mr-2"></i>
@@ -68,8 +68,8 @@ class Contact extends React.Component {
                     </div>
 
                     <div className="contact-card col-xl-2 col-lg-2 col-md-12 col-sm-auto col-xs-auto text-center">
-                        <div className="mx-3"><p className="contact-title overline">Iloilo Head Office</p></div>
-                        <div className="contact-details">
+                        <div className="mx-3"><p className="contact-title overline">Davao</p></div>
+                        <div className="contact-details pt-3">
 
                             <p className="contact-body text-left mb-2 mt-2">
                                 <i className="fas fa-home mr-2"></i>
@@ -91,8 +91,8 @@ class Contact extends React.Component {
                     </div>
 
                     <div className="contact-card col-xl-2 col-lg-2 col-md-12 col-sm-auto col-xs-auto text-center">
-                        <div className="mx-3"><p className="contact-title overline">Iloilo Head Office</p></div>
-                        <div className="contact-details">
+                        <div className="mx-3"><p className="contact-title overline">Cebu</p></div>
+                        <div className="contact-details pt-3">
 
                             <p className="contact-body text-left mb-2 mt-2">
                                 <i className="fas fa-home mr-2"></i>
@@ -114,8 +114,8 @@ class Contact extends React.Component {
                     </div>
 
                     <div className="contact-card col-xl-2 col-lg-2 col-md-12 col-sm-auto col-xs-auto text-center">
-                        <div className="mx-3"><p className="contact-title overline">Iloilo Head Office</p></div>
-                        <div className="contact-details">
+                        <div className="mx-3"><p className="contact-title overline">Cagayan de Oro</p></div>
+                        <div className="contact-details pt-3">
 
                             <p className="contact-body text-left mb-2 mt-2">
                                 <i className="fas fa-home mr-2"></i>
@@ -163,7 +163,7 @@ class Contact extends React.Component {
             //                 <p className="">What makes it so special?</p>
 
             //             </div>
-            //             <div className="contact-details">
+            //             <div className="contact-details pt-3">
             //                 <p className="card-title">What makes it so special?</p>
 
             //             </div>
