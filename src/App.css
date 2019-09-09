@@ -773,13 +773,12 @@ nav .nav-link:visited {
 
 #footer {
     bottom: 0;
-    position: absolute;
+    position: relative;
     right: 0;
     left: 0;
     width: 100%;
     background-color: var(--sec-red);
     color: white;
-    position: relative;
     padding-top: 100px;
 }
 
@@ -1230,4 +1229,8 @@ nav .nav-link:visited {
 
 .contact-card {
     margin-top: 5%;
+}
+
+.fas{
+    color: var(--main-red) !important;
 }
