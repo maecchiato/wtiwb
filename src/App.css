@@ -98,6 +98,17 @@ body, html {
     width: 100%;
 }
 
+.headline-h5 {
+    /* Headline / H2 • 60 Playfair Display */
+    font-family: 'Playfair', serif !important;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 1.5px;
+    width: 100%;
+}
+
 .body-reg-16 {
     /* Body / 16 Lato Regular */
     font-family: Lato;
@@ -1260,4 +1271,14 @@ nav .nav-link:visited {
 
 .ft-link:hover{
     color: var(--yellow) !important;
+}
+
+.ReactModal__Content{
+    padding: 0px !important;
+    
+}
+
+.modal-header{
+    background-color: var(--main-red);
+    height: 80px !important;
 }

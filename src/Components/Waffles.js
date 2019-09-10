@@ -30,17 +30,22 @@ class waffles extends React.Component {
     super();
 
     this.state = {
-      mae: false,
-      archie: false,
+      svModalIsOpen: false,
+      swModalIsOpen: false,
     };
 
-    this.openModal = this.openModal.bind(this);
+    this.openSVModal = this.openSVModal.bind(this);
+    this.openSWModal = this.openSWModal.bind(this);
     this.afterOpenModal = this.afterOpenModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
   }
 
-  openModal() {
-    this.setState({ modalIsOpen: true });
+  openSVModal() {
+    this.setState({ svModalIsOpen: true });
+  }
+
+  openSWModal() {
+    this.setState({ swModalIsOpen: true });
   }
 
   afterOpenModal() {
@@ -48,84 +53,52 @@ class waffles extends React.Component {
   }
 
   closeModal() {
-    this.setState({ modalIsOpen: false });
+    this.setState({ svModalIsOpen: false,
+      swModalIsOpen: false});
   }
 
   render() {
     return (
       <div id="waffles-section" class="container-fluid row justify-content">
 
-<Modal
-          isOpen={this.state.modalIsOpen}
+        <Modal
+          isOpen={this.state.swModalIsOpen}
           onAfterOpen={this.afterOpenModal}
           onRequestClose={this.closeModal}
           style={customStyles}
-          contentLabel="Party Package Information"
+          contentLabel="Sweet Fillings"
         >
+
+          <div className="modal-header">
+            <p className="headline-h5 text-white mx-5">Sweet Fillings</p>
+          </div>
+
           <div className="modal-body">
             <div className="row party-package-modal">
-              <div id="package-card" className="col-md-6 col-lg-6 col-xl-6 col-sm-6 col-12">
-                <p className="lato-eb-24 text-center title pb-4">Package A</p>
-                <div className="card-front">
-                  <img src={wafflestorePackageA} alt="The Best Value for your Money" classsName="img-fluid img-cart-display d-block" />
-                  <div className="card-back">
-                  <p className="lato-eb-24 text-center title pb-4">Package A</p>
-                    <p className="mt-4 mx-3 highlight ">Inclusions:</p>
-                    <ul className="body-reg-14 text-left">
-                    <li>100 Assorted Waffles</li>
-                    </ul>
-                    <p className="mt-5 mx-3 highlight">Pricing:</p>
-                    <ul className="body-reg-14 text-left">
-                        <li>P6,000.00 Manila</li>
-                        <li>P5,500.00 Visayas & Mindanao</li>           
-                    </ul>
-                    <div className="btn-group dropright mt-5 float-right mr-3">
-                      <button type="button" className="btn-stroke dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Inquire Now via
-                          </button>
-                      <div className="dropdown-menu">
-                        <a className="dropdown-item" href="http://m.me/WaffleTimeInc" target="_blank" rel="noopener noreferrer">Facebook Messenger</a>
-                        <a className="dropdown-item" href="mailto:customerservice@waffletime.com?Subject=Party%20Package%20Inquiry">Email</a>
-                        <a href="#v-pills-contact-tab" className="dropdown-item" ref="tooltip" data-tip="Refer to our Contact Section Below">Contact Us</a>
-                        <button className="d-none" onClick={() => { ReactToolTip.hide(findDOMNode(this.refs.tooltip)) }}></button>
-                        <ReactToolTip effect="float" place="right" type="info" />
-                      </div>
-                    </div>
 
-                  </div>
-                </div>
-              </div>
-              <div id="package-card" className="col-md-6 col-lg-6 col-xl-6 col-sm-6 col-12">
-                <p className="lato-eb-24 text-center title pb-4">Package B</p>
-                <div className="card-front">
-                  <img src={wafflestorePackageB} alt="The Best Value for your Money" classsName="img-fluid img-cart-display d-block" />
-                  <div className="card-back">
-                  <p className="lato-eb-24 text-center title pb-4">Package B</p>
-                      <p className="mt-3 mx-3 highlight">Inclusions:</p>
-                      <ul className="body-reg-14 text-left">   
-                          <li>100 Assorted Waffles</li>
-                          <li>100 Iced Teas</li>    
-                      </ul>
-                      <p className="mt-5 mx-3 highlight">Pricing:</p>
-                      <ul className="body-reg-14 text-left">
-                          <li>P7,500.00 Manila</li>
-                          <li>P7,000.00 Visayas & Mindanao</li>
-                      </ul>
-                      <div className="btn-group dropright mt-5 float-right mr-3">
-                        <button type="button" className="btn-stroke dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Inquire Now via
-                            </button>
-                        <div className="dropdown-menu">
-                          <a className="dropdown-item" href="https://www.facebook.com/messages/t/WaffleTimeInc" target="_blank" rel="noopener noreferrer">Facebook Messenger</a>
-                          <a className="dropdown-item" href="mailto:customerservice@waffletime.com?Subject=Party%20Package%20Inquiry">Email</a>
-                          <a href="#v-pills-contact-tab" className="dropdown-item" ref="tooltip" data-tip="Refer to our Contact Section Below">Contact Us</a>
-                          <button className="d-none" onClick={() => { ReactToolTip.hide(findDOMNode(this.refs.tooltip)) }}></button>
-                          <ReactToolTip effect="float" place="right" type="info" />
-                        </div>
-                      </div>
-                  </div>
-                </div>
-              </div>
+            </div>
+          </div>
+
+          <div className="modal-footer">
+            <button type="button" onClick={this.closeModal} className="btn btn-secondary">Close</button>
+          </div>
+        </Modal>
+
+        <Modal
+          isOpen={this.state.svModalIsOpen}
+          onAfterOpen={this.afterOpenModal}
+          onRequestClose={this.closeModal}
+          style={customStyles}
+          contentLabel="Savory Fillings"
+        >
+
+          <div className="modal-header">
+            <p className="headline-h5 text-white mx-5">Savory Fillings</p>
+          </div>
+
+          <div className="modal-body">
+            <div className="row party-package-modal">
+
             </div>
           </div>
 
@@ -157,8 +130,8 @@ class waffles extends React.Component {
           </div>
         </div>
         <div className="container-fluid row justify-content-center">
-          <button className="btn-med" onClick={this.openModal}>Sweet Fillings</button>
-          <button id="add-margin" className="btn-med">Savory Fillings</button>
+          <button className="btn-med" onClick={this.openSWModal}>Sweet Fillings</button>
+          <button id="add-margin" className="btn-med" onClick={this.openSVModal}>Savory Fillings</button>
         </div>
 
 
