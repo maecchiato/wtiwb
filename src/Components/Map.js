@@ -34,9 +34,9 @@ class Maps extends React.Component {
     const MapWithASearchBox = compose(
       withProps({
         googleMapURL: "https://maps.googleapis.com/maps/api/js?key=AIzaSyAJbpjI8KS7fzlHYDjIBeOL8TkPfEhXUSk&v=3.exp&libraries=geometry,drawing,places",
-        loadingElement: <div style={{ height: `65vh` }} />,
-        containerElement: <div style={{ height: `65vh` }} />,
-        mapElement: <div style={{ height: `65vh` }} />,
+        loadingElement: <div style={{ height: `70vh` }} />,
+        containerElement: <div style={{ height: `70vh` }} />,
+        mapElement: <div style={{ height: `70vh` }} />,
       }),
       lifecycle({
         componentWillMount() {
@@ -142,13 +142,11 @@ class Maps extends React.Component {
 
         <div id="outlet-section" className="col-xl-7 col-lg-7 col-md-12 col-xs-12 col-sm-12 px-0">
           <div>
-            <p className="headline-h4 text-white pl-4 ml-4 w-75">400 Outlets Nationwide and Counting</p>
+            <p className="headline-h4 text-white pl-4 ml-4 w-75 pt-5">400 Outlets Nationwide and Counting</p>
             <img className="pl-5 pt-3" src={rec}></img>
-            <p className="body-reg-16 text-white pt-2 pl-5 ml-4 w-75">Today, Waffle Time boasts of over 400 outlets nationwide and is still actively expanding into new regions and territories. Waffle Time is aiming, from being Ang Pambansang Waffle ng Pilipinas, to become the Best Waffles in the World!</p>
+            <p id="outlet-desc" className="body-reg-16 text-white pt-2">Today, Waffle Time boasts of over 400 outlets nationwide and is still actively expanding into new regions and territories. Waffle Time is aiming, from being Ang Pambansang Waffle ng Pilipinas, to become the Best Waffles in the World!</p>
           </div>
         </div>
-
-
       </div>
     )
   }

@@ -21,7 +21,8 @@ class waffles extends React.Component {
             <div className="card-item">
               <p className="card-title">Made by Hand. With Love.</p>
               <p className="body-reg-14">Since its inception, Waffle Time had been consistent to its flavors. Staying true to its words of Ang Pambansang Waffle ng Pilipinas.</p>
-            </div>          </div>
+            </div>
+          </div>
           <div className="col-xl-4 col-lg-4 col-md-4 col-sm-auto col-xs-auto">
             <div className="card-item">
               <p className="card-title">For the people, by the people.</p>
@@ -30,8 +31,8 @@ class waffles extends React.Component {
           </div>
         </div>
         <div className="container-fluid row justify-content-center">
-            <button className="btn-med">Sweet Fillings</button>
-            <button id="add-margin" className="btn-med">Savory Fillings</button>
+          <button className="btn-med">Sweet Fillings</button>
+          <button id="add-margin" className="btn-med">Savory Fillings</button>
         </div>
 
 

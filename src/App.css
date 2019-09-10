@@ -3,9 +3,14 @@
     src: url('./Components/Layouts/fonts/PlayfairDisplay-Regular.ttf') format('truetype');
 }
 
-@font-face{
+@font-face {
     font-family: 'Lato';
     src: url('./Components/Layouts/fonts/Lato\ regular.ttf');
+}
+
+@font-face {
+    font-family: 'Lato Bold';
+    src: url('./Components/Layouts/fonts/Lato\ 900.ttf');
 }
 
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC');
@@ -99,7 +104,7 @@ body, html {
     font-style: normal;
     font-size: 16px;
     line-height: 185%;
-    width: 85%;
+    width: 90%;
     letter-spacing: 0.1vw;
     /* Gray 1 */
     color: #333333;
@@ -112,6 +117,29 @@ body, html {
     font-weight: normal;
     font-size: 14px;
     line-height: 175%;
+    /* or 24px */
+    text-align: center;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.caption-12 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 167% */
+    letter-spacing: 0.5px;
+}
+
+.contact-body {
+    /* Body / 14 Lato Regular */
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
     /* or 24px */
     text-align: center;
     letter-spacing: 1px;
@@ -132,16 +160,47 @@ body, html {
 }
 
 .btn-stroke {
+    position: relative;
     border: 2px solid var(--main-red);
     box-sizing: border-box;
     border-radius: 5px;
-    font-family: Lato;
+    font-family: 'Lato Bold';
     font-style: normal;
     font-weight: 800;
     font-size: 12px;
     line-height: 14px;
     background-color: transparent;
     /* identical to box height */
+    display: inline-flex;
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    /* Main (Red) */
+    color: var(--main-red);
+    padding: 4%;
+    margin-top: 10%;
+}
+
+.btn-stroke:hover {
+    background-color: var(--main-red);
+    color: white;
+}
+
+.btn-small {
+    position: relative;
+    /* White */
+    background: #FDFDFD;
+    border: whitesmoke;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    /* Button / 16 Lato ExtraBold */
+    font-family: 'Lato Bold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -149,12 +208,43 @@ body, html {
     text-transform: uppercase;
     /* Main (Red) */
     color: var(--main-red);
-    padding: 5%;
-    margin-top: 10%;
+    padding: 15px;
+    margin-top: 8%;
 }
 
-.btn-stroke:hover {
-    background-color: var(--main-red);
+.btn-small:hover {
+    background: var(--main-red);
+    color: white;
+}
+
+.btn-med {
+    position: relative;
+    /* White */
+    background: #FDFDFD;
+    border: whitesmoke;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    width: 300px;
+    /* Button / 16 Lato ExtraBold */
+    font-family: 'Lato Bold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    /* Main (Red) */
+    color: var(--main-red);
+    padding: 15px;
+    margin-top: 3%;
+}
+
+.btn-med:hover {
+    background: var(--main-red);
     color: white;
 }
 
@@ -181,10 +271,10 @@ body, html {
 }
 
 .overline {
-    font-family: Lato;
+    font-family: 'Lato Bold';
     font-style: normal;
     font-weight: 900;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 16px;
     /* identical to box height, or 133% */
     letter-spacing: 2px;
@@ -270,7 +360,6 @@ nav .nav-link:visited {
         width: 200px !important;
         top: 10% !important;
         left: 43% !important;
-        
     }
     #home-section {
         /* padding-bottom: 20% !important; */
@@ -300,9 +389,8 @@ nav .nav-link:visited {
         padding-left: 10%;
     }
     #social-media {
-        position: absolute;
+        position: relative;
         bottom: 3%;
-        left: 53%;
         z-index: 5;
     }
     .vl {
@@ -344,6 +432,12 @@ nav .nav-link:visited {
         font-size: 14px;
         width: 100%;
     }
+    .headline-h4 {
+        /* Headline / H2 • 60 Playfair Display */
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: 1.5px;
+    }
     .subheadline {
         font-size: 16px;
     }
@@ -359,6 +453,10 @@ nav .nav-link:visited {
     #waffles-card-section {
         padding-left: 0px !important;
         padding-right: 0px !important;
+    }
+    #events-section {
+        padding-top: 15% !important;
+        padding-bottom: 15% !important;
     }
     #foundation-section {
         padding-top: 5px !important;
@@ -451,7 +549,7 @@ nav .nav-link:visited {
     border-radius: 5px;
     position: absolute;
     top: 20%;
-    font-family: 'Lato', sans-serif !important;
+    font-family: 'Lato Bold';
     font-size: 2vw;
     z-index: 2;
     color: var(--main-red);
@@ -485,67 +583,6 @@ nav .nav-link:visited {
 #body-reg {
     padding-top: 3%;
     /* background-color: #32a5fd; */
-}
-
-.btn-small {
-    position: relative;
-    /* White */
-    background: #FDFDFD;
-    border: whitesmoke;
-    box-sizing: border-box;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
-    border-radius: 5px;
-    /* Button / 16 Lato ExtraBold */
-    font-family: Lato;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    /* Main (Red) */
-    color: var(--main-red);
-    padding: 15px;
-    margin-top: 8%;
-}
-
-.btn-small:hover {
-    background: var(--main-red);
-    color: white;
-}
-
-.btn-med {
-    position: relative;
-    /* White */
-    background: #FDFDFD;
-    border: whitesmoke;
-    box-sizing: border-box;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
-    border-radius: 5px;
-    width: 300px;
-    /* Button / 16 Lato ExtraBold */
-    font-family: Lato;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 19px;
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    /* Main (Red) */
-    color: var(--main-red);
-    padding: 15px;
-    margin-top: 3%;
-}
-
-.btn-med:hover {
-    background: var(--main-red);
-    color: white;
 }
 
 .about-info {
@@ -700,16 +737,16 @@ nav .nav-link:visited {
 }
 
 .event-description {
-        /* Body / 14 Lato Regular */
-        font-family: Lato;
-        font-style: normal;
-        font-weight: normal;
-        /* font-size: 14px; */
-        line-height: 175%;
-        /* or 24px */
-        text-align: center;
-        letter-spacing: 1px;
-        color: var(--black);
+    /* Body / 14 Lato Regular */
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    /* font-size: 14px; */
+    line-height: 175%;
+    /* or 24px */
+    text-align: center;
+    letter-spacing: 1px;
+    color: var(--black);
     font-size: 0.72em !important;
 }
 
@@ -743,20 +780,21 @@ nav .nav-link:visited {
 }
 
 #footer {
+    background-image: url(./Components/Layouts/img/Footer/footer-bg.jpg);
+    background-size: cover;
     bottom: 0;
-    position: absolute;
+    position: relative;
     right: 0;
     left: 0;
     width: 100%;
     background-color: var(--sec-red);
-    color: white;
-    position: relative;
-    padding-top: 40px;
+    color: var(--yellow);
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 #franchise-section {
-    background-color: #030051;
-    color: white;
+    color: var(--black);
     position: relative;
     padding-top: 40px;
 }
@@ -1017,7 +1055,7 @@ nav .nav-link:visited {
 }
 
 #social-media {
-    font-size: 40px !important;
+    font-size: 24px !important;
 }
 
 #social-media a {
@@ -1081,7 +1119,7 @@ nav .nav-link:visited {
 }
 
 @media only screen and (min-width: 992px) {
-    #logo{
+    #logo {
         left: 40%;
     }
     .modal-footer {
@@ -1158,13 +1196,68 @@ nav .nav-link:visited {
     background-size: cover;
 }
 
-#outlet-section{
+#outlet-section {
     background-color: var(--sec-red);
-    padding: 5%;
 }
 
-#outlet-desc{
+#outlet-desc {
     padding-left: 10%;
-    width: 80%;
-    margin-right: 0px;
+    padding-right: 10%;
+    margin-right: 0px !important;
+}
+
+/* CONTACT SECTION */
+
+#contact-section {
+    padding-top: 3%;
+    padding-bottom: 6%;
+}
+
+.contact-title {
+    position: relative;
+    background-color: var(--yellow);
+    border-radius: 50px;
+    padding: 5%;
+    text-align: center;
+    width: 100%;
+}
+
+#contact-card-section {
+    text-align: center;
+}
+
+.contact-details {
+    background: #FDFDFD;
+    border: 1px solid rgba(218, 218, 218, 0.5);
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    width: fit-content;
+    width: 100%;
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+}
+
+.contact-card {
+    margin-top: 5%;
+}
+
+.fas {
+    color: var(--main-red) !important;
+}
+
+/* FOOTER  */
+
+#footer-logo {
+    width: 150px;
+    padding-bottom: 50%;
+}
+
+#logo-copyright{
+    padding-left: 10%;
+}
+
+
+.ft-link:hover{
+    color: var(--yellow) !important;
 }
