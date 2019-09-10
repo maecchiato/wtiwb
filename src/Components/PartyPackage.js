@@ -33,7 +33,8 @@ class PartyPackage extends React.Component {
     super();
 
     this.state = {
-      modalIsOpen: false,
+      mae: false,
+      archie: false,
     };
 
     this.openModal = this.openModal.bind(this);
@@ -140,7 +141,7 @@ class PartyPackage extends React.Component {
             Parties, School Events, Fairs, Exhibits, Food Bazaars and many more. As the Pambansang Waffle ng Pilipinas,
             we want to be with you anytime and anywhere in any of your special experiences and memories. Ibang-iba ang
             “filling” kapag ikaw ang siyang kapiling!</p>
-              <button type="button" className="btn-stroke" onClick={this.openModal}>
+              <button type="button" id="" className="btn-stroke" onClick={this.openModal}>
                 Avail Our Packages
             </button>
         </div>
