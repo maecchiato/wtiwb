@@ -709,9 +709,10 @@ nav .nav-link:visited {
 }
 
 .fillings-card {
+    position: relative;
     padding-left: 0px !important;
     padding-right: 0px !important;
-    padding-top: 5%;
+    padding-top: 6%;
 }
 
 .fillings-title {
@@ -721,8 +722,9 @@ nav .nav-link:visited {
     border-radius: 50px;
     padding: 5%;
     text-align: center;
-    margin-top: 65%;
-    width: 85%;
+    left: 5%;
+    margin-top: 85%;
+    width: 90%;
 }
 
 /* FOUNDATION SECTION */
@@ -1131,8 +1133,6 @@ nav .nav-link:visited {
     padding: 0 100px 0 100px;
     height: 100%;
     width: 70%;
-    /* justify-content: center;
-    text-align: center; */
 }
 
 #partypack-desc {
@@ -1297,9 +1297,11 @@ nav .nav-link:visited {
 .modal-body{
     padding-left: 10% !important;
     padding-right: 10% !important;
+    padding-top: 0px !important;
 }
+
 
 .modal-header {
     background-color: var(--main-red);
-    height: 80px !important;
+    height: 70px !important;
 }

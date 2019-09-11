@@ -87,7 +87,7 @@ class waffles extends React.Component {
           <div className="modal-body">
             <div className="row container-fluid party-package-modal justify-content-Left text-center">
               <div className="fillings-card col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                <div className="mx-4"><p className="fillings-title caption-12">SWISS CHOCOLATE</p></div>
+                <div className="mx-4 "><p className="fillings-title caption-12 float-center">SWISS CHOCOLATE</p></div>
                 <img id="waffle-img" src={sc}></img>
               </div>
               <div className="fillings-card col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
@@ -119,17 +119,36 @@ class waffles extends React.Component {
         >
 
           <div className="modal-header">
-            <p className="headline-h5 text-white mx-5">Savory Fillings</p>
+            <p className="headline-h5 text-white mx-5 text-center">Savory Fillings</p>
           </div>
 
           <div className="modal-body">
-            <div className="row party-package-modal">
-
+            <div className="row container-fluid party-package-modal justify-content-Left text-center">
+              <div className="fillings-card col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <div className="mx-4 "><p className="fillings-title caption-12 float-center">AMERICAN HOTDOG</p></div>
+                <img id="waffle-img" src={ah}></img>
+              </div>
+              <div className="fillings-card col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <div className="mx-4"><p className="fillings-title caption-12">TUNA SALAD</p></div>
+                <img id="waffle-img" src={ts}></img>
+              </div>
+              <div className="fillings-card col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <div className="mx-4"><p className="fillings-title caption-12">TJ CHEESEDOG</p></div>
+                <img id="waffle-img" src={tc}></img>
+              </div>
+              <div className="fillings-card col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <div className="mx-4"><p className="fillings-title caption-12">CBACON 'N CHEESE</p></div>
+                <img id="waffle-img" src={bnc}></img>
+              </div>
+              <div className="fillings-card col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <div className="mx-4"><p className="fillings-title caption-12">GERMAN CHEESE FRANKS</p></div>
+                <img id="waffle-img" src={gcf}></img>
+              </div>
+              <div className="fillings-card col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <div className="mx-4"><p className="fillings-title caption-12">HAM 'N CHEESE</p></div>
+                <img id="waffle-img" src={hnc}></img>
+              </div>
             </div>
-          </div>
-
-          <div className="modal-footer">
-            <button type="button" onClick={this.closeModal} className="btn btn-secondary">Close</button>
           </div>
         </Modal>
 
