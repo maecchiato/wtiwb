@@ -1,8 +1,6 @@
 import React from 'react';
 
-import waffywalking from './Layouts/img/waffy-walking.png';
-import imgfooter from './Layouts/img/footer.png';
-import logo from './Layouts/img/logo.png';
+import logo from '../assets/img/logo.png';
 
 class Footer extends React.Component {
     constructor() {

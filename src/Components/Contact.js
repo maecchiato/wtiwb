@@ -1,8 +1,6 @@
 import React from 'react';
 
-import waffywalking from './Layouts/img/waffy-walking.png';
-import imgfooter from './Layouts/img/footer.png';
-import rec from './Layouts/img/Heading/rec.jpg';
+import rec from '../assets/img/Heading/rec.jpg';
 
 class Contact extends React.Component {
 

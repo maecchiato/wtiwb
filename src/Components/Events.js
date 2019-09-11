@@ -1,13 +1,13 @@
 import React from 'react';
 import Slider from 'react-slick';
 
-import events1 from './Layouts/img/advertisements/events1.jpg';
-import events2 from './Layouts/img/advertisements/events2.jpg';
-import events3 from './Layouts/img/advertisements/events3.jpg';
-import events4 from './Layouts/img/flavor-of-the-month-display.jpg';
-import events5 from './Layouts/img/advertisements/events5.jpg';
-import events6 from './Layouts/img/advertisements/events6.jpg';
-import rec from './Layouts/img/Heading/rec.jpg';
+import events1 from '../assets/img/advertisements/events1.jpg';
+import events2 from '../assets/img/advertisements/events2.jpg';
+import events3 from '../assets/img/advertisements/events3.jpg';
+import events4 from '../assets/img/flavor-of-the-month-display.jpg';
+import events5 from '../assets/img/advertisements/events5.jpg';
+import events6 from '../assets/img/advertisements/events6.jpg';
+import rec from '../assets/img/Heading/rec.jpg';
 
 class Events extends React.Component{
   render(){

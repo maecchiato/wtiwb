@@ -2,14 +2,14 @@ import React from 'react';
 
 import {Button} from 'react-bootstrap';
 import { Carousel } from "react-responsive-carousel";
-import image1 from './Layouts/img/carousel/img1.jpg';
-import image2 from './Layouts/img/carousel/img2.jpg';
-import image3 from './Layouts/img/carousel/img3.jpg';
-import image4 from './Layouts/img/carousel/img4.jpg';
-import image5 from './Layouts/img/carousel/img5.jpg';
-import image6 from './Layouts/img/carousel/img6.jpg';
-import image7 from './Layouts/img/carousel/img7.jpg';
-import image8 from './Layouts/img/carousel/img8.jpg';
+import image1 from '../assets/img/carousel/img1.jpg';
+import image2 from '../assets/img/carousel/img2.jpg';
+import image3 from '../assets/img/carousel/img3.jpg';
+import image4 from '../assets/img/carousel/img4.jpg';
+import image5 from '../assets/img/carousel/img5.jpg';
+import image6 from '../assets/img/carousel/img6.jpg';
+import image7 from '../assets/img/carousel/img7.jpg';
+import image8 from '../assets/img/carousel/img8.jpg';
 
 class Home extends React.Component {
   render() {

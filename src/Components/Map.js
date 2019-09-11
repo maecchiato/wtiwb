@@ -1,8 +1,6 @@
 import React from 'react';
 
-import wavycurve from './Layouts/img/wavy-curve-red.png';
-import wavycurveblue from './Layouts/img/wavy-curve-blue.png';
-import rec from './Layouts/img/rec-yellow.jpg';
+import rec from '../assets/img/rec-yellow.jpg';
 
 
 import {

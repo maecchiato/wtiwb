@@ -1,12 +1,21 @@
 import React from 'react';
 import Modal from 'react-modal';
-import waffle from './Layouts/img/waffle.png';
-import ourwaffles from './Layouts/img/our-waffle.png'
-import rec from './Layouts/img/Heading/rec.jpg'
-import wafflestorePackageA from './Layouts/img/waffle-store-packageA.jpg';
-import wafflestorePackageB from './Layouts/img/waffle-store-packageB.jpg';
-import ReactToolTip from 'react-tooltip';
-import { findDOMNode } from 'react-dom'
+
+import rec from '../assets/img/Heading/rec.jpg'
+import ah from '../assets/img/waffles/sv-americanhotdog.jpg';
+import ts from '../assets/img/waffles/sv-tunasalad.jpg';
+import tc from '../assets/img/waffles/sv-tjcheesedog.jpg';
+import bnc from '../assets/img/waffles/sv-baconncheese.jpg';
+import gcf from '../assets/img/waffles/sv-germanfranks.jpg';
+import hnc from '../assets/img/waffles/sv-hamncheese.jpg';
+
+import sc from '../assets/img/waffles/sw-swisschocolate.jpg';
+import uu from '../assets/img/waffles/sw-ultimateube.jpg';
+import bvc from '../assets/img/waffles/sw-bavariancream.jpg';
+import cd from '../assets/img/waffles/sw-cheesedelight.jpg';
+import bc from '../assets/img/waffles/sw-belgianchocolate.jpg';
+
+
 
 const customStyles = {
   content: {
@@ -53,8 +62,10 @@ class waffles extends React.Component {
   }
 
   closeModal() {
-    this.setState({ svModalIsOpen: false,
-      swModalIsOpen: false});
+    this.setState({
+      svModalIsOpen: false,
+      swModalIsOpen: false
+    });
   }
 
   render() {
@@ -70,17 +81,32 @@ class waffles extends React.Component {
         >
 
           <div className="modal-header">
-            <p className="headline-h5 text-white mx-5">Sweet Fillings</p>
+            <p className="headline-h5 text-white mx-5 text-center">Sweet Fillings</p>
           </div>
 
           <div className="modal-body">
-            <div className="row party-package-modal">
-
+            <div className="row container-fluid party-package-modal justify-content-Left text-center">
+              <div className="fillings-card col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <div className="mx-4"><p className="fillings-title caption-12">SWISS CHOCOLATE</p></div>
+                <img id="waffle-img" src={sc}></img>
+              </div>
+              <div className="fillings-card col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <div className="mx-4"><p className="fillings-title caption-12">ULTIMATE UBE</p></div>
+                <img id="waffle-img" src={uu}></img>
+              </div>
+              <div className="fillings-card col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <div className="mx-4"><p className="fillings-title caption-12">BAVARIAN CREAM</p></div>
+                <img id="waffle-img" src={bvc}></img>
+              </div>
+              <div className="fillings-card col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <div className="mx-4"><p className="fillings-title caption-12">CHEESE DELIGHT</p></div>
+                <img id="waffle-img" src={cd}></img>
+              </div>
+              <div className="fillings-card col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <div className="mx-4"><p className="fillings-title caption-12">BELGIAN CHOCOLATE</p></div>
+                <img id="waffle-img" src={bc}></img>
+              </div>
             </div>
-          </div>
-
-          <div className="modal-footer">
-            <button type="button" onClick={this.closeModal} className="btn btn-secondary">Close</button>
           </div>
         </Modal>
 

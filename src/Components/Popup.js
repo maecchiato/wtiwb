@@ -2,7 +2,7 @@ import React from 'react';
 import Modal from 'react-modal';
 import '../App.css';
 
-import flavorOFTheMonth from './Layouts/img/flavor-of-the-month-display.jpg';
+import flavorOFTheMonth from '../assets/img/flavor-of-the-month-display.jpg';
 
 const customStyles = {
     content: {

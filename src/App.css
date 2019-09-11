@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'Playfair';
-    src: url('./Components/Layouts/fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+    src: url('./assets/fonts/PlayfairDisplay-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Lato';
-    src: url('./Components/Layouts/fonts/Lato\ regular.ttf');
+    src: url('./assets/fonts/Lato\ regular.ttf');
 }
 
 @font-face {
     font-family: 'Lato Bold';
-    src: url('./Components/Layouts/fonts/Lato\ 900.ttf');
+    src: url('./assets/fonts/Lato\ 900.ttf');
 }
 
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC');
@@ -47,6 +47,18 @@ nav {
 body, html {
     margin: 0;
     height: 100%;
+}
+
+#color1 {
+    background-color: #AF0700;
+}
+
+#color2 {
+    background-color: green;
+}
+
+#color3 {
+    background-color: blue;
 }
 
 /* Style Components */
@@ -620,7 +632,7 @@ nav .nav-link:visited {
 
 #waffles-section {
     /* background-color: #fee300; */
-    background-image: url(../src/Components/Layouts/img/waffle-bg.jpg);
+    background-image: url(../src/assets/img/waffle-bg.jpg);
     background-size: cover;
     background-position: center;
     color: white;
@@ -638,18 +650,6 @@ nav .nav-link:visited {
     text-align: center;
 }
 
-#color1 {
-    background-color: #AF0700;
-}
-
-#color2 {
-    background-color: green;
-}
-
-#color3 {
-    background-color: blue;
-}
-
 #waffles-waffle {
     margin-top: 25px;
     background-position: center;
@@ -664,8 +664,6 @@ nav .nav-link:visited {
     background-color: #fa0002 !important;
     color: white !important;
 }
-
-#waffle-definition-2 {}
 
 #waffle-definition-title-2 {
     color: #32a5fd;
@@ -706,9 +704,25 @@ nav .nav-link:visited {
     background-color: var(--main-red);
 }
 
-#waffle-curve {
-    width: 100%;
-    padding-top: 100px;
+#waffle-img {
+    width: 95%;
+}
+
+.fillings-card {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-top: 5%;
+}
+
+.fillings-title {
+    position: absolute;
+    z-index: 5;
+    background-color: var(--yellow);
+    border-radius: 50px;
+    padding: 5%;
+    text-align: center;
+    margin-top: 65%;
+    width: 85%;
 }
 
 /* FOUNDATION SECTION */
@@ -791,7 +805,7 @@ nav .nav-link:visited {
 }
 
 #footer {
-    background-image: url(./Components/Layouts/img/Footer/footer-bg.jpg);
+    background-image: url(./assets/img/Footer/footer-bg.jpg);
     background-size: cover;
     bottom: 0;
     position: relative;
@@ -1101,7 +1115,7 @@ nav .nav-link:visited {
 /* PARTY PACKAGE SECTION */
 
 #partypackage-section {
-    background-image: url(../src/Components/Layouts/img/partypack-bg.jpg);
+    background-image: url(../src/assets/img/partypack-bg.jpg);
     background-size: cover;
     color: white;
     position: relative;
@@ -1114,8 +1128,11 @@ nav .nav-link:visited {
 }
 
 .party-package-modal {
-    padding: 0 50px 0 50px;
+    padding: 0 100px 0 100px;
     height: 100%;
+    width: 70%;
+    /* justify-content: center;
+    text-align: center; */
 }
 
 #partypack-desc {
@@ -1142,7 +1159,7 @@ nav .nav-link:visited {
     }
     #about-section {
         padding-left: 8% !important;
-        background-image: url(../src/Components/Layouts/img/about-bg.jpg);
+        background-image: url(../src/assets/img/about-bg.jpg);
         background-size: cover!important;
         padding-bottom: 3% !important;
     }
@@ -1203,7 +1220,7 @@ nav .nav-link:visited {
 }
 
 #foundation-video {
-    background-image: url(../src/Components/Layouts/img/foundation-bg.jpg);
+    background-image: url(../src/assets/img/foundation-bg.jpg);
     background-size: cover;
 }
 
@@ -1264,21 +1281,25 @@ nav .nav-link:visited {
     padding-bottom: 50%;
 }
 
-#logo-copyright{
+#logo-copyright {
     padding-left: 10%;
 }
 
-
-.ft-link:hover{
+.ft-link:hover {
     color: var(--yellow) !important;
 }
 
-.ReactModal__Content{
+.ReactModal__Content {
     padding: 0px !important;
-    
+    width: 50%;
 }
 
-.modal-header{
+.modal-body{
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+
+.modal-header {
     background-color: var(--main-red);
     height: 80px !important;
 }

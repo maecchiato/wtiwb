@@ -1,9 +1,7 @@
 import React from 'react';
 import Youtube from '@u-wave/react-youtube';
 
-import curve from './Layouts/img/curve.png';
-import rec from './Layouts/img/Heading/rec.jpg'
-import year20IMG from './Layouts/img/20-years.png';
+import rec from '../assets/img/Heading/rec.jpg'
 
 
 class Foundation extends React.Component {
