@@ -132,13 +132,13 @@ class Maps extends React.Component {
     );
     return (
       <div id="map-section" className="row">
-        <div className="col-xl-5 col-lg-5 col-md-12 col-xs-12 col-sm-12 px-0">
-          <div ref="map" className="" id="map-size"   >
+        <div className="col-xl-5 col-lg-12 col-md-12 col-xs-12 col-sm-12 px-0">
+          <div ref="map" className="" id="map-size">
             <MapWithASearchBox isMarkerShowns isMarkerShown MarkerShowns />
           </div>
         </div>
 
-        <div id="outlet-section" className="col-xl-7 col-lg-7 col-md-12 col-xs-12 col-sm-12 px-0">
+        <div id="outlet-section" className="col-xl-7 col-lg-12 col-md-12 col-xs-12 col-sm-12 px-0 pb-4">
           <div>
             <p className="headline-h4 text-white pl-4 ml-4 w-75 pt-5">400 Outlets Nationwide and Counting</p>
             <img className="pl-5 pt-3" src={rec}></img>

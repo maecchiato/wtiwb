@@ -16,10 +16,10 @@ class Contact extends React.Component {
                     </a>
                 </div>
                 <div id="contact-card-section" className="row mt-2 text-center">
-                    <div className="col-xl-1 col-lg-1 col-md-auto col-sm-auto col-xs-auto">
+                    <div className="col-xl-1 col-lg-1 col-md-1 col-sm-auto col-xs-auto">
                     </div>
                     {/* *************************************** */}
-                    <div className="contact-card col-xl-2 col-lg-2 col-md-12 col-sm-auto col-xs-auto text-center">
+                    <div className="contact-card col-xl-2 col-lg-2 col-md-2 col-sm-auto col-xs-auto text-center">
                         <div className="mx-3"><p className="contact-title overline">Iloilo Head Office</p></div>
                         <div className="contact-details pt-3">
 
@@ -38,7 +38,7 @@ class Contact extends React.Component {
                         </div>
                     </div>
                     {/* *************************************** */}
-                    <div className="contact-card col-xl-2 col-lg-2 col-md-12 col-sm-auto col-xs-auto text-center">
+                    <div className="contact-card col-xl-2 col-lg-2 col-md-2 col-sm-auto col-xs-auto text-center">
                         <div className="mx-3"><p className="contact-title overline">Metro Manila</p></div>
                         <div className="contact-details pt-3">
 
@@ -57,7 +57,7 @@ class Contact extends React.Component {
                         </div>
                     </div>
 
-                    <div className="contact-card col-xl-2 col-lg-2 col-md-12 col-sm-auto col-xs-auto text-center">
+                    <div className="contact-card col-xl-2 col-lg-2 col-md-2 col-sm-auto col-xs-auto text-center">
                         <div className="mx-3"><p className="contact-title overline">Davao</p></div>
                         <div className="contact-details pt-3">
 
@@ -76,7 +76,7 @@ class Contact extends React.Component {
                         </div>
                     </div>
 
-                    <div className="contact-card col-xl-2 col-lg-2 col-md-12 col-sm-auto col-xs-auto text-center">
+                    <div className="contact-card col-xl-2 col-lg-2 col-md-2 col-sm-auto col-xs-auto text-center">
                         <div className="mx-3"><p className="contact-title overline">Cebu</p></div>
                         <div className="contact-details pt-2">
 
@@ -95,7 +95,7 @@ class Contact extends React.Component {
                         </div>
                     </div>
 
-                    <div className="contact-card col-xl-2 col-lg-2 col-md-12 col-sm-auto col-xs-auto text-center">
+                    <div className="contact-card col-xl-2 col-lg-2 col-md-2 col-sm-auto col-xs-auto text-center">
                         <div className="mx-3"><p className="contact-title overline">Cagayan de Oro</p></div>
                         <div className="contact-details pt-2">
 
@@ -114,7 +114,7 @@ class Contact extends React.Component {
                         </div>
                     </div>
 
-                    <div className="col-xl-1 col-lg-1 col-md-auto col-sm-auto col-xs-auto">
+                    <div className="col-xl-1 col-lg-1 col-md-1 col-sm-auto col-xs-auto">
                     </div>
                 </div>
             </div>
