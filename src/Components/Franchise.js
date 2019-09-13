@@ -1,7 +1,7 @@
 import React from 'react';
 
-import waffywalking from './Layouts/img/waffy-walking.png';
-import imgfooter from './Layouts/img/footer.png';
+import waffywalking from '../assets/img/waffy-walking.png';
+import imgfooter from '../assets/img/footer.png';
 
 class Franchise extends React.Component{
 

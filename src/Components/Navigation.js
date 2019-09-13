@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './Layouts/img/logo.png';
+import logo from '../assets/img/logo.png';
 
 
 class Navigation extends React.Component {

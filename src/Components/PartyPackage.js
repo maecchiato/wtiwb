@@ -4,10 +4,10 @@ import '../App.css';
 import ReactToolTip from 'react-tooltip';
 import { findDOMNode } from 'react-dom'
 
-import title from './Layouts/img/title.png';
-import rec from './Layouts/img/Heading/rec.jpg';
-import wafflestorePackageA from './Layouts/img/waffle-store-packageA.jpg';
-import wafflestorePackageB from './Layouts/img/waffle-store-packageB.jpg';
+import title from '../assets/img/title.png';
+import rec from '../assets/img/Heading/rec.jpg';
+import wafflestorePackageA from '../assets/img/waffle-store-packageA.jpg';
+import wafflestorePackageB from '../assets/img/waffle-store-packageB.jpg';
 
 const customStyles = {
   content: {
@@ -33,7 +33,8 @@ class PartyPackage extends React.Component {
     super();
 
     this.state = {
-      modalIsOpen: false,
+      mae: false,
+      archie: false,
     };
 
     this.openModal = this.openModal.bind(this);
@@ -129,9 +130,9 @@ class PartyPackage extends React.Component {
             </div>
           </div>
 
-          <div className="modal-footer">
+          {/* <div className="modal-footer">
             <button type="button" onClick={this.closeModal} className="btn btn-secondary">Close</button>
-          </div>
+          </div> */}
         </Modal>
 
         <div id="partypack-desc" className="col-xl-3 col-lg-4 col-md-12 col-sm-12 col-12">
@@ -140,7 +141,7 @@ class PartyPackage extends React.Component {
             Parties, School Events, Fairs, Exhibits, Food Bazaars and many more. As the Pambansang Waffle ng Pilipinas,
             we want to be with you anytime and anywhere in any of your special experiences and memories. Ibang-iba ang
             “filling” kapag ikaw ang siyang kapiling!</p>
-              <button type="button" className="btn-stroke" onClick={this.openModal}>
+              <button type="button" id="" className="btn-stroke" onClick={this.openModal}>
                 Avail Our Packages
             </button>
         </div>

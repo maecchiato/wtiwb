@@ -1,8 +1,8 @@
 import React from 'react';
 import { Route, Link } from 'react-router-dom';
 // import MissionVission from './Components/MissionVission';
-import waffy from './Layouts/img/waffy-mascot.png';
-import rec from './Layouts/img/Heading/rec.jpg'
+import waffy from '../assets/img/waffy-mascot.png';
+import rec from '../assets/img/Heading/rec.jpg';
 
 
 

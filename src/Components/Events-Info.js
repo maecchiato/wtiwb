@@ -1,9 +1,7 @@
 import React from 'react';
 import Youtube from '@u-wave/react-youtube';
 
-import curve from './Layouts/img/curve.png';
-
-import year20IMG from './Layouts/img/20-years.png';
+import year20IMG from '../assets/img/20-years.png';
 
 
 class Map extends React.Component{
