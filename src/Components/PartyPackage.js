@@ -130,9 +130,9 @@ class PartyPackage extends React.Component {
             </div>
           </div>
 
-          <div className="modal-footer">
+          {/* <div className="modal-footer">
             <button type="button" onClick={this.closeModal} className="btn btn-secondary">Close</button>
-          </div>
+          </div> */}
         </Modal>
 
         <div id="partypack-desc" className="col-xl-3 col-lg-4 col-md-12 col-sm-12 col-12">

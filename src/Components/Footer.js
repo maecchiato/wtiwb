@@ -27,12 +27,11 @@ class Footer extends React.Component {
 
     render() {
         return (
-            <div id="footer" className="row justify-content-sm-center">
-                <div id="logo-copyright" className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                    <img id="footer-logo" src={logo}></img>
-                    <p className="caption-12">© 2019 Waffle Time Inc. All rights reserved.</p>
+            <div id="footer" className="row justify-content-sm-left">
+                <div id="logo-copyright" className="col-xl-4 col-lg-4 d-none d-lg-block">
+                    <img id="footer-logo" className="" src={logo}></img>
                 </div>
-                <div id="sitemap" className="col-xl-2 col-lg-2 col-md-12 col-sm-12 col-xs-12">
+                <div id="sitemap" className="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-xs-4 d-none d-lg-block">
                     <p>Site Map</p>
                     <a className="ft-link text-white caption-12" onClick={this.closeMenuToggler} href="#about-section">About Us</a><br />
                     <a className="ft-link text-white caption-12" onClick={this.closeMenuToggler} href="#map-section">Branches</a><br />
@@ -43,17 +42,18 @@ class Footer extends React.Component {
                     <a className="ft-link text-white caption-12" onClick={this.closeMenuToggler} href="#events-section">Events</a><br />
                     <a className="ft-link text-white caption-12" onClick={this.closeMenuToggler} href="#contact-section">Contact Us</a>
                 </div>
-                <div id="contact-info" className="col-xl-2 col-lg-2 col-md-12 col-sm-12 col-xs-12">
+                <div id="contact-info" className="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-xs-4 ">
+                    <div className="col-xl-12 col-lg-12 col-md-12 col-sm-6 col-xs-6 ">
                     <p className="pb-1">Contact Info</p>
                     <p className="font-weight-bold h6 text-white">Iloilo Head Office</p>
                     <p className="caption-12 text-white">Door 5, Q.H.P Bdlg., Arsenal St., Iloilo City <br/>
                     (033) - 335 0935 <br/>
                     (033) - 335 0026</p>
-                    
-                    <span id="social-media" className="d-none d-md-block">
+                    </div>
+                    <div id="social-media" className="col-xl-12 col-lg-12 col-md-12 col-sm-6 col-xs-6 ">
                     <p className="pt-3 h6">Stay Connected</p>
-                        <span id="social-media-display" className="float-left">
-                            <span id="social-media-icons">
+                        <div id="social-media-display" className="float-left">
+                            <div id="social-media-icons">
                                 <a href="https://www.facebook.com/WaffleTimeInc/">
                                     <i className="fab fa-facebook-square mr-2"></i>
                                 </a>
@@ -63,13 +63,16 @@ class Footer extends React.Component {
                                 <a href="https://www.instagram.com/waffletime_ph/">
                                     <i className="fab fa-instagram"></i>
                                 </a>
-                            </span>
-                        </span>
-                    </span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                <div className="col-xl-4 col-lg-4 col-md-4 col-sm-auto col-xs-auto">
 
                 </div>
+
+                <p className="caption-12 pt-4 w-100 text-center">© 2019 Waffle Time Inc. All rights reserved.</p>
+
             </div>
         )
     }

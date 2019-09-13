@@ -27,7 +27,7 @@ const customStyles = {
     backgroundColor: 'white',
     transform: 'translate(-50%, -50%)',
     overlfow: 'scroll',
-    height: '85vh'
+    height: '90vh'
   },
   overlay: {
     zIndex: '9999'
@@ -84,8 +84,8 @@ class waffles extends React.Component {
             <p className="headline-h5 text-white mx-5 text-center">Sweet Fillings</p>
           </div>
 
-          <div className="modal-body">
-            <div className="row container-fluid party-package-modal justify-content-Left text-center">
+          <div className="modal-body-fillings">
+            <div className="row container-fluid fillings-modal justify-content-Left text-center">
               <div className="fillings-card col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
                 <div className="mx-4 "><p className="fillings-title caption-12 float-center">SWISS CHOCOLATE</p></div>
                 <img id="waffle-img" src={sc}></img>
@@ -123,7 +123,7 @@ class waffles extends React.Component {
           </div>
 
           <div className="modal-body">
-            <div className="row container-fluid party-package-modal justify-content-Left text-center">
+            <div className="row container-fluid fillings-modal justify-content-Left text-center">
               <div className="fillings-card col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
                 <div className="mx-4 "><p className="fillings-title caption-12 float-center">AMERICAN HOTDOG</p></div>
                 <img id="waffle-img" src={ah}></img>
@@ -137,7 +137,7 @@ class waffles extends React.Component {
                 <img id="waffle-img" src={tc}></img>
               </div>
               <div className="fillings-card col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                <div className="mx-4"><p className="fillings-title caption-12">CBACON 'N CHEESE</p></div>
+                <div className="mx-4"><p className="fillings-title caption-12">BACON 'N CHEESE</p></div>
                 <img id="waffle-img" src={bnc}></img>
               </div>
               <div className="fillings-card col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
