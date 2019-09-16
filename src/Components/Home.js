@@ -17,14 +17,15 @@ class Home extends React.Component {
       <div id="home-section" className="row">
         <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 no-padding">
           <Carousel className="row justify-content-sm-center" autoPlay="true" infiniteLoop="true"  >
-          <div>
-              <img src={image6} />
-            </div>
+          
             <div>
               <img src={image1} />
             </div>
             <div>
               <img src={image2} />
+            </div>
+            <div>
+              <img src={image3} />
             </div>
             <div>
               <img src={image4} />
@@ -34,6 +35,9 @@ class Home extends React.Component {
             </div>
             <div>
               <img src={image7} />
+            </div>
+            <div>
+              <img src={image6} />
             </div>
             <div>
               <img src={image8} />
