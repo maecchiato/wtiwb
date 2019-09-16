@@ -27,7 +27,7 @@ const customStyles = {
     backgroundColor: 'white',
     transform: 'translate(-50%, -50%)',
     overlfow: 'scroll',
-    height: '90vh'
+    height: '85vh'
   },
   overlay: {
     zIndex: '9999'
@@ -81,11 +81,11 @@ class waffles extends React.Component {
         >
 
           <div className="modal-header">
-            <p className="headline-h5 text-white mx-5 text-center">Sweet Fillings</p>
+            <p className="headline-h5 text-white text-center">Sweet Fillings</p>
           </div>
 
           <div className="modal-body-fillings">
-            <div className="row container-fluid fillings-modal justify-content-Left text-center">
+            <div className="row fillings-modal justify-content-Left text-center">
               <div className="fillings-card col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
                 <div className="mx-4 "><p className="fillings-title caption-12 float-center">SWISS CHOCOLATE</p></div>
                 <img id="waffle-img" src={sc}></img>
@@ -119,14 +119,14 @@ class waffles extends React.Component {
         >
 
           <div className="modal-header">
-            <p className="headline-h5 text-white mx-5 text-center">Savory Fillings</p>
+            <p className="headline-h5 text-white text-center">Savory Fillings</p>
           </div>
 
-          <div className="modal-body">
-            <div className="row container-fluid fillings-modal justify-content-Left text-center">
+          <div className="modal-body-fillings">
+            <div className="row fillings-modal justify-content-Left text-center">
               <div className="fillings-card col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
                 <div className="mx-4 "><p className="fillings-title caption-12 float-center">AMERICAN HOTDOG</p></div>
-                <img id="waffle-img" src={ah}></img>
+                <img id="waffle-img img-fluid" src={ah}></img>
               </div>
               <div className="fillings-card col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
                 <div className="mx-4"><p className="fillings-title caption-12">TUNA SALAD</p></div>
@@ -146,7 +146,7 @@ class waffles extends React.Component {
               </div>
               <div className="fillings-card col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
                 <div className="mx-4"><p className="fillings-title caption-12">HAM 'N CHEESE</p></div>
-                <img id="waffle-img" src={hnc}></img>
+                <img id="waffle-img" className="responsive" src={hnc}></img>
               </div>
             </div>
           </div>

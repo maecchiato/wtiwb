@@ -150,8 +150,8 @@ body, html {
     font-family: 'Lato';
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 11px;
+    line-height: 12px;
     /* identical to box height, or 167% */
     letter-spacing: 0.5px;
 }
@@ -394,6 +394,12 @@ nav .nav-link:visited {
     color: #fa0002 !important;
 }
 
+.responsive{
+    width: 100%;
+    max-width: 175px;
+    height: auto;
+}
+
 /************** Personalized CSS **************/
 
 #navbar-header {
@@ -470,7 +476,7 @@ nav .nav-link:visited {
         z-index: 1030;
     }
     #about-section {
-        padding-left: 8% !important;
+        /* padding-left: 8% !important; */
         background-image: url(../src/assets/img/about-bg.jpg);
         background-size: cover!important;
         padding-bottom: 3% !important;
@@ -568,7 +574,20 @@ nav .nav-link:visited {
         font-size: 12px !important;
         padding-right: 2% !important;
         padding-left: 2% !important;
+        align-items: center !important;
     }
+
+    .fillings-card{
+        padding-top: 8% !important;
+        margin-bottom: 8% !important;
+    }
+
+    .modal-header .headline-h5{
+        font-size: 20px !important;
+        letter-spacing: 0px !important;
+        line-height: 32px !important;
+    }
+
     #foundation-video {
         background-image: none !important;
     }
@@ -747,14 +766,14 @@ top: 0;
 }
 
 #waffle-img {
-    width: 95%;
+    width: 175px;
 }
 
 .fillings-card {
     position: relative;
     padding-left: 0px !important;
     padding-right: 0px !important;
-    padding-top: 6%;
+    padding-top: 4%;
 }
 
 .fillings-title {
@@ -762,11 +781,11 @@ top: 0;
     z-index: 5;
     background-color: var(--yellow);
     border-radius: 50px;
-    padding: 5%;
+    padding: 4%;
     text-align: center;
-    left: 5%;
-    margin-top: 85%;
-    width: 90%;
+    left: 15%;
+    top: 92%;
+    width: 70%;
 }
 
 /* FOUNDATION SECTION */
@@ -1257,6 +1276,11 @@ top: 0;
     width: 100%;
 }
 
+.contact-card{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
 #contact-card-section {
     text-align: center;
 }
@@ -1298,7 +1322,7 @@ top: 0;
 
 .ReactModal__Content {
     padding: 0px !important;
-    width: fit-content;
+    width: 65%;
 }
 
 .modal-body-fillings{
@@ -1307,11 +1331,9 @@ top: 0;
     padding-top: 0px !important;
 }
 
-.fillings-modal {
-    padding: 0 100px 0 100px;
+/* .fillings-modal {
     height: 100%;
-    width: 70%;
-}
+} */
 
 
 .modal-header {
