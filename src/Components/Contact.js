@@ -20,7 +20,7 @@ class Contact extends React.Component {
                     </div>
                     {/* *************************************** */}
                     <div className="contact-card col-xl-2 col-lg-2 col-md-2 col-sm-auto col-xs-auto text-center">
-                        <div className="mx-3"><p className="contact-title overline">Iloilo Head Office</p></div>
+                        <p className="contact-title overline">Iloilo Head Office</p>
                         <div className="contact-details pt-3">
 
                             <p className="contact-body text-left mb-2 mt-2">
@@ -39,7 +39,7 @@ class Contact extends React.Component {
                     </div>
                     {/* *************************************** */}
                     <div className="contact-card col-xl-2 col-lg-2 col-md-2 col-sm-auto col-xs-auto text-center">
-                        <div className="mx-3"><p className="contact-title overline">Metro Manila</p></div>
+                        <p className="contact-title overline">Metro Manila</p>
                         <div className="contact-details pt-3">
 
                             <p className="contact-body text-left mb-2 mt-2">
@@ -48,7 +48,7 @@ class Contact extends React.Component {
                             </p>
                             <p className="contact-body text-left mb-2 mt-2">
                                 <i className="fas fa-phone-square mr-2"></i>
-                                (02) - 584 - 1601
+                                (02) - 584 - 3704
                                 </p>
                             <p className="contact-body text-left mb-4">
                                 <i className="fas fa-fax mr-2"></i>
@@ -58,7 +58,7 @@ class Contact extends React.Component {
                     </div>
 
                     <div className="contact-card col-xl-2 col-lg-2 col-md-2 col-sm-auto col-xs-auto text-center">
-                        <div className="mx-3"><p className="contact-title overline">Davao</p></div>
+                        <p className="contact-title overline">Davao</p>
                         <div className="contact-details pt-3">
 
                             <p className="contact-body text-left mb-2 mt-2">
@@ -77,7 +77,7 @@ class Contact extends React.Component {
                     </div>
 
                     <div className="contact-card col-xl-2 col-lg-2 col-md-2 col-sm-auto col-xs-auto text-center">
-                        <div className="mx-3"><p className="contact-title overline">Cebu</p></div>
+                        <p className="contact-title overline">Cebu</p>
                         <div className="contact-details pt-2">
 
                             <p className="contact-body text-left mb-2 mt-2">
@@ -96,7 +96,7 @@ class Contact extends React.Component {
                     </div>
 
                     <div className="contact-card col-xl-2 col-lg-2 col-md-2 col-sm-auto col-xs-auto text-center">
-                        <div className="mx-3"><p className="contact-title overline">Cagayan de Oro</p></div>
+                        <p className="contact-title overline">Cagayan de Oro</p>
                         <div className="contact-details pt-2">
 
                             <p className="contact-body text-left mb-2 mt-2">
