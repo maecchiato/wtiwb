@@ -53,46 +53,51 @@ class Events extends React.Component{
         <Slider {...settings}>
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-                Monday, 4 June 2018
+                Friday, 13 September 2019
               </small>
+              <a href="https://www.facebook.com/WaffleTimeInc/photos/a.411614677725/10157461150387726/?type=3&theater">
             <img className = "img-size" src = {events1} />
               <p className = "event-description">
-                Waffy goes on a Natiownide Tour!
+                Waffle Time celebrates 21st National Waffle Time Day
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
 
               </p>
- 
+              </a>
           </div>
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-          Monday, 4 June 2018
+          Wednesday, 11 September 2019
               </small>
+              <a href="https://www.facebook.com/WaffleTimeInc/photos/a.411614677725/10157458993177726/?type=3&theater">
             <img className = "img-size" src = {events2} />
               <p className = "event-description">
-                Waffle Time&apos;s Treat to the Best Mothers of the World!
+              Waffle Time Joins PFA on Franchise Negosyo activities Nationwide!
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
 
               </p>
-
+              </a>
           </div>
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-                Monday, 4 July 2018
+                Saturday, 7 September 2019
               </small>
+              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157447168432726?__tn__=-R">
             <img className = "img-size" src = {events3} />
               <p className = "event-description">
-                Waffle Time launched the year-long celebration of its 20th Anniversary!
+                Waffle Time Foundation honors grandparents on National Grandparent&apos;s Day
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
 
               </p>
+              </a>
           </div>
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-                Sunday, 1 July 2018
+                Monday, 1 July 2019
               </small>
+              <a href="https://www.facebook.com/WaffleTimeInc/photos/a.411614677725/10157277864907726/?type=3&theater">
             <img className = "img-size" src = {events4} />
               <p className = "event-description">
                 Fillings of the Month is here!
@@ -100,30 +105,37 @@ class Events extends React.Component{
               <p className = "mt-1 mx-1 event-description text-justify">
 
               </p>
+              </a>
           </div>
+          
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-                Sunday, 1 June 2018
+                Sunday, 1 September 2019
               </small>
+              <a href="https://www.facebook.com/WaffleTimeInc/photos/a.411614677725/10157427057702726/?type=3&theater">
             <img className = "img-size" src = {events5} />
               <p className = "event-description">
-                 Waffle Time Joins PFA on Franchise Negosyo activities Nationwide!
+              WaffleTime now accepts GCash! Exclusive to selected Iloilo, Kalibo, and Roxas branches
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
 
               </p>
+              </a>              
           </div>
+          
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-                Sunday, 1 June 2018
+                Tuesday, 18 June 2019
               </small>
+              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157244875987726?__tn__=-R">
             <img className = "img-size" src = {events6} />
               <p className = "event-description">
-                We honor Dads with Waffle-licious Gifts on Father&apos;s Day
+                Waffle Time recognizes franchisee awardees during 20th year Gala
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
 
               </p>
+              </a>
           </div>
 
          </Slider>

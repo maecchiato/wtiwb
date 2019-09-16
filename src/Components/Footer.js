@@ -54,13 +54,13 @@ class Footer extends React.Component {
                     <p className="pt-3 h6">Stay Connected</p>
                         <div id="social-media-display" className="float-left">
                             <div id="social-media-icons">
-                                <a href="https://www.facebook.com/WaffleTimeInc/">
+                                <a href="https://www.facebook.com/WaffleTimeInc/" target="_blank" rel="noopener">
                                     <i className="fab fa-facebook-square mr-2"></i>
                                 </a>
-                                <a href="https://twitter.com/waffletime_ph?lang=en">
+                                <a href="https://twitter.com/waffletime_ph?lang=en" target="_blank" rel="noopener">
                                     <i className="fab fa-twitter-square mr-2"></i>
                                 </a>
-                                <a href="https://www.instagram.com/waffletime_ph/">
+                                <a href="https://www.instagram.com/waffletime_ph/" target="_blank" rel="noopener">
                                     <i className="fab fa-instagram"></i>
                                 </a>
                             </div>
