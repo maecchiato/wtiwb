@@ -591,6 +591,24 @@ nav .nav-link:visited {
     #foundation-video {
         background-image: none !important;
     }
+
+    .party-package-modal{
+        padding: 0px !important;
+    }
+
+
+    #img-cart{
+        width: 175px !important;
+    }
+
+    #package-card{
+        margin-top: 5% !important;
+        margin-bottom: 15% !important;
+    }
+
+    .card-back{
+        
+    }
 }
 
 .vl {
@@ -648,7 +666,7 @@ nav .nav-link:visited {
 
 #btn-franchise{
 position: absolute;
-padding-top: 53%;
+padding-top: 53.5%;
 top: 0;
 }
 
@@ -1323,6 +1341,14 @@ top: 0;
 .ReactModal__Content {
     padding: 0px !important;
     width: 65%;
+}
+
+#party-package-main-modal{
+    width: fit-content !important;
+}
+
+#waffles-main-modal{
+    width: 55% !important;
 }
 
 .modal-body-fillings{

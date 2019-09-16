@@ -68,7 +68,7 @@ class PartyPackage extends React.Component {
               <div id="package-card" className="col-md-6 col-lg-6 col-xl-6 col-sm-6 col-12">
                 <p className="lato-eb-24 text-center title pb-4">Package A</p>
                 <div className="card-front">
-                  <img src={wafflestorePackageA} alt="The Best Value for your Money" classsName="img-fluid img-cart-display d-block" />
+                  <img src={wafflestorePackageA} id="img-cart" alt="The Best Value for your Money" classsName="img-fluid img-cart-display d-block" />
                   <div className="card-back">
                   <p className="lato-eb-24 text-center title pb-4">Package A</p>
                     <p className="mt-4 mx-3 highlight ">Inclusions:</p>
@@ -99,7 +99,7 @@ class PartyPackage extends React.Component {
               <div id="package-card" className="col-md-6 col-lg-6 col-xl-6 col-sm-6 col-12">
                 <p className="lato-eb-24 text-center title pb-4">Package B</p>
                 <div className="card-front">
-                  <img src={wafflestorePackageB} alt="The Best Value for your Money" classsName="img-fluid img-cart-display d-block" />
+                  <img src={wafflestorePackageB} id="img-cart" alt="The Best Value for your Money" classsName="img-fluid img-cart-display d-block" />
                   <div className="card-back">
                   <p className="lato-eb-24 text-center title pb-4">Package B</p>
                       <p className="mt-3 mx-3 highlight">Inclusions:</p>

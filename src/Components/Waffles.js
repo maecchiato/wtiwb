@@ -27,7 +27,7 @@ const customStyles = {
     backgroundColor: 'white',
     transform: 'translate(-50%, -50%)',
     overlfow: 'scroll',
-    height: '85vh'
+    height: '90vh'
   },
   overlay: {
     zIndex: '9999'
@@ -73,6 +73,7 @@ class waffles extends React.Component {
       <div id="waffles-section" class="container-fluid row justify-content">
 
         <Modal
+          id="waffles-main-modal"
           isOpen={this.state.swModalIsOpen}
           onAfterOpen={this.afterOpenModal}
           onRequestClose={this.closeModal}
@@ -111,6 +112,7 @@ class waffles extends React.Component {
         </Modal>
 
         <Modal
+          id="waffles-main-modal"
           isOpen={this.state.svModalIsOpen}
           onAfterOpen={this.afterOpenModal}
           onRequestClose={this.closeModal}
@@ -123,7 +125,7 @@ class waffles extends React.Component {
           </div>
 
           <div className="modal-body-fillings">
-            <div className="row fillings-modal justify-content-Left text-center">
+            <div className="row fillings-modal justify-content-left text-center">
               <div className="fillings-card col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
                 <div className="mx-4 "><p className="fillings-title caption-12 float-center">AMERICAN HOTDOG</p></div>
                 <img id="waffle-img img-fluid" src={ah}></img>
