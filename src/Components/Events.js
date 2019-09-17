@@ -53,7 +53,7 @@ class Events extends React.Component{
         <Slider {...settings}>
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-                Friday, 13 September 2019
+                Friday, 13 Sep 2019
               </small>
               <a href="https://www.facebook.com/WaffleTimeInc/photos/a.411614677725/10157461150387726/?type=3&theater">
             <img className = "img-size" src = {events1} />
@@ -67,7 +67,7 @@ class Events extends React.Component{
           </div>
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-          Wednesday, 11 September 2019
+          Wednesday, 11 Sep 2019
               </small>
               <a href="https://www.facebook.com/WaffleTimeInc/photos/a.411614677725/10157458993177726/?type=3&theater">
             <img className = "img-size" src = {events2} />
@@ -81,7 +81,7 @@ class Events extends React.Component{
           </div>
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-                Saturday, 7 September 2019
+                Saturday, 7 Sep 2019
               </small>
               <a href="https://www.facebook.com/WaffleTimeInc/posts/10157447168432726?__tn__=-R">
             <img className = "img-size" src = {events3} />
@@ -95,7 +95,7 @@ class Events extends React.Component{
           </div>
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-                Monday, 1 July 2019
+                Monday, 1 Jul 2019
               </small>
               <a href="https://www.facebook.com/WaffleTimeInc/photos/a.411614677725/10157277864907726/?type=3&theater">
             <img className = "img-size" src = {events4} />
@@ -110,7 +110,7 @@ class Events extends React.Component{
           
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-                Sunday, 1 September 2019
+                Sunday, 1 Sep 2019
               </small>
               <a href="https://www.facebook.com/WaffleTimeInc/photos/a.411614677725/10157427057702726/?type=3&theater">
             <img className = "img-size" src = {events5} />
@@ -125,7 +125,7 @@ class Events extends React.Component{
           
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-                Tuesday, 18 June 2019
+                Tuesday, 18 Jun 2019
               </small>
               <a href="https://www.facebook.com/WaffleTimeInc/posts/10157244875987726?__tn__=-R">
             <img className = "img-size" src = {events6} />

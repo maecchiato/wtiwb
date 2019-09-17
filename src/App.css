@@ -609,6 +609,11 @@ nav .nav-link:visited {
     .card-back{
         
     }
+    
+    #footer{
+        background-image: url(./assets/img/Footer/footer-bg-mobile.jpg) !important;
+
+    }
 }
 
 .vl {
