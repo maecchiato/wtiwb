@@ -32,11 +32,11 @@ class Navigation extends React.Component {
 
       <nav id="navbar-header" className="navbar navbar-expand-lg navbar-light fixed-top">
 
-        <Link to = "/">
+        <HashLink to = "/#home-section">
           <a  className="navbar-brand">
           <img id="logo" src={logo} alt="" className={this.state.hasClickedMENU ? 'd-none' : null} />
           </a>
-        </Link>
+        </HashLink>
         <button ref={input => this.mobileMenuToggler = input} className="navbar-toggler" onClick={this.toggleClassMenu} type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
