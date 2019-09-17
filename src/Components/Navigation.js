@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from '../assets/img/logo.png';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 
 class Navigation extends React.Component {
@@ -30,24 +32,26 @@ class Navigation extends React.Component {
 
       <nav id="navbar-header" className="navbar navbar-expand-lg navbar-light fixed-top">
 
-        <a className="navbar-brand" href="#">
+        <Link to = "/">
+          <a  className="navbar-brand">
           <img id="logo" src={logo} alt="" className={this.state.hasClickedMENU ? 'd-none' : null} />
-        </a>
+          </a>
+        </Link>
         <button ref={input => this.mobileMenuToggler = input} className="navbar-toggler" onClick={this.toggleClassMenu} type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse mt-lg-0 md-lg-0 mt-5" id="navbarNavAltMarkup">
           <div className="navbar-nav mr-auto">
-            <a className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler} href="#about-section">ABOUT US</a>
-            <a className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler} href="#waffles-section">OUR WAFFLES</a>
-            <a className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler} href="#foundation-section">WTI FOUNDATION</a>
-            <a className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler} href="#events-section">EVENTS</a>
+            <Link to ="/about-us" className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler}>ABOUT US</Link>
+            <HashLink to = "/#waffles-section" className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler}>OUR WAFFLES</HashLink>
+            <HashLink to = "/#foundation-section" className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler}>WTI FOUNDATION</HashLink>
+            <HashLink to = "/#events-section" className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler}>EVENTS</HashLink><a  href=""></a>
           </div>
           <div className="navbar-nav ml-auto">
-            <a className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler} href="#partypackage-section">PARTY PACKAGE</a>
-            <a className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler} href="#map-section">STORES</a>
-            <a className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler} href="#franchise-section">FRANCHISE</a>
-            <a className="nav-item nav-link text-center" onClick={this.closeMenuToggler} href="#contact-section">CONTACT US</a>
+            <HashLink to = "/#partypackage-section" className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler}>PARTY PACKAGE</HashLink>
+            <HashLink to = "/#map-section" className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler}>STORES</HashLink>
+            <HashLink to = "/" className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler}>FRANCHISE</HashLink>
+            <HashLink to = "/#contact-section" className="nav-item nav-link text-center" onClick={this.closeMenuToggler}>CONTACT US</HashLink>
             <p className={!this.state.hasClickedMENU ? 'd-none' : 'h6 text-center mobile-dropdown-copyright'}>Waffle Time Inc., © All Rights Reserved 2018</p>
 
           </div>

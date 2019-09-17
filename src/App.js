@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
-import './App.css';
+import '../src/App.css';
 
-import Navigation from './Components/Navigation';
-import Home from './Components/Home';
-import About from './Components/About';
+
+
+import {Switch, Route, BrowserRouter} from 'react-router-dom';
+
+import Navigation from './Components/Navigation.js';
+import Home from './Components/Home.js';
+import About from './Pages/About.js';
 import Waffles from './Components/Waffles';
-import Foundation from './Components/Foundation';
-import Events from './Components/Events';
-import EventsInfo from './Components/Events-Info';
-import Maps from './Components/Map';
+import Foundation from './Components/Foundation.js';
+import Events from './Components/Events.js';
+import Maps from './Components/Map.js';
 import PartyPackage from './Components/PartyPackage.js';
 import Franchise from './Components/Franchise';
 import Popup from './Components/Popup';
@@ -18,23 +21,23 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
 class App extends Component {
-
   render() {
     return (
       <div className = "App">
-        <Navigation />
-        <div className = "container-fluid">
-          <Popup />
-          <Home />
-          <About />
-          <Waffles />
-          <Foundation />
-          <PartyPackage />
-          <Events />
-          <Maps/>
-          <Contact/>
-          <Footer/>
-        </div>
+        <BrowserRouter>
+          <div className = "container-fluid mt-5">
+            <Navigation />
+                <Switch>
+                  <Route exact path = "/" component = {Home} />
+                  <Route exact path = "/about-us" component = {About} />
+                  <Route exact path = "/foundation" component = {Foundation} />
+                  <Route exact path = "/events" component = {Events} />
+                  <Route exact path = "/map" component = {Maps} />
+                  <Route exact path = "/contact" component = {Contact} />
+                </Switch>
+            <Footer />
+          </div>
+        </BrowserRouter>
       </div>
     );
   }

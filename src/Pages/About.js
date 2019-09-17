@@ -3,9 +3,6 @@ import { Route, Link } from 'react-router-dom';
 import waffy from '../assets/img/waffy-mascot.png';
 import rec from '../assets/img/Heading/rec.jpg';
 
-
-
-
 class About extends React.Component {
   constructor()
   {
@@ -25,8 +22,8 @@ class About extends React.Component {
   }
   render() {
     return (
-      <div id="about-section" className = {this.state.hasClicked ? 'row mx-0': 'row mx-0'} >
-        <p id="about-headline" className="headline-h2">Mula Noon, Hanggang Ngayon, Laking Waffle Time!</p>
+      <div id="aboutus-section" className="mt-5" >
+        <p id="aboutus-headline" className="headline-h2 mt-5 mt-5">Waffle Time Inc.</p>
         <img src={rec}></img>
         <div className="container-fluid row">
           <div className="col-xl-8 col-lg-8 col-md-9 col-sm-12 col-xs-12 pt-5">
