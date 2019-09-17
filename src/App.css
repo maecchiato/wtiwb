@@ -609,6 +609,14 @@ nav .nav-link:visited {
     .card-back{
         
     }
+    
+    #footer{
+        background-image: url(./assets/img/Footer/footer-bg-mobile.jpg) !important;
+    }
+
+    .ReactModal__Content {
+        width: 80% !important; 
+    }
 }
 
 .vl {
@@ -1341,7 +1349,7 @@ top: 0;
 
 .ReactModal__Content {
     padding: 0px !important;
-    width: 65%;
+    width: 60%;
 }
 
 #party-package-main-modal{

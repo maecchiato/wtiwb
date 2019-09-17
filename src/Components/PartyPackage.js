@@ -67,22 +67,23 @@ class PartyPackage extends React.Component {
             <div className="row party-package-modal">
               <div id="package-card" className="col-md-6 col-lg-6 col-xl-6 col-sm-6 col-12">
                 <p className="lato-eb-24 text-center title pb-4">Package A</p>
-                <div className="card-front">
+                <div className="card-front text-center">
                   <img src={wafflestorePackageA} id="img-cart" alt="The Best Value for your Money" classsName="img-fluid img-cart-display d-block" />
                   <div className="card-back">
-                  <p className="lato-eb-24 text-center title pb-4">Package A</p>
-                    <p className="mt-4 mx-3 highlight ">Inclusions:</p>
-                    <ul className="body-reg-14 text-left">
+                  <p className="lato-eb-24 text-center title pb-2">Package A</p>
+                    <p className="mt-4 mx-3 highlight text-left ">Inclusions:</p>
+                    <ul className="body-reg-14 text-left ml-3">
                     <li>100 Assorted Waffles</li>
+                    <br/>
                     </ul>
-                    <p className="mt-5 mx-3 highlight">Pricing:</p>
-                    <ul className="body-reg-14 text-left">
+                    <p className="mt-4 mx-3 highlight text-left">Pricing:</p>
+                    <ul className="body-reg-14 text-left ml-3 mb-4">
                         <li>P6,000.00 Manila</li>
                         <li>P5,500.00 Visayas & Mindanao</li>           
                     </ul>
-                    <div className="btn-group dropright mt-5 float-right mr-3">
-                      <button type="button" className="btn-stroke dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Inquire Now via
+                    <div className="btn-group dropright float-right mr-3">
+                      <button type="button" className="btn-small w-100 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Inquire Now Via
                           </button>
                       <div className="dropdown-menu">
                         <a className="dropdown-item" href="http://m.me/WaffleTimeInc" target="_blank" rel="noopener noreferrer">Facebook Messenger</a>
@@ -96,25 +97,25 @@ class PartyPackage extends React.Component {
                   </div>
                 </div>
               </div>
-              <div id="package-card" className="col-md-6 col-lg-6 col-xl-6 col-sm-6 col-12">
+              <div id="package-card" className="col-md-6 col-lg-6 col-xl-6 col-sm-6 col-12 text-center">
                 <p className="lato-eb-24 text-center title pb-4">Package B</p>
                 <div className="card-front">
                   <img src={wafflestorePackageB} id="img-cart" alt="The Best Value for your Money" classsName="img-fluid img-cart-display d-block" />
                   <div className="card-back">
-                  <p className="lato-eb-24 text-center title pb-4">Package B</p>
-                      <p className="mt-3 mx-3 highlight">Inclusions:</p>
-                      <ul className="body-reg-14 text-left">   
+                  <p className="lato-eb-24 text-center title pb-2">Package B</p>
+                      <p className="mt-4 mx-3 highlight text-left">Inclusions:</p>
+                      <ul className="body-reg-14 text-left ml-3">   
                           <li>100 Assorted Waffles</li>
                           <li>100 Iced Teas</li>    
                       </ul>
-                      <p className="mt-5 mx-3 highlight">Pricing:</p>
-                      <ul className="body-reg-14 text-left">
+                      <p className="mt-4 mx-3 highlight text-left">Pricing:</p>
+                      <ul className="body-reg-14 text-left ml-3">
                           <li>P7,500.00 Manila</li>
                           <li>P7,000.00 Visayas & Mindanao</li>
                       </ul>
-                      <div className="btn-group dropright mt-5 float-right mr-3">
-                        <button type="button" className="btn-stroke dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Inquire Now via
+                      <div className="btn-group dropright float-right mr-3">
+                        <button type="button" className="btn-small dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Inquire Now Via
                             </button>
                         <div className="dropdown-menu">
                           <a className="dropdown-item" href="https://www.facebook.com/messages/t/WaffleTimeInc" target="_blank" rel="noopener noreferrer">Facebook Messenger</a>
