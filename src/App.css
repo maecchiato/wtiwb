@@ -841,6 +841,7 @@ top: 0;
 #event-slider {
     margin-top: 20px;
     color: #030051;
+    
 }
 
 .event-description {
@@ -1366,3 +1367,4 @@ top: 0;
     background-color: var(--main-red);
     height: 70px !important;
 }
+
