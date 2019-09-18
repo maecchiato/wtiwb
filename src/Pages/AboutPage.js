@@ -3,7 +3,7 @@ import { Route, Link } from 'react-router-dom';
 import waffy from '../assets/img/waffy-mascot.png';
 import rec from '../assets/img/Heading/rec.jpg';
 
-class About extends React.Component {
+class AboutPage extends React.Component {
   constructor()
   {
     super();
@@ -22,7 +22,7 @@ class About extends React.Component {
   }
   render() {
     return (
-      <div id="aboutus-section" className="mt-5" >
+      <div id="about-page" className="mt-5" >
         <p id="aboutus-headline" className="headline-h2 mt-5 mt-5">Waffle Time Inc.</p>
         <img src={rec}></img>
         <div className="container-fluid row">
@@ -43,4 +43,4 @@ class About extends React.Component {
 }
 
 
-export default About
+export default AboutPage

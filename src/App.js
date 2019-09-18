@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import '../src/App.css';
+import '../src/Styles/Home.css';
 
 
 
 import {Switch, Route, BrowserRouter} from 'react-router-dom';
 
 import Navigation from './Components/Navigation.js';
-import Home from './Components/Home.js';
-import About from './Pages/About.js';
+import Home from './Pages/HomePage.js';
+import About from './Pages/AboutPage.js';
 import Waffles from './Components/Waffles';
 import Foundation from './Components/Foundation.js';
 import Events from './Components/Events.js';
@@ -29,7 +30,7 @@ class App extends Component {
             <Navigation />
                 <Switch>
                   <Route exact path = "/" component = {Home} />
-                  <Route exact path = "/about-us" component = {About} />
+                  <Route exact path = "/about-page" component = {About} />
                   <Route exact path = "/foundation" component = {Foundation} />
                   <Route exact path = "/events" component = {Events} />
                   <Route exact path = "/map" component = {Maps} />

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../Styles/Home.css';
 
 import Navigation from '../Components/Navigation';
 import Landing from '../Components/Landing';
@@ -17,7 +17,7 @@ import Footer from '../Components/Footer';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
-class Home extends React.Component {
+class HomePage extends React.Component {
 
   render() {
     return (
@@ -36,4 +36,4 @@ class Home extends React.Component {
   }
 }
 
-export default Home;
+export default HomePage;
