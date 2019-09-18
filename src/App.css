@@ -49,14 +49,14 @@ body, html {
     height: 100%;
 }
 
-#color1 {
+.color1 {
     background-color: #AF0700;
 }
 
-#color2 {
+.color2 {
     background-color: green;
 }
 
-#color3 {
+.color3 {
     background-color: blue;
 }
