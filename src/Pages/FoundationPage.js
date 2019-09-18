@@ -4,7 +4,7 @@ import Youtube from '@u-wave/react-youtube';
 import rec from '../assets/img/Heading/rec.jpg'
 
 
-class Foundation extends React.Component {
+class FoundationPage extends React.Component {
   _onReady(event) {
     event.target.mute();
   }
@@ -53,4 +53,4 @@ class Foundation extends React.Component {
     )
   }
 }
-export default Foundation;
+export default FoundationPage;
