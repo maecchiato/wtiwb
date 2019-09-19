@@ -1,3 +1,74 @@
-#aboutpage-headline{
-    padding-top: 10%; 
+
+/**************  Boootstrap Overrides **************/
+/* .no-padding{
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+} */
+
+@media only screen and (min-width: 1200px) {
+
+    .video-background {
+        background: #000;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+            display: block;
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            background: rgba(0, 0, 0, 0.75)
+    }
+    .video-foreground, .video-background iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+    }
+    @media (min-aspect-ratio: 16/9) {
+        .video-foreground {
+            height: 120%;
+            top: -10%;
+        }
+    }
+    /* @media (max-aspect-ratio: 16/9) {
+        .video-foreground {
+            width: 300%;
+            left: -100%;
+        }
+    } */
+}
+
+#history-timeline{
+    position: relative;
+    margin-top: 50%;
+
+}
+
+#aboutpage-headline {
+    padding-top: 10%;
+    margin-right: 10%;
+}
+
+#history-section {
+    padding-top: 3%;
+    padding-right: 15%;
+}
+
+#card-right-heading {
+    padding-left: 18%;
+}
+
+#about-video{
+    height: 100vh;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.about-youtube-display{
+    height: 100%;
 }

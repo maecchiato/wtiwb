@@ -42,7 +42,7 @@ class Navigation extends React.Component {
         </button>
         <div className="collapse navbar-collapse mt-lg-0 md-lg-0 mt-5" id="navbarNavAltMarkup">
           <div className="navbar-nav mr-auto">
-            <HashLink to ="/about-page/#about-page" className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler}>ABOUT US</HashLink>
+            <HashLink to ="/about-page/#about-vid" className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler}>ABOUT US</HashLink>
             <HashLink to = "/#waffles-section" className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler}>OUR WAFFLES</HashLink>
             <HashLink to = "/#foundation-section" className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler}>WTI FOUNDATION</HashLink>
             <HashLink to = "/#events-section" className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler}>EVENTS</HashLink><a  href=""></a>
