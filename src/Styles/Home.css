@@ -334,7 +334,7 @@ nav .nav-link:visited {
 
 .responsive{
     width: 100%;
-    max-width: 175px;
+    /* max-width: 175px; */
     height: auto;
 }
 
@@ -346,7 +346,7 @@ nav .nav-link:visited {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-@media only screen and (min-width: 1200px) {
+ @media only screen and (min-width: 1200px) {
     #logo {
         width: 200px !important;
         top: 10% !important;
@@ -400,10 +400,10 @@ nav .nav-link:visited {
         padding: 10% !important;
     }
     #waffles-heading {}
-}
+} 
 
-@media only screen and (min-width: 992px) {
-    #logo {
+ @media only screen and (min-width: 992px) {
+         #logo {
         left: 40%;
     }
     .modal-footer {
@@ -414,7 +414,7 @@ nav .nav-link:visited {
         z-index: 1030;
     }
     #about-section {
-        /* padding-left: 8% !important; */
+        /* padding-left: 8% !important; */ 
         background-image: url(../assets/img/about-bg.jpg);
         background-size: cover!important;
         padding-bottom: 3% !important;
@@ -436,16 +436,22 @@ nav .nav-link:visited {
     #foundation-section {
         padding-bottom: 5% !important;
     }
-}
+} 
 
-@media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 600px) {
+    .zoom evt{
+        margin: auto;
+    }
     .navbar-nav {
         height: 100vh;
     }
     #logo {
         left: 5% !important;
         width: 150px !important;
+
+        
     }
+   
     .headline-h2 {
         font-size: 40px;
         line-height: 40px;
@@ -489,7 +495,12 @@ nav .nav-link:visited {
     #events-section {
         padding-top: 15% !important;
         padding-bottom: 15% !important;
+        
+
     }
+    
+    
+
     #foundation-section {
         padding-top: 5px !important;
         padding-bottom: 0.5% !important;
@@ -555,7 +566,7 @@ nav .nav-link:visited {
     .ReactModal__Content {
         width: 80% !important; 
     }
-}
+} 
 
 .vl {
     border-left: 6px solid #da251d;
@@ -787,6 +798,7 @@ top: 0;
 #event-slider {
     margin-top: 20px;
     color: #030051;
+    
     
 }
 
@@ -1314,3 +1326,12 @@ top: 0;
     height: 70px !important;
 }
 
+/* view for mobile */
+@media for screen only(max-width:767)
+{
+    .img-size{
+        width: 100%;    
+    }
+        
+    
+}

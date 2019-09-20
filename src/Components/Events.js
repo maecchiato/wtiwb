@@ -1,7 +1,7 @@
 import React from 'react';
 import Slider from 'react-slick';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import ReactDOM from 'react-dom';
+
 import events1 from '../assets/img/advertisements/events1.jpg';
 import events2 from '../assets/img/advertisements/events2.jpg';
 import events3 from '../assets/img/advertisements/events3.jpg';
@@ -59,6 +59,7 @@ class Events extends React.Component{
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
                 Friday, 13 Sep 2019
               </small>
+              
               <a href="https://www.facebook.com/WaffleTimeInc/photos/a.411614677725/10157461150387726/?type=3&theater" target="_blank" rel=" noreferrer noopener">
             <img className = "img-size" src = {events1} />
               <p className = "event-description">
@@ -161,7 +162,7 @@ class Events extends React.Component{
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
                 Thur, 12 September 2019
               </small>
-              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157471033822726?__tn__=-R" target="_blank" rel=" noreferrer noopener">
+              <a href="https://www.facebook.com/WaffleTimeInc/photos/a.411614677725/10157459117677726/?type=3&theater" target="_blank" rel=" noreferrer noopener">
             <img className = "img-size" src = {events8} />
               <p className = "event-description">
                 Waffle Time is looking for capable service crew, apply now!
@@ -176,7 +177,7 @@ class Events extends React.Component{
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
                 Tue, 10 September 2019
               </small>
-              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157471033822726?__tn__=-R" target="_blank" rel=" noreferrer noopener">
+              <a href="https://www.facebook.com/WaffleTimeInc/photos/a.411614677725/10157436925537726/?type=3&theater" target="_blank" rel=" noreferrer noopener">
             <img className = "img-size" src = {events9} />
               <p className = "event-description">
                 Interested in our business? Waffle Time is holding a franchise orientation
@@ -188,8 +189,7 @@ class Events extends React.Component{
           </div>
          </Slider>
         </div>
-        <div className = "col-xl-2 col-lg-2 col-md-2 col-xs-12 col-sm12">
-        </div>
+        
         <div className = "col-xl-12 col-lg-12 col-md-12 col-xs-12 col-sm-12 text-center mb-1">
           <button className="btn-med"> View More Events</button>
         </div>
@@ -199,4 +199,8 @@ class Events extends React.Component{
   }
 }
 
+
+ ReactDOM.render( <Slider  /> ,
+   document.getElementById('root')
+ );
 export default Events;
