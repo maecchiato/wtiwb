@@ -1,3 +1,10 @@
+:root {
+    --main-red: #AF0700;
+    --yellow: #FED74A;
+    --black: #353535;
+    --sec-red: #890f00;
+    --sec-accent: #124886;
+}
 
 /**************  Boootstrap Overrides **************/
 /* .no-padding{
@@ -47,7 +54,7 @@
 /**************  HISTORY SECTION **************/
 #history-timeline{
     position: relative;
-    margin-top: 50%;
+    margin-top: 45%;
 }
 
 #aboutpage-headline {
@@ -61,8 +68,9 @@
     padding-left: 20% !important;
 }
 
+
 #card-right-heading {
-    padding-left: 18%;
+    padding-left: 16%;
 }
 
 #about-video{
@@ -76,3 +84,15 @@
 }
 
 /**************  MISSION VISION SECTION *************/
+#mission-vision-section{
+    background-color: var(--yellow);
+    margin-top: 5%;
+    padding-top: 3%;
+}
+
+#mission-card-section{
+    padding-top: 3%;
+    text-align: center;
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+}

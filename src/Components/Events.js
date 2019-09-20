@@ -47,9 +47,9 @@ class Events extends React.Component{
           <p className = "headline-h3 text-center">What's New</p>
           <img src={rec}></img>
         </div>
-        <div className = "col-xl-2 col-lg-2 col-md-2 col-xs-12 col-sm-12">
+        <div className = "col-xl-4 col-lg-4 col-md-4 col-xs-12 col-sm-12">
         </div>
-        <div id = "event-slider" className = "col-xl-8 col-lg-8 col-md-8 col-xs-12 col-sm-12 text-center">
+        <div id = "event-slider" className = "col-xl-4 col-lg-4 col-md-4 col-xs-12 col-sm-12 text-center">
         <Slider {...settings}>
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
@@ -140,7 +140,7 @@ class Events extends React.Component{
 
          </Slider>
         </div>
-        <div className = "col-xl-2 col-lg-2 col-md-2 col-xs-12 col-sm12">
+        <div className = "col-xl-4 col-lg-4 col-md-4 col-xs-12 col-sm-12">
         </div>
         <div className = "col-xl-12 col-lg-12 col-md-12 col-xs-12 col-sm-12 text-center mb-1">
           <button className="btn-med"> View More Events</button>

@@ -42,7 +42,7 @@
     font-style: normal;
     font-weight: bolder;
     font-size: 48px;
-    line-height: 32px;
+    line-height: 48px;
     letter-spacing: 1.5px;
     width: 100%;
 }
@@ -407,7 +407,9 @@ nav .nav-link:visited {
         height: 350px !important;
         padding: 10% !important;
     }
-    #waffles-heading {}
+    #events-section{
+        height: 50%;
+    }
 }
 
 @media only screen and (min-width: 992px) {
