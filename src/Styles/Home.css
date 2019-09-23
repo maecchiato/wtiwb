@@ -83,6 +83,20 @@
     color: #000000;
 }
 
+.body-reg-11 {
+    /* Body / 10 Lato Regular */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;
+    /* or 24px */
+    text-align: center;
+    letter-spacing: 1px;
+    color: #000000;
+    margin-bottom:3% !important;
+}
+
 .caption-12 {
     font-family: 'Lato';
     font-style: normal;

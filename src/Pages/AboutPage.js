@@ -2,6 +2,7 @@ import React from 'react';
 import '../Styles/AboutPage.css';
 import History from '../Components/History';
 import MissionVision from '../Components/MissionVision';
+import Awards from '../Components/Awards';
 
 import mission1 from '../assets/img/mission/m-waffle.png';
 import mission2 from '../assets/img/mission/m-resource.png';
@@ -33,6 +34,7 @@ class AboutPage extends React.Component {
       <div className = "container-fluid">
         <History />
         <MissionVision />
+        <Awards />
       </div>  
     )     
   }   

@@ -50,7 +50,6 @@
     } */
 }
 
-
 /**************  HISTORY SECTION **************/
 #history-timeline{
     position: relative;
@@ -67,7 +66,6 @@
     padding-right: 20% !important;
     padding-left: 20% !important;
 }
-
 
 #card-right-heading {
     padding-left: 16%;
@@ -95,4 +93,22 @@
     text-align: center;
     padding-right: 10% !important;
     padding-left: 10% !important;
+}
+
+/************** AWARDS SECTION *************/
+#awards-section{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#awards-card-section{
+    padding-top: 3%;
+    text-align: center;
+    padding-left: 15% !important;
+    padding-right: 15% !important;
+}
+
+#award{
+    display: flex;
+    flex-direction: row;
 }
