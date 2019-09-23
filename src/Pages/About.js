@@ -3,10 +3,7 @@ import { Route, Link } from 'react-router-dom';
 import waffy from '../assets/img/waffy-mascot.png';
 import rec from '../assets/img/Heading/rec.jpg';
 
-
-
-
-class About extends React.Component {
+class AboutPage extends React.Component {
   constructor()
   {
     super();
@@ -46,4 +43,4 @@ class About extends React.Component {
 }
 
 
-export default About
+export default AboutPage

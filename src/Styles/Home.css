@@ -1,5 +1,15 @@
-
 /************** Style Components *************/
+:root {
+    --main-red: #AF0700;
+    --yellow: #FED74A;
+    --black: #353535;
+    --sec-red: #890f00;
+    --sec-accent: #124886;
+}
+
+.main-red{
+    color: var(--main-red) !important;
+}
 
 .headline-h2 {
     /* Headline / H2 • 60 Playfair Display */
@@ -43,7 +53,7 @@
     font-style: normal;
     font-weight: bolder;
     font-size: 48px;
-    line-height: 64px;
+    line-height: 48px;
     letter-spacing: 1.5px;
     width: 100%;
 }
@@ -82,6 +92,20 @@
     text-align: center;
     letter-spacing: 1px;
     color: #000000;
+}
+
+.body-reg-11 {
+    /* Body / 10 Lato Regular */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;
+    /* or 24px */
+    text-align: center;
+    letter-spacing: 1px;
+    color: #000000;
+    margin-bottom:3% !important;
 }
 
 .caption-12 {
@@ -228,7 +252,6 @@
     color: white;
 }
 
-
 .lato-eb-24 {
     font-family: Lato;
     font-style: normal;
@@ -238,6 +261,16 @@
     /* identical to box height */
     letter-spacing: 3px;
     text-transform: uppercase;
+}
+
+.button-16 {
+    font-family: 'Lato Bold';
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    /* Main (Red) */
+    color: var(--main-red);
 }
 
 .highlight {
@@ -319,7 +352,7 @@ nav .nav-link:visited {
     /* transition: width .3s; */
 }
 
-.carousel .thumbs-wrapper{
+.carousel .thumbs-wrapper {
     visibility: collapse !important;
 }
 
@@ -332,7 +365,7 @@ nav .nav-link:visited {
     color: #fa0002 !important;
 }
 
-.responsive{
+.responsive {
     width: 100%;
     /* max-width: 175px; */
     height: auto;
@@ -399,8 +432,10 @@ nav .nav-link:visited {
         height: 350px !important;
         padding: 10% !important;
     }
-    #waffles-heading {}
-} 
+    #events-section{
+        height: 50%;
+    }
+}
 
  @media only screen and (min-width: 992px) {
          #logo {
@@ -458,8 +493,7 @@ nav .nav-link:visited {
         width: 100%;
         padding-left: 5%;
     }
-
-    .btn-wide{
+    .btn-wide {
         font-size: 16px;
         padding: 4% !important;
         letter-spacing: 2px;
@@ -525,46 +559,34 @@ nav .nav-link:visited {
         padding-left: 2% !important;
         align-items: center !important;
     }
-
-    .fillings-card{
+    .fillings-card {
         padding-top: 8% !important;
         margin-bottom: 8% !important;
     }
-
-    .modal-header .headline-h5{
+    .modal-header .headline-h5 {
         font-size: 20px !important;
         letter-spacing: 0px !important;
         line-height: 32px !important;
     }
-
     #foundation-video {
         background-image: none !important;
     }
-
-    .party-package-modal{
+    .party-package-modal {
         padding: 0px !important;
     }
-
-
-    #img-cart{
+    #img-cart {
         width: 175px !important;
     }
-
-    #package-card{
+    #package-card {
         margin-top: 5% !important;
         margin-bottom: 15% !important;
     }
-
-    .card-back{
-        
-    }
-    
-    #footer{
+    .card-back {}
+    #footer {
         background-image: url(../assets/img/Footer/footer-bg-mobile.jpg) !important;
     }
-
     .ReactModal__Content {
-        width: 80% !important; 
+        width: 80% !important;
     }
 } 
 
@@ -611,7 +633,7 @@ nav .nav-link:visited {
     padding-bottom: 250px;
 }
 
-#Admin{
+#Admin {
     height: 100%;
 }
 
@@ -621,10 +643,10 @@ nav .nav-link:visited {
     position: relative;
 }
 
-#btn-franchise{
-position: absolute;
-padding-top: 39.5%;
-top: 0;
+#btn-franchise {
+    position: absolute;
+    padding-top: 39.5%;
+    top: 0;
 }
 
 /* ABOUT SECTION */
@@ -1253,7 +1275,7 @@ top: 0;
     width: 100%;
 }
 
-.contact-card{
+.contact-card {
     padding-left: 10px !important;
     padding-right: 10px !important;
 }
@@ -1302,15 +1324,15 @@ top: 0;
     width: 60%;
 }
 
-#party-package-main-modal{
+#party-package-main-modal {
     width: fit-content !important;
 }
 
-#waffles-main-modal{
+#waffles-main-modal {
     width: 55% !important;
 }
 
-.modal-body-fillings{
+.modal-body-fillings {
     padding-left: 10% !important;
     padding-right: 10% !important;
     padding-top: 0px !important;
@@ -1319,7 +1341,6 @@ top: 0;
 /* .fillings-modal {
     height: 100%;
 } */
-
 
 .modal-header {
     background-color: var(--main-red);

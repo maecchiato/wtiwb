@@ -1,3 +1,133 @@
-#aboutpage-headline{
-    padding-top: 10%; 
+:root {
+    --main-red: #AF0700;
+    --yellow: #FED74A;
+    --black: #353535;
+    --sec-red: #890f00;
+    --sec-accent: #124886;
+}
+
+/**************  Boootstrap Overrides **************/
+/* .no-padding{
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+} */
+
+@media only screen and (min-width: 1200px) {
+
+    .video-background {
+        background: #000;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+            display: block;
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            background: rgba(0, 0, 0, 0.75)
+    }
+    .video-foreground, .video-background iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+    }
+    @media (min-aspect-ratio: 16/9) {
+        .video-foreground {
+            height: 120%;
+            top: -10%;
+        }
+    }
+    /* @media (max-aspect-ratio: 16/9) {
+        .video-foreground {
+            width: 300%;
+            left: -100%;
+        }
+    } */
+}
+
+@media only screen and (max-width: 600px) {
+    #history-timeline{
+        margin-top: 0px !important;
+    }
+    
+    #history-section {
+        padding-right: 5% !important;
+        padding-left: 5% !important;
+    }
+
+    #history-desc{
+        width: 100% !important;
+    }
+}
+
+/**************  HISTORY SECTION **************/
+#history-timeline{
+    position: relative;
+    margin-top: 45%;
+}
+
+#history-desc{
+    width: 75%;
+}
+
+#aboutpage-headline {
+    padding-top: 10%;
+    margin-right: 10%;
+}
+
+#history-section {
+    padding-top: 3%;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+#card-right-heading {
+    padding-left: 16%;
+}
+
+#about-video{
+    height: 100vh;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.about-youtube-display{
+    height: 100%;
+}
+
+/**************  MISSION VISION SECTION *************/
+#mission-vision-section{
+    background-color: var(--yellow);
+    margin-top: 5%;
+    padding-top: 3%;
+}
+
+#mission-card-section{
+    padding-top: 3%;
+    text-align: center;
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+}
+
+/************** AWARDS SECTION *************/
+#awards-section{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#awards-card-section{
+    padding-top: 3%;
+    text-align: center;
+    padding-left: 15% !important;
+    padding-right: 15% !important;
+}
+
+#award{
+    display: flex;
+    flex-direction: row;
 }
