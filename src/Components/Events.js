@@ -8,6 +8,10 @@ import events3 from '../assets/img/advertisements/events3.jpg';
 import events4 from '../assets/img/flavor-of-the-month-display.jpg';
 import events5 from '../assets/img/advertisements/events5.jpg';
 import events6 from '../assets/img/advertisements/events6.jpg';
+import events7 from '../assets/img/advertisements/events7.jpg';
+import events8 from '../assets/img/advertisements/events8.jpg';
+import events9 from '../assets/img/advertisements/events9.jpg';
+
 import rec from '../assets/img/Heading/rec.jpg';
 
 class Events extends React.Component{

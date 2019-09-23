@@ -24,12 +24,11 @@
 
 :root {
     --main-red: #AF0700;
-    --yellow: #FED74A;
+    --sec-yellow: #ffd454;
     --black: #353535;
     --sec-red: #890f00;
     --sec-accent: #124886;
 }
-
 .add-padding {
     padding-top: 3%;
     padding-left: 10%;

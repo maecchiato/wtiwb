@@ -1,10 +1,4 @@
-:root {
-    --main-red: #AF0700;
-    --yellow: #FED74A;
-    --black: #353535;
-    --sec-red: #890f00;
-    --sec-accent: #124886;
-}
+
 
 /**************  Boootstrap Overrides **************/
 /* .no-padding{
@@ -81,6 +75,7 @@
 }
 
 #history-section {
+    background-image: url(../assets/img/history-bg.jpg);
     padding-top: 3%;
     padding-right: 20%;
     padding-left: 20%;
@@ -102,7 +97,7 @@
 
 /**************  MISSION VISION SECTION *************/
 #mission-vision-section{
-    background-color: var(--yellow);
+    background-color: var(--sec-yellow);
     margin-top: 5%;
     padding-top: 3%;
 }

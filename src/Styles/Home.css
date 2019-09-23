@@ -1,12 +1,4 @@
 /************** Style Components *************/
-:root {
-    --main-red: #AF0700;
-    --yellow: #FED74A;
-    --black: #353535;
-    --sec-red: #890f00;
-    --sec-accent: #124886;
-}
-
 .main-red{
     color: var(--main-red) !important;
 }
@@ -200,6 +192,7 @@
 .btn-small:hover {
     background: var(--main-red);
     color: white;
+    text-decoration: none;
 }
 
 .btn-med {
@@ -327,7 +320,7 @@
 }
 
 nav .nav-link:hover {
-    color: var(--yellow);
+    color: var(--sec-yellow);
     background-color: transparent;
 }
 
@@ -336,9 +329,9 @@ nav .nav-link::after {
     display: block;
     width: 0;
     height: 5px;
-    background: var(--yellow);
+    background: var(--sec-yellow);
     transition: width .3s;
-    color: var(--yellow)
+    color: var(--sec-yellow)
 }
 
 nav .nav-link:hover::after {
@@ -348,7 +341,7 @@ nav .nav-link:hover::after {
 }
 
 nav .nav-link:visited {
-    color: var(--yellow);
+    color: var(--sec-yellow);
     /* transition: width .3s; */
 }
 
@@ -776,7 +769,7 @@ nav .nav-link:visited {
 .fillings-title {
     position: absolute;
     z-index: 5;
-    background-color: var(--yellow);
+    background-color: var(--sec-yellow);
     border-radius: 50px;
     padding: 4%;
     text-align: center;
@@ -877,7 +870,7 @@ nav .nav-link:visited {
     left: 0;
     width: 100%;
     background-color: var(--sec-red);
-    color: var(--yellow);
+    color: var(--sec-yellow);
     padding-top: 2%;
     padding-bottom: 2%;
     z-index: 2000;
@@ -952,12 +945,12 @@ nav .nav-link:visited {
 }
 
 .nav-link:hover {
-    color: var(--yellow) !important;
+    color: var(--sec-yellow) !important;
     background-color: #007bff;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: var(--yellow) !important;
+    color: var(--sec-yellow) !important;
 }
 
 #manage-buttons a {
@@ -981,7 +974,7 @@ nav .nav-link:visited {
 
 .evt:hover {
     border-radius: 5px;
-    background-color: var(--yellow);
+    background-color: var(--sec-yellow);
     color: white;
 }
 
@@ -1219,7 +1212,7 @@ nav .nav-link:visited {
     left: 0;
     right: 0;
     /* Accent (Yellow) */
-    background: var(--yellow);
+    background: var(--sec-yellow);
     /* Main (Red) */
     border: 3px solid var(--main-red);
     box-sizing: border-box;
@@ -1268,7 +1261,7 @@ nav .nav-link:visited {
 
 .contact-title {
     position: relative;
-    background-color: var(--yellow);
+    background-color: var(--sec-yellow);
     border-radius: 50px;
     padding: 5%;
     text-align: center;
@@ -1316,7 +1309,7 @@ nav .nav-link:visited {
 }
 
 .ft-link:hover {
-    color: var(--yellow) !important;
+    color: var(--sec-yellow) !important;
 }
 
 .ReactModal__Content {
@@ -1348,11 +1341,11 @@ nav .nav-link:visited {
 }
 
 /* view for mobile */
-@media for screen only(max-width:767)
+/* @media for screen only(max-width:767)
 {
     .img-size{
         width: 100%;    
     }
         
     
-}
+} */
