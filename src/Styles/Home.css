@@ -1,4 +1,15 @@
 /************** Style Components *************/
+:root {
+    --main-red: #AF0700;
+    --yellow: #FED74A;
+    --black: #353535;
+    --sec-red: #890f00;
+    --sec-accent: #124886;
+}
+
+.main-red{
+    color: var(--main-red) !important;
+}
 
 .headline-h2 {
     /* Headline / H2 • 60 Playfair Display */

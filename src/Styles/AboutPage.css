@@ -50,10 +50,29 @@
     } */
 }
 
+@media only screen and (max-width: 600px) {
+    #history-timeline{
+        margin-top: 0px !important;
+    }
+    
+    #history-section {
+        padding-right: 5% !important;
+        padding-left: 5% !important;
+    }
+
+    #history-desc{
+        width: 100% !important;
+    }
+}
+
 /**************  HISTORY SECTION **************/
 #history-timeline{
     position: relative;
     margin-top: 45%;
+}
+
+#history-desc{
+    width: 75%;
 }
 
 #aboutpage-headline {
@@ -63,8 +82,8 @@
 
 #history-section {
     padding-top: 3%;
-    padding-right: 20% !important;
-    padding-left: 20% !important;
+    padding-right: 20%;
+    padding-left: 20%;
 }
 
 #card-right-heading {
