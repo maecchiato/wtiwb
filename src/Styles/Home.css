@@ -75,9 +75,9 @@
 
 .body-reg-14 {
     /* Body / 14 Lato Regular */
-    font-family: Lato;
+    font-family: 'Lato';
     font-style: normal;
-    font-weight: normal;
+    font-weight: lighter;
     font-size: 14px;
     line-height: 175%;
     /* or 24px */
@@ -422,7 +422,7 @@ nav .nav-link:visited {
         padding-right: 15% !important;
     }
     .card-item {
-        height: 350px !important;
+        height: fit-content !important;
         padding: 10% !important;
     }
     #events-section{
@@ -455,7 +455,7 @@ nav .nav-link:visited {
     }
     #waffles-heading {}
     .card-item {
-        height: 350px !important;
+        height: fit-content !important;
         padding: 10% !important;
     }
     .card-title {
@@ -471,7 +471,7 @@ nav .nav-link:visited {
         margin: auto;
     }
     .navbar-nav {
-        height: 100vh;
+        /* height: 100vh; */
     }
     #logo {
         left: 5% !important;
@@ -736,7 +736,7 @@ nav .nav-link:visited {
     background-color: white;
     opacity: 0.9;
     color: var(--black);
-    border: 3px solid #C42E27;
+    border: 4px solid #C42E27;
     border-radius: 5px;
     height: fit-content;
     padding: 5%;

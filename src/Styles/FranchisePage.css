@@ -4,6 +4,11 @@
         padding-left: 5% !important;
         padding-right: 5% !important;
     }
+
+    #franchise-inclusions{
+        padding-top: 10% !important;
+        padding-bottom: 15% !important;
+    }
 }
 
 #waffledesc-section{
@@ -15,3 +20,15 @@
     background-size: cover;
     padding-bottom: 5%;
 }
+
+#franchise-info-section{
+    padding-top: 5% !important;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+    padding-bottom: 3% !important;
+}
+
+#card-med{
+    padding: 3%;
+}
+

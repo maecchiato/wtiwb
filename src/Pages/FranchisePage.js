@@ -2,6 +2,7 @@ import React from 'react';
 import '../Styles/FranchisePage.css';
 
 import WaffleDesc from '../Components/WaffleDesc.js';
+import FranchiseInfo from '../Components/FranchiseInfo.js';
 
 
 
@@ -10,6 +11,7 @@ class FoundationPage extends React.Component {
     return (
       <div class="container-fluid">
           <WaffleDesc />
+          <FranchiseInfo />
       </div>
     )
   }
