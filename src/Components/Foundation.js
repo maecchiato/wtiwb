@@ -25,7 +25,7 @@ class Foundation extends React.Component {
             <p className="body-reg-16 font-weight-bold">
               Cheers to more years of baking freshness!
             </p>
-            <button className="btn-small">DISCOVER MORE</button>
+            {/* <button className="btn-small">DISCOVER MORE</button> */}
           </div>
           <div id="foundation-video" className="col-xl-7 col-lg-7 col-md-5 col-xs-12 col-sm-12">
             <div className="mt-5 youtube-parent h-100">

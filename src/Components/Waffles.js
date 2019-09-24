@@ -172,7 +172,7 @@ class waffles extends React.Component {
           <div className="col-xl-4 col-lg-4 col-md-4 col-sm-auto col-xs-auto">
             <div className="card-item">
               <p className="card-title">For the people, by the people.</p>
-              <p className="body-reg-14">Waffle Time offers a variety of flavors, at a very affordable price! Ano pa ang hinahanap nyo? Mag Waffle Time na tayo!</p>
+              <p className="body-reg-14">Waffle Time offers a variety of flavors, at a very affordable price! Ano pa ang hinahanap nyo? Mag Waffle Time na tayo!<br/><br/></p>
             </div>
           </div>
         </div>
