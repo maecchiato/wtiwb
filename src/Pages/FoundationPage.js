@@ -6,8 +6,6 @@ import sep from '../assets/img/history/1998sept.png';
 
 import Foundation from '../Components/Foundation.js';
 
-
-
 class FoundationPage extends React.Component {
   render() {
     return (

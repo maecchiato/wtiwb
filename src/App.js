@@ -14,7 +14,7 @@ import Foundation from './Components/Foundation.js';
 import Events from './Components/Events.js';
 import Maps from './Components/Map.js';
 import PartyPackage from './Components/PartyPackage.js';
-import Franchise from './Components/Franchise';
+import Franchise from './Pages/FranchisePage.js';
 import Popup from './Components/Popup';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
@@ -32,6 +32,7 @@ class App extends Component {
                   <Route exact path = "/" component = {Home} />
                   <Route exact path = "/about-page" component = {About} />
                   <Route exact path = "/foundation" component = {Foundation} />
+                  <Route exact path = "/franchise" component = {Franchise} />
                   <Route exact path = "/events" component = {Events} />
                   <Route exact path = "/map" component = {Maps} />
                   <Route exact path = "/contact" component = {Contact} />
