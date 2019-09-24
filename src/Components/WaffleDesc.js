@@ -6,7 +6,7 @@ import wticart from '../assets/img/wti-cart.png';
 class WaffleDesc extends React.Component {
     render() {
         return (
-            <div id="waffledesc-section" className="row">
+            <div id="franchise-section" className="row">
                 <div id="waffledesc" className="col-xl-6 col-lg-6 col-md-6 col-xs-12 col-sm-12">
                     <p className="headline-h4 text-white">Why Waffle Time?</p>
                     <img src={recyellow}></img>
