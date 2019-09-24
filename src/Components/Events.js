@@ -8,6 +8,9 @@ import events3 from '../assets/img/advertisements/events3.jpg';
 import events4 from '../assets/img/flavor-of-the-month-display.jpg';
 import events5 from '../assets/img/advertisements/events5.jpg';
 import events6 from '../assets/img/advertisements/events6.jpg';
+import events7 from '../assets/img/advertisements/events7.jpg';
+import events8 from '../assets/img/advertisements/events8.jpg';
+import events9 from '../assets/img/advertisements/events9.jpg';
 import rec from '../assets/img/Heading/rec.jpg';
 
 class Events extends React.Component{
@@ -22,12 +25,12 @@ class Events extends React.Component{
        autoplaySpeed: 4500,
        responsive: [
          {
-           breakpoint: 758,
+           breakpoint: 768,
            settings: {
              arrows: false,
              centerMode: true,
              centerPadding: '40px',
-             slidesToShow: 1
+             slidesToShow: 2
            }
          },
          {
@@ -60,7 +63,7 @@ class Events extends React.Component{
               <a href="https://www.facebook.com/WaffleTimeInc/photos/a.411614677725/10157461150387726/?type=3&theater" target="_blank" rel=" noreferrer noopener">
             <img className = "img-size" src = {events1} />
               <p className = "event-description">
-                Waffle Time celebrates 21st National Waffle Time Day
+                Waffle Time celebrates it&apos;s 21st National Waffle Time Day
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
 
@@ -71,7 +74,7 @@ class Events extends React.Component{
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
           11 Sep 2019
               </small>
-              <a href="https://www.facebook.com/WaffleTimeInc/photos/a.411614677725/10157458993177726/?type=3&theater">
+              <a href="https://www.facebook.com/WaffleTimeInc/photos/a.411614677725/10157458993177726/?type=3&theater" target="_blank" rel=" noreferrer noopener">
             <img className = "img-size" src = {events2} />
               <p className = "event-description">
               Waffle Time Joins PFA on Franchise Negosyo activities Nationwide!
@@ -85,7 +88,7 @@ class Events extends React.Component{
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
                 7 Sep 2019
               </small>
-              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157447168432726?__tn__=-R">
+              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157447168432726?__tn__=-R" target="_blank" rel=" noreferrer noopener">
             <img className = "img-size" src = {events3} />
               <p className = "event-description">
                 Waffle Time Foundation honors grandparents on National Grandparent&apos;s Day
@@ -99,7 +102,7 @@ class Events extends React.Component{
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
                 1 Jul 2019
               </small>
-              <a href="https://www.facebook.com/WaffleTimeInc/photos/a.411614677725/10157277864907726/?type=3&theater">
+              <a href="https://www.facebook.com/WaffleTimeInc/photos/a.411614677725/10157277864907726/?type=3&theater" target="_blank" rel=" noreferrer noopener">
             <img className = "img-size" src = {events4} />
               <p className = "event-description">
                 Fillings of the Month is here!
@@ -114,7 +117,7 @@ class Events extends React.Component{
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
                 1 Sep 2019
               </small>
-              <a href="https://www.facebook.com/WaffleTimeInc/photos/a.411614677725/10157427057702726/?type=3&theater">
+              <a href="https://www.facebook.com/WaffleTimeInc/photos/a.411614677725/10157427057702726/?type=3&theater" target="_blank" rel=" noreferrer noopener">
             <img className = "img-size" src = {events5} />
               <p className = "event-description">
               WaffleTime now accepts GCash! Exclusive to selected Iloilo, Kalibo, and Roxas branches
@@ -129,7 +132,7 @@ class Events extends React.Component{
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
                 18 Jun 2019
               </small>
-              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157244875987726?__tn__=-R">
+              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157244875987726?__tn__=-R" target="_blank" rel=" noreferrer noopener">
             <img className = "img-size" src = {events6} />
               <p className = "event-description">
                 Waffle Time recognizes franchisee awardees during 20th year Gala
@@ -159,10 +162,10 @@ class Events extends React.Component{
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
                 Thur, 12 September 2019
               </small>
-              <a href="https://www.facebook.com/WaffleTimeInc/photos/a.411614677725/10157459117677726/?type=3&theater" target="_blank" rel=" noreferrer noopener">
+              <a href="https://www.facebook.com/WaffleTimeInc/photos/a.411614677725/10157486051472726/?type=3&theater" target="_blank" rel=" noreferrer noopener">
             <img className = "img-size" src = {events8} />
               <p className = "event-description">
-                Waffle Time is looking for capable service crew, apply now!
+                Waffle Time is hiring!
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
 
@@ -177,7 +180,7 @@ class Events extends React.Component{
               <a href="https://www.facebook.com/WaffleTimeInc/photos/a.411614677725/10157436925537726/?type=3&theater" target="_blank" rel=" noreferrer noopener">
             <img className = "img-size" src = {events9} />
               <p className = "event-description">
-                Interested in our business? Waffle Time is holding a franchise orientation
+                Interested in our business? Attend our Franchise Orientation!
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
 

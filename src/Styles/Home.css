@@ -437,7 +437,7 @@ nav .nav-link:visited {
     }
 }
 
- @media only screen and (min-width: 992px) {
+ /* @media only screen and (min-width: 992px) {
          #logo {
         left: 40%;
     }
@@ -449,7 +449,7 @@ nav .nav-link:visited {
         z-index: 1030;
     }
     #about-section {
-        /* padding-left: 8% !important; */ 
+        /* padding-left: 8% !important;  
         background-image: url(../assets/img/about-bg.jpg);
         background-size: cover!important;
         padding-bottom: 3% !important;
@@ -471,15 +471,15 @@ nav .nav-link:visited {
     #foundation-section {
         padding-bottom: 5% !important;
     }
-} 
+}  */
 
- @media only screen and (max-width: 600px) {
+ /* @media only screen and (max-width: 600px) {
     .zoom evt{
         margin: auto;
     }
-    .navbar-nav {
+    /* .navbar-nav {
         height: 100vh;
-    }
+    } 
     #logo {
         left: 5% !important;
         width: 150px !important;
@@ -504,7 +504,7 @@ nav .nav-link:visited {
         width: 100%;
     }
     .headline-h4 {
-        /* Headline / H2 • 60 Playfair Display */
+         Headline / H2 • 60 Playfair Display 
         font-size: 32px;
         line-height: 40px;
         letter-spacing: 1.5px;
@@ -588,7 +588,7 @@ nav .nav-link:visited {
     .ReactModal__Content {
         width: 80% !important;
     }
-} 
+}  */
 
 .vl {
     border-left: 6px solid #da251d;
@@ -622,7 +622,7 @@ nav .nav-link:visited {
     position: absolute;
     top: 15%;
     padding-top: 8px;
-    left: 35%;
+    left: 43%;
     transition: .3s;
 }
 
@@ -1348,11 +1348,149 @@ nav .nav-link:visited {
 }
 
 /* view for mobile */
-@media for screen only(max-width:767)
+/* @media for screen only(max-width:767)
 {
     .img-size{
         width: 100%;    
     }
         
     
+} */
+@media only screen and (max-width: 991px){
+    #logo{
+        left: 5% !important;
+        width: 150px !important;
+
+    }
+     .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    /* .navbar-collapse.collapse {
+        display: none!important;
+    } */
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+    .zoom evt{
+        margin: auto;
+    }
+    .headline-h2 {
+        font-size: 40px;
+        line-height: 40px;
+        width: 100%;
+        padding-left: 5%;
+    }
+    .btn-wide {
+        font-size: 16px;
+        padding: 4% !important;
+        letter-spacing: 2px;
+        width: 80%;
+    }
+    .body-reg-16 {
+        font-size: 14px;
+        width: 100%;
+    }
+    .headline-h4 {
+         Headline / H2 • 60 Playfair Display 
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: 1.5px;
+    }
+    .subheadline {
+        font-size: 16px;
+    }
+    #about-section {
+        padding-top: 5px !important;
+        padding-bottom: 10% !important;
+        padding-left: 3% !important;
+    }
+    #waffles-section {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        padding-top: 50% !important;
+    }
+    #waffles-card-section {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    #events-section {
+        padding-top: 15% !important;
+        padding-bottom: 15% !important;
+        
+
+    }
+    
+    
+
+    #foundation-section {
+        padding-top: 5px !important;
+        padding-bottom: 0.5% !important;
+        padding-left: 5% !important;
+    }
+    .headline-h3 {
+        font-size: 40px !important;
+    }
+    .card-item {
+        padding: 3% !important;
+        height: fit-content !important;
+    }
+    .card-title {
+        padding: 2% !important;
+        font-size: 18px !important;
+        margin-bottom: 0px !important;
+        padding: 5% !important;
+    }
+    .body-reg-14 {
+        font-size: 12px !important;
+        padding-right: 2% !important;
+        padding-left: 2% !important;
+        align-items: center !important;
+    }
+    .fillings-card {
+        padding-top: 8% !important;
+        margin-bottom: 8% !important;
+    }
+    .modal-header .headline-h5 {
+        font-size: 20px !important;
+        letter-spacing: 0px !important;
+        line-height: 32px !important;
+    }
+    #foundation-video {
+        background-image: none !important;
+    }
+    .party-package-modal {
+        padding: 0px !important;
+    }
+    #img-cart {
+        width: 175px !important;
+    }
+    #package-card {
+        margin-top: 5% !important;
+        margin-bottom: 15% !important;
+    }
+    .card-back {}
+    #footer {
+        background-image: url(../assets/img/Footer/footer-bg-mobile.jpg) !important;
+    }
+    .ReactModal__Content {
+        width: 80% !important;
+    }
 }
