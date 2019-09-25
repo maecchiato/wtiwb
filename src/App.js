@@ -11,7 +11,7 @@ import Home from './Pages/HomePage.js';
 import About from './Pages/AboutPage.js';
 import Waffles from './Components/Waffles';
 import Foundation from './Components/Foundation.js';
-import Events from './Components/Events.js';
+import Events from './Pages/EventsPage.js';
 import Maps from './Components/Map.js';
 import PartyPackage from './Components/PartyPackage.js';
 import Franchise from './Pages/FranchisePage.js';

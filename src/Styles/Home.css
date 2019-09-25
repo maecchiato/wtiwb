@@ -41,7 +41,7 @@
     font-style: normal;
     font-weight: bolder;
     font-size: 48px;
-    line-height: 48px;
+    line-height: 64px;
     letter-spacing: 1.5px;
     width: 100%;
 }
@@ -431,7 +431,7 @@ nav .nav-link:visited {
 
  @media only screen and (min-width: 992px) {
     #logo {
-        left: 42% !important;
+        left: 42.5% !important;
     }
     .modal-footer {
         position: fixed;
