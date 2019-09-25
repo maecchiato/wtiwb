@@ -4,7 +4,6 @@
 }
 
 .headline-h2 {
-    /* Headline / H2 • 60 Playfair Display */
     font-family: 'Playfair', serif !important;
     font-style: normal;
     font-weight: bolder;
@@ -15,7 +14,6 @@
 }
 
 .headline-h3 {
-    /* Headline / H2 • 60 Playfair Display */
     font-family: 'Playfair', serif !important;
     font-style: normal;
     font-weight: bolder;
@@ -27,7 +25,6 @@
 }
 
 .subheadline {
-    /* Headline / H5 • 24 Playfair Bold */
     font-family: 'Playfair', serif !important;
     font-style: normal;
     font-weight: 900;
@@ -40,7 +37,6 @@
 }
 
 .headline-h4 {
-    /* Headline / H2 • 60 Playfair Display */
     font-family: 'Playfair', serif !important;
     font-style: normal;
     font-weight: bolder;
@@ -51,7 +47,6 @@
 }
 
 .headline-h5 {
-    /* Headline / H2 • 60 Playfair Display */
     font-family: 'Playfair', serif !important;
     font-style: normal;
     font-weight: bolder;
@@ -431,8 +426,8 @@ nav .nav-link:visited {
 }
 
  @media only screen and (min-width: 992px) {
-         #logo {
-        left: 40%;
+    #logo {
+        left: 42% !important;
     }
     .modal-footer {
         position: fixed;

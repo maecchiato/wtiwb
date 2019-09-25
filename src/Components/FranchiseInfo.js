@@ -40,7 +40,7 @@ class FranchiseInfo extends React.Component {
                         </div>
                         <div id="card-med" className="col-xl-4 col-lg-4 col-md-4 col-xs-4 col-sm-4">
                             <img src={space}></img>
-                            <p className="caption-12 pt-3">Minimum space requiremnet is 2m x 2m or 4 square meters</p>
+                            <p className="caption-12 pt-3">Minimum space requirement is 2m x 2m or 4 square meters</p>
                         </div>
                         <div id="card-med" className="col-xl-4 col-lg-4 col-md-4 col-xs-4 col-sm-4">
                             <img src={location}></img>
