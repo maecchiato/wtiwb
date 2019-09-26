@@ -1,6 +1,7 @@
 import React from 'react';
 import Slider from 'react-slick';
 import ReactDOM from 'react-dom';
+import  { HashLink } from 'react-router-hash-link';
 
 import events1 from '../assets/img/advertisements/events1.jpg';
 import events2 from '../assets/img/advertisements/events2.jpg';
@@ -192,7 +193,7 @@ class Events extends React.Component{
         </div>
         
         <div className = "col-xl-12 col-lg-12 col-md-12 col-xs-12 col-sm-12 text-center mb-1">
-          <button className="btn-med"> View More Events</button>
+          <HashLink to ="/events/#fillings-section"><button className="btn-med"> View More Events</button></HashLink> 
         </div>
       </div>
 
