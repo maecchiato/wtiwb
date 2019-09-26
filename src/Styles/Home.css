@@ -790,7 +790,9 @@ nav .nav-link:visited {
 
 #events-section {
     font-family: 'Playfair', sans-serif !important;
-    background-color: #fff;
+    background-image: url(../assets/img/history-bg.jpg);
+    background-position: top;
+    background-size: cover;
     color: #fa0002;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -1232,8 +1234,6 @@ nav .nav-link:visited {
 
 .youtube-display {
     pointer-events: none;
-    height: 350px;
-    width: 80%;
 }
 
 #foundation-video {

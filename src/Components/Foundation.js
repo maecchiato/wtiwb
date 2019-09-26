@@ -34,7 +34,7 @@ class Foundation extends React.Component {
                   video="mogEZnukIgM"
                   autoplay
                   muted
-                  width="100%"
+                  width="80%"
                   height="350px"
                   showInfo={false}
                   controls={false}
