@@ -4,7 +4,6 @@
 }
 
 .headline-h2 {
-    /* Headline / H2 • 60 Playfair Display */
     font-family: 'Playfair', serif !important;
     font-style: normal;
     font-weight: bolder;
@@ -15,7 +14,6 @@
 }
 
 .headline-h3 {
-    /* Headline / H2 • 60 Playfair Display */
     font-family: 'Playfair', serif !important;
     font-style: normal;
     font-weight: bolder;
@@ -27,7 +25,6 @@
 }
 
 .subheadline {
-    /* Headline / H5 • 24 Playfair Bold */
     font-family: 'Playfair', serif !important;
     font-style: normal;
     font-weight: 900;
@@ -40,7 +37,6 @@
 }
 
 .headline-h4 {
-    /* Headline / H2 • 60 Playfair Display */
     font-family: 'Playfair', serif !important;
     font-style: normal;
     font-weight: bolder;
@@ -51,11 +47,10 @@
 }
 
 .headline-h5 {
-    /* Headline / H2 • 60 Playfair Display */
     font-family: 'Playfair', serif !important;
     font-style: normal;
     font-weight: bolder;
-    font-size: 32px;
+    font-size: 36px;
     line-height: 36px;
     letter-spacing: 1.5px;
     width: 100%;
@@ -289,6 +284,10 @@
     color: var(--sec-accent);
 }
 
+.text-shadow{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
 /**************  Boootstrap Overrides **************/
 
 .container-fluid {
@@ -430,9 +429,9 @@ nav .nav-link:visited {
     }
 } */
 
- /* @media only screen and (min-width: 992px) {
-         #logo {
-        left: 40%;
+ @media only screen and (min-width: 992px) {
+    #logo {
+        left: 42.5% !important;
     }
     .modal-footer {
         position: fixed;
@@ -791,8 +790,9 @@ nav .nav-link:visited {
 
 #events-section {
     font-family: 'Playfair', sans-serif !important;
-    background-color: #fff;
-    color: #fa0002;
+    background-image: url(../assets/img/history-bg.jpg);
+    background-position: top;
+    background-size: cover;
     padding-top: 5%;
     padding-bottom: 5%;
 }
@@ -1233,8 +1233,6 @@ nav .nav-link:visited {
 
 .youtube-display {
     pointer-events: none;
-    height: 350px;
-    width: 80%;
 }
 
 #foundation-video {

@@ -1,0 +1,18 @@
+#fotm-desc{
+    background-color: var(--sec-yellow);
+    padding-top: 8%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#decades-section{
+    padding-right: 8%;
+    padding-left: 8%;
+}
+
+#decades-section{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url(../assets/img/decades-bg.jpg);
+    background-position: top;
+}

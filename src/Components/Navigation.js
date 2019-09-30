@@ -44,13 +44,13 @@ class Navigation extends React.Component {
           <div className="navbar-nav mr-auto">
             <HashLink to ="/about-page/#about-vid" className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler}>ABOUT US</HashLink>
             <HashLink to = "/#waffles-section" className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler}>OUR WAFFLES</HashLink>
-            <HashLink to = "/#foundation-section" className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler}>WTI FOUNDATION</HashLink>
-            <HashLink to = "/#events-section" className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler}>EVENTS</HashLink>
+            <HashLink to = "/#foundation-section" className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler}>FOUNDATION</HashLink>
+            <HashLink to = "/events/#fillings-section" className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler}>EVENTS</HashLink>
           </div>
           <div className="navbar-nav ml-auto">
             <HashLink to = "/#partypackage-section" className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler}>PARTY PACKAGE</HashLink>
             <HashLink to = "/#map-section" className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler}>STORES</HashLink>
-            <HashLink to = "/franchise" className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler}>FRANCHISE</HashLink>
+            <HashLink to = "/franchise/#franchise-section" className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler}>FRANCHISE</HashLink>
             <HashLink to = "/#contact-section" className="nav-item nav-link text-center" onClick={this.closeMenuToggler}>CONTACT US</HashLink>
             <p className={!this.state.hasClickedMENU ? 'd-none' : 'h6 text-center mobile-dropdown-copyright'}>Waffle Time Inc., © All Rights Reserved 2018</p>
           </div>

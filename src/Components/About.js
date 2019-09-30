@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashLink } from 'react-router-hash-link';
+import  { HashLink } from 'react-router-hash-link';
 import waffy from '../assets/img/waffy-mascot.png';
 import rec from '../assets/img/Heading/rec.jpg';
 
