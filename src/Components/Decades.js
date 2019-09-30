@@ -11,8 +11,8 @@ class Decades extends React.Component {
                 <img src={recyellow}></img>
                 <div className="container-fluid row">
                     <div id="decades-video" className="col-xl-6 col-lg-6 col-md-6 col-xs-12 col-sm-12 justify-content-center">
-                        <div className="youtube-parent mt-1 h-100">
-                            <div className="youtube-display pt-5 h-50 d-xl-block d-none">
+                        <div className="youtube-parent mt-3 h-100">
+                            <div className="youtube-display pt-5 h-50 d-lg-block d-none">
                                 <Youtube
                                     video="mogEZnukIgM"
                                     autoplay

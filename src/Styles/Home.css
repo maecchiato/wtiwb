@@ -41,7 +41,7 @@
     font-style: normal;
     font-weight: bolder;
     font-size: 48px;
-    line-height: 64px;
+    line-height: 48px;
     letter-spacing: 1.5px;
     width: 100%;
 }
@@ -793,7 +793,6 @@ nav .nav-link:visited {
     background-image: url(../assets/img/history-bg.jpg);
     background-position: top;
     background-size: cover;
-    color: #fa0002;
     padding-top: 5%;
     padding-bottom: 5%;
 }
