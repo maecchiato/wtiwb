@@ -2,7 +2,10 @@ import React from 'react';
 import Slider from 'react-slick';
 import ReactDOM from 'react-dom';
 import  { HashLink } from 'react-router-hash-link';
-
+import fevents1 from '../assets/img/advertisements/fevents1.jpg';
+import fevents2 from '../assets/img/advertisements/fevents2.jpg';
+import fevents3 from '../assets/img/advertisements/fevents3.jpg';
+import fevents4 from '../assets/img/advertisements/fevents4.jpg';
 import events1 from '../assets/img/advertisements/events1.jpg';
 import events2 from '../assets/img/advertisements/events2.jpg';
 import events3 from '../assets/img/advertisements/events3.jpg';
@@ -58,6 +61,106 @@ class EventFoundation extends React.Component{
         <div id = "event-slider" className = "col-xl-8 col-lg-8 col-md-8 col-xs-12 col-sm-12 text-center">
         <Slider {...settings}>
           
+        <div className = "zoom evtf">
+            <a href="https://www.facebook.com/WaffleTimeInc/posts/10157447168432726" target="_blank" rel=" noreferrer noopener">
+                <div className="row">
+                    <div className="col-xl-4 col-lg-4 col-md-4 col-xs-12 col-sm-12">
+                        <img className = "img-fluid " src = {fevents1} />
+                    </div>
+                    <div className="col-xl-8 col-lg-8 col-md-8 col-xs-12 col-sm-12">
+                        <p className = "color-yellow button-16 mt-xl-2 mt-lg-2 mt-sm-0 mr-3 text-left">
+                        7 Sep 2019
+                        </p>
+                        <p className = "title-24 text-left text-white pt-3">
+                        Waffle Time Honors Grandparents on National Grandparent&apos;s Day
+                        </p>
+                        <p className = "w-75 event-description text-left text-white">
+                        Ang Waffle Time sa pamamagitan ng Waffle Time Foundation ay nag-diriwang at nagbibigay pugay sa ating mga Lolo at Lola na nasa pangangalaga ng House of Nazareth. #waffletimefoundation
+                        #waffletimecares
+                        #lakingwaffletime
+                        #nationalgrandparentsdaypinas
+                        </p>              
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div className = "zoom evtf">
+            <a href="https://www.facebook.com/WaffleTimeInc/posts/10157372564772726" target="_blank" rel=" noreferrer noopener">
+                <div className="row">
+                    <div className="col-xl-4 col-lg-4 col-md-4 col-xs-12 col-sm-12">
+                        <img className = "img-fluid " src = {fevents2} />
+                    </div>
+                    <div className="col-xl-8 col-lg-8 col-md-8 col-xs-12 col-sm-12">
+                        <p className = "color-yellow button-16 mt-xl-2 mt-lg-2 mt-sm-0 mr-3 text-left">
+                        8 Aug 2019
+                        </p>
+                        <p className = "title-24 text-left text-white pt-3">
+                        Waffle Time Group of Companies in partnership with Red Cross Iloilo Chapter holds "Dugo para sa Dengue" Bloodletting Drive
+                        </p>
+                        <p className = "w-75 event-description text-left text-white">
+                        Volunteer, bring a friend and let us all save lives. Inaanyayahan po namin ang lahat na mag donate ng dugo bilang suporta sa aming kampanya na maka tulong sa mga pasyente ng dengue na nangangailangan ng dugo sa lalawigan ng Iloilo. Maki-isa tayo sa pagsagip ng buhay!
+
+                        #AngPambansangWaffleNgPilipinas
+                        #WaffleTimeFoundation
+                        #WaffleTimeCares
+                        </p>              
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div className = "zoom evtf">
+            <a href="https://www.facebook.com/WaffleTimeInc/posts/10157360042642726" target="_blank" rel=" noreferrer noopener">
+                <div className="row">
+                    <div className="col-xl-4 col-lg-4 col-md-4 col-xs-12 col-sm-12">
+                        <img className = "img-fluid " src = {fevents3} />
+                    </div>
+                    <div className="col-xl-8 col-lg-8 col-md-8 col-xs-12 col-sm-12">
+                        <p className = "color-yellow button-16 mt-xl-2 mt-lg-2 mt-sm-0 mr-3 text-left">
+                        3 Aug 2019
+                        </p>
+                        <p className = "title-24 text-left text-white pt-3">
+                        Malasakit sa Kapwa Project
+                        </p>
+                        <p className = "w-75 event-description text-left text-white">
+                        Waffle Time Foundation donates 20 folding beds to the Fifth District of Iloilo. Beds are received by the office of the Board Member, Atty. Carol Espinosa. #WaffleTimeFoundation #LakingWaffleTime
+                        </p>              
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div className = "zoom evtf">
+            <a href="https://www.facebook.com/WaffleTimeInc/posts/10157188534582726" target="_blank" rel=" noreferrer noopener">
+                <div className="row">
+                    <div className="col-xl-4 col-lg-4 col-md-4 col-xs-12 col-sm-12">
+                        <img className = "img-fluid " src = {fevents4} />
+                    </div>
+                    <div className="col-xl-8 col-lg-8 col-md-8 col-xs-12 col-sm-12">
+                        <p className = "color-yellow button-16 mt-xl-2 mt-lg-2 mt-sm-0 mr-3 text-left">
+                        27 May 2019
+                        </p>
+                        <p className = "title-24 text-left text-white pt-3">
+                        Waffle Time participates in Brigada Eskwela 2019
+                        </p>
+                        <p className = "w-75 event-description text-left text-white">
+                        Waffle Time supports the following schools:
+
+                        Ungka II Elementary School,
+                        Pagsanga-an Elementary School,
+                        Tigum ANP Pilot Elementary School, and
+                        Donato M. Pison Sr. Memorial School
+
+                        for Brigada Eskwela 2019's Theme: "Matatag na Bayan para sa Maunlad na Paaralan" 
+                        #20YearsOfBakingFreshness
+                        </p>              
+                    </div>
+                </div>
+            </a>
+        </div>
+
+
           <div className = "zoom evt">
             <a href="https://www.facebook.com/WaffleTimeInc/photos/a.411614677725/10157461150387726/?type=3&theater" target="_blank" rel=" noreferrer noopener">
                 <div className="row">

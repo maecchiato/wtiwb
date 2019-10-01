@@ -44,7 +44,7 @@ class Navigation extends React.Component {
           <div className="navbar-nav mr-auto">
             <HashLink to ="/about-page/#about-vid" className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler}>ABOUT US</HashLink>
             <HashLink to = "/#waffles-section" className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler}>OUR WAFFLES</HashLink>
-            <HashLink to = "/#foundation-section" className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler}>FOUNDATION</HashLink>
+            <HashLink to = "/foundation" className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler}>FOUNDATION</HashLink>
             <HashLink to = "/events/#fillings-section" className="nav-item nav-link mr-md-1 text-center" onClick={this.closeMenuToggler}>EVENTS</HashLink>
           </div>
           <div className="navbar-nav ml-auto">
