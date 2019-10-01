@@ -1,6 +1,11 @@
 /************** Style Components *************/
-.main-red{
+
+.main-red {
     color: var(--main-red) !important;
+}
+
+.color-yellow {
+    color: var(--sec-yellow) !important
 }
 
 .headline-h2 {
@@ -56,6 +61,15 @@
     width: 100%;
 }
 
+.title-24 {
+    font-family: 'Playfair';
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height */
+    letter-spacing: 2px;
+}
+
 .body-reg-16 {
     /* Body / 16 Lato Regular */
     font-family: Lato;
@@ -92,7 +106,7 @@
     text-align: center;
     letter-spacing: 1px;
     color: #000000;
-    margin-bottom:3% !important;
+    margin-bottom: 3% !important;
 }
 
 .caption-12 {
@@ -284,7 +298,7 @@
     color: var(--sec-accent);
 }
 
-.text-shadow{
+.text-shadow {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
 }
 
@@ -371,14 +385,14 @@ nav .nav-link:visited {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
- /* @media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
     #logo {
         width: 200px !important;
         top: 10% !important;
         left: 43% !important;
     }
     #home-section {
-        /* padding-bottom: 20% !important; 
+        /* padding-bottom: 20% !important; */
     }
     #welcome-waffletime {
         margin-top: 16% !important;
@@ -421,15 +435,15 @@ nav .nav-link:visited {
         padding-right: 15% !important;
     }
     .card-item {
-        height: fit-content !important;
+        /* height: fit-content !important; */
         padding: 10% !important;
     }
-    #events-section{
+    #events-section {
         height: 50%;
     }
-} */
+}
 
- @media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) {
     #logo {
         left: 42.5% !important;
     }
@@ -441,7 +455,7 @@ nav .nav-link:visited {
         z-index: 1030;
     }
     #about-section {
-        padding-left: 8% !important;  
+        /* padding-left: 8% !important; */
         background-image: url(../assets/img/about-bg.jpg);
         background-size: cover!important;
         padding-bottom: 3% !important;
@@ -452,10 +466,9 @@ nav .nav-link:visited {
         padding-right: 0px !important;
         background-size: cover !important;
     }
-    #waffles-heading {}
     .card-item {
-        height: fit-content !important;
-        padding: 10% !important;
+        /* height: fit-content !important; */
+        /* padding: 8% !important; */
     }
     .card-title {
         padding: 8% !important;
@@ -465,20 +478,17 @@ nav .nav-link:visited {
     }
 }
 
- @media only screen and (max-width: 600px) {
-    .zoom evt{
+@media only screen and (max-width: 600px) {
+    .zoom evt {
         margin: auto;
     }
     .navbar-nav {
-        height: 100vh; 
+        /* height: 100vh; */
     }
     #logo {
         left: 5% !important;
         width: 150px !important;
-
-        
     }
-   
     .headline-h2 {
         font-size: 40px;
         line-height: 40px;
@@ -496,7 +506,7 @@ nav .nav-link:visited {
         width: 100%;
     }
     .headline-h4 {
-         
+        /* Headline / H2 • 60 Playfair Display */
         font-size: 32px;
         line-height: 40px;
         letter-spacing: 1.5px;
@@ -609,7 +619,7 @@ nav .nav-link:visited {
     position: absolute;
     top: 15%;
     padding-top: 8px;
-    left: 43%;
+    left: 35%;
     transition: .3s;
 }
 
@@ -808,8 +818,6 @@ nav .nav-link:visited {
 #event-slider {
     margin-top: 20px;
     color: #030051;
-    
-    
 }
 
 .event-description {
@@ -973,6 +981,12 @@ nav .nav-link:visited {
     color: white;
 }
 
+.evtf:hover {
+    border-radius: 5px;
+    background-color: var(--sec-red);
+    color: black !important;
+}
+
 .zoom {
     padding: 15px;
     box-sizing: border-box;
@@ -989,6 +1003,7 @@ nav .nav-link:visited {
     -webkit-transform: scale(1.5);
     /* Safari 3-8 */
     transform: scale(1.1);
+    text-decoration: none !important;
 }
 
 .event-text {
@@ -1189,7 +1204,7 @@ nav .nav-link:visited {
     background-color: white;
     opacity: 0.8;
     color: #000000;
-    padding: 5% !important;
+    padding: 4% !important;
 }
 
 .img-cart-display {
@@ -1334,6 +1349,7 @@ nav .nav-link:visited {
 }
 
 /* view for mobile */
+
 /* @media for screen only(max-width:767)
 {
     .img-size{
@@ -1342,39 +1358,3 @@ nav .nav-link:visited {
         
     
 } */
-@media only screen and (max-width: 991px){
-    #logo{
-        left: 5% !important;
-        width: 150px !important;
-
-    }
-     .navbar-header {
-        float: none;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    /* .navbar-collapse.collapse {
-        display: none!important;
-    } */
-    .navbar-nav {
-        float: none!important;
-        margin: 7.5px -15px;
-    }
-    .navbar-text {
-        float: none;
-        margin: 15px 0;
-    }
-    .navbar-collapse.collapse.in { 
-        display: block!important;
-    }
-    .navbar-expand-custom.collapsing {
-        overflow: hidden!important;
-    }
-    
-
-}
