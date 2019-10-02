@@ -51,7 +51,7 @@ class EventFoundation extends React.Component{
     };
 
     return(
-      <div id = "events-foundation-section" className = "row">
+      <div id = "events-f-section" className = "row">
         <div className = "col-xl-12 col-lg-12 col-md-12 col-xs-12 col-sm-12 text-center mb-1">
           <p className = "headline-h3 text-center">What's New</p>
           <img src={rec}></img>
