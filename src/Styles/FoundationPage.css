@@ -1,4 +1,7 @@
 #events-f-section{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
     background-color: var(--sec-red);
 }
 
@@ -9,3 +12,4 @@
 #eventf-img{
     max-width: 110% !important;
 }
+

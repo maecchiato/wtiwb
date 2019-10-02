@@ -27,6 +27,7 @@ class EventFoundation extends React.Component{
        slidesToShow: 1,
        speed: 1000,
        autoplay: false,
+       arrows: true,
        autoplaySpeed: 4500,
        responsive: [
          {
@@ -52,10 +53,6 @@ class EventFoundation extends React.Component{
 
     return(
       <div id = "events-f-section" className = "row">
-        <div className = "col-xl-12 col-lg-12 col-md-12 col-xs-12 col-sm-12 text-center mb-1">
-          <p className = "headline-h3 text-center">What's New</p>
-          <img src={rec}></img>
-        </div>
         <div className = "col-xl-2 col-lg-2 col-md-2 col-xs-12 col-sm-12">
         </div>
         <div id = "event-slider" className = "col-xl-8 col-lg-8 col-md-8 col-xs-12 col-sm-12 text-center">
