@@ -24,6 +24,7 @@ class Events extends React.Component{
        slidesToShow: 1,
        speed: 1000,
        autoplay: true,
+       arrows:true,
        autoplaySpeed: 4500,
        responsive: [
          {

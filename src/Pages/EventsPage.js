@@ -10,7 +10,7 @@ class EventsPage extends React.Component {
     return (
       <div class="container-fluid">
         <Fillings />
-        {/* <StoreOpenings /> */}
+        <StoreOpenings />
         <Decades />
       </div>
     )

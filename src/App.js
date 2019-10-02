@@ -9,7 +9,7 @@ import {Switch, Route, BrowserRouter} from 'react-router-dom';
 import Navigation from './Components/Navigation.js';
 import Home from './Pages/HomePage.js';
 import About from './Pages/AboutPage.js';
-import Foundation from './Components/Foundation.js';
+import Foundation from './Pages/FoundationPage.js';
 import Events from './Pages/EventsPage.js';
 import Maps from './Components/Map.js';
 import Franchise from './Pages/FranchisePage.js';
