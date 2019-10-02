@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Styles/FoundationPage.css';
-import Swiper from 'swiper';
+
 import EventFoundation from '../Components/EventFoundation';
 
 class FoundationPage extends React.Component {

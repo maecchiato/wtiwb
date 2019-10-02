@@ -1,0 +1,11 @@
+#events-f-section{
+    background-color: var(--sec-red);
+}
+
+#eventf-title{
+    width: 95%;
+}
+
+#eventf-img{
+    max-width: 110% !important;
+}
