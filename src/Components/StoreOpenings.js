@@ -11,6 +11,9 @@ import events6 from '../assets/img/advertisements/events6.jpg';
 import events7 from '../assets/img/advertisements/events7.jpg';
 import events8 from '../assets/img/advertisements/events8.jpg';
 import events9 from '../assets/img/advertisements/events9.jpg';
+import events10 from '../assets/img/advertisements/events10.jpg';
+import events11 from '../assets/img/advertisements/events11.jpg';
+import events12 from '../assets/img/advertisements/events12.jpg';
 
 import rec from '../assets/img/Heading/rec.jpg';
 
@@ -56,29 +59,30 @@ class StoreOpenings extends React.Component{
         </div>
         <div id = "event-slider" className = "col-xl-4 col-lg-4 col-md-4 col-xs-12 col-sm-12 text-center">
         <Slider {...settings}>
-          <div className = "zoom evt">
+        <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-                13 Sep 2019
+                28 Sep 2019
               </small>
               
-              <a href="https://www.facebook.com/WaffleTimeInc/photos/pcb.10157451754332726/10157451753902726/?type=3&theater" target="_blank" rel=" noreferrer noopener">
-            <img className = "img-size" src = {events1} />
+              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157499245567726" target="_blank" rel=" noreferrer noopener">
+            <img className = "img-size" src = {events10} />
               <p className = "event-description">
-                Waffle Time celebrates 21st National Waffle Time Day
+                Waffle Time opens at Imus Terminal Mall, Cavite
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
 
               </p>
               </a>
           </div>
+
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-          11 Sep 2019
+          25 Sep 2019
               </small>
-              <a href="https://www.facebook.com/WaffleTimeInc/photos/a.411614677725/10157458993177726/?type=3&theater">
-            <img className = "img-size" src = {events2} />
+              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157491309767726" target="_blank" rel=" noreferrer noopener">
+            <img className = "img-size" src = {events11} />
               <p className = "event-description">
-              Waffle Time Joins PFA on Franchise Negosyo activities Nationwide!
+              Waffle Time opens at Robinsons Supermarket Merville, Parañaque
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
 
@@ -88,12 +92,27 @@ class StoreOpenings extends React.Component{
 
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-                Tue, 17 September 2019
+                17 Sep 2019
               </small>
               <a href="https://www.facebook.com/WaffleTimeInc/posts/10157471033822726?__tn__=-R" target="_blank" rel=" noreferrer noopener">
             <img className = "img-size" src = {events7} />
               <p className = "event-description">
                 Waffle Time opens at Corpus Christi School, Cagayan de Oro
+              </p>
+              <p className = "mt-1 mx-1 event-description text-justify">
+
+              </p>
+              </a>
+          </div>
+
+          <div className = "zoom evt">
+          <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
+                13 Sep 2019
+              </small>
+              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157461231432726" target="_blank" rel=" noreferrer noopener">
+            <img className = "img-size" src = {events12} />
+              <p className = "event-description">
+                Waffle Time opens at Robinsons Place Iligan
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
 

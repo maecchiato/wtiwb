@@ -26,7 +26,7 @@ class EventFoundation extends React.Component{
        centerPadding: '60px',
        slidesToShow: 1,
        speed: 1000,
-       autoplay: false,
+       autoplay: true,
        arrows: true,
        autoplaySpeed: 4500,
        responsive: [
