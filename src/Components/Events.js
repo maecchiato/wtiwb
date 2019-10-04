@@ -12,6 +12,7 @@ import events6 from '../assets/img/advertisements/events6.jpg';
 import events7 from '../assets/img/advertisements/events7.jpg';
 import events8 from '../assets/img/advertisements/events8.jpg';
 import events9 from '../assets/img/advertisements/events9.jpg';
+import events10 from '../assets/img/advertisements/events10.jpg';
 
 import rec from '../assets/img/Heading/rec.jpg';
 
@@ -149,12 +150,13 @@ class Events extends React.Component{
 
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-                17 Sept 2019
+                28 Sep 2019
               </small>
-              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157471033822726?__tn__=-R" target="_blank" rel=" noreferrer noopener">
-            <img className = "img-size" src = {events7} />
+              
+              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157499245567726" target="_blank" rel=" noreferrer noopener">
+            <img className = "img-size" src = {events10} />
               <p className = "event-description">
-                Waffle Time opens at Corpus Christi School, Cagayan de Oro
+                Waffle Time opens at Imus Terminal Mall, Cavite
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
 
