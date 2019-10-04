@@ -12,6 +12,7 @@ import events6 from '../assets/img/advertisements/events6.jpg';
 import events7 from '../assets/img/advertisements/events7.jpg';
 import events8 from '../assets/img/advertisements/events8.jpg';
 import events9 from '../assets/img/advertisements/events9.jpg';
+import events10 from '../assets/img/advertisements/events10.jpg';
 
 import rec from '../assets/img/Heading/rec.jpg';
 
@@ -19,8 +20,9 @@ class Events extends React.Component{
   render(){
     var settings = {
       dots: true,
+      mobileFirst: true,
        centerMode: true,
-       centerPadding: '60px',
+       centerPadding: '40px',
        slidesToShow: 1,
        speed: 1000,
        autoplay: true,
@@ -30,19 +32,19 @@ class Events extends React.Component{
          {
            breakpoint: 768,
            settings: {
-             arrows: false,
+             arrows: true,
              centerMode: true,
-             centerPadding: '40px',
+             centerPadding: '60px',
              slidesToShow: 2
            }
          },
          {
-           breakpoint: 480,
+           breakpoint: 992,
            settings: {
              arrows: false,
              centerMode: true,
-             centerPadding: '40px',
-             slidesToShow: 1
+             centerPadding: '60px',
+             slidesToShow: 3
            }
          }
        ]
@@ -89,7 +91,7 @@ class Events extends React.Component{
           </div>
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-                7 Sep 2019
+               7 Sep 2019
               </small>
               <a href="https://www.facebook.com/WaffleTimeInc/posts/10157447168432726?__tn__=-R" target="_blank" rel=" noreferrer noopener">
             <img className = "img-size" src = {events3} />
@@ -103,9 +105,9 @@ class Events extends React.Component{
           </div>
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-                1 Jul 2019
+                16 Sept 2019
               </small>
-              <a href="https://www.facebook.com/WaffleTimeInc/photos/a.411614677725/10157277864907726/?type=3&theater" target="_blank" rel=" noreferrer noopener">
+              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157468891597726" target="_blank" rel=" noreferrer noopener">
             <img className = "img-size" src = {events4} />
               <p className = "event-description">
                 Fillings of the Month is here!
@@ -118,7 +120,7 @@ class Events extends React.Component{
           
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-                1 Sep 2019
+                1 Sept 2019
               </small>
               <a href="https://www.facebook.com/WaffleTimeInc/photos/a.411614677725/10157427057702726/?type=3&theater" target="_blank" rel=" noreferrer noopener">
             <img className = "img-size" src = {events5} />
@@ -133,7 +135,7 @@ class Events extends React.Component{
           
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-                18 Jun 2019
+               18 Jun 2019
               </small>
               <a href="https://www.facebook.com/WaffleTimeInc/posts/10157244875987726?__tn__=-R" target="_blank" rel=" noreferrer noopener">
             <img className = "img-size" src = {events6} />
@@ -148,12 +150,13 @@ class Events extends React.Component{
 
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-                Tue, 17 September 2019
+                28 Sep 2019
               </small>
-              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157471033822726?__tn__=-R" target="_blank" rel=" noreferrer noopener">
-            <img className = "img-size" src = {events7} />
+              
+              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157499245567726" target="_blank" rel=" noreferrer noopener">
+            <img className = "img-size" src = {events10} />
               <p className = "event-description">
-                Waffle Time opens at Corpus Christi School, Cagayan de Oro
+                Waffle Time opens at Imus Terminal Mall, Cavite
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
 
@@ -163,9 +166,9 @@ class Events extends React.Component{
 
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-                Thur, 12 September 2019
+                3 Oct 2019
               </small>
-              <a href="https://www.facebook.com/WaffleTimeInc/photos/a.411614677725/10157486051472726/?type=3&theater" target="_blank" rel=" noreferrer noopener">
+              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157512924567726" target="_blank" rel=" noreferrer noopener">
             <img className = "img-size" src = {events8} />
               <p className = "event-description">
                 Waffle Time is hiring!
@@ -178,9 +181,9 @@ class Events extends React.Component{
 
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-                Tue, 10 September 2019
+                30 Sept 2019
               </small>
-              <a href="https://www.facebook.com/WaffleTimeInc/photos/a.411614677725/10157436925537726/?type=3&theater" target="_blank" rel=" noreferrer noopener">
+              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157504794417726" target="_blank" rel=" noreferrer noopener">
             <img className = "img-size" src = {events9} />
               <p className = "event-description">
                 Interested in our business? Attend our Franchise Orientation!

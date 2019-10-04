@@ -386,11 +386,11 @@ nav .nav-link:visited {
 }
 
 @media only screen and (min-width: 1200px) {
-    #logo {
+    /* #logo {
         width: 200px !important;
         top: 10% !important;
         left: 43% !important;
-    }
+    } */
     #home-section {
         /* padding-bottom: 20% !important; */
     }
@@ -444,9 +444,11 @@ nav .nav-link:visited {
 }
 
 @media only screen and (min-width: 992px) {
-    #logo {
-        left: 42.5% !important;
-    }
+     #logo {
+        left: 43% !important;
+        width: 150px !important;
+    
+    } 
     .modal-footer {
         position: fixed;
         bottom: 0;
@@ -485,10 +487,10 @@ nav .nav-link:visited {
     .navbar-nav {
         /* height: 100vh; */
     }
-    #logo {
+    /* #logo {
         left: 5% !important;
         width: 150px !important;
-    }
+    } */
     .headline-h2 {
         font-size: 40px;
         line-height: 40px;
@@ -615,11 +617,11 @@ nav .nav-link:visited {
 } */
 
 #logo {
-    width: 200px;
+    width: 150px !important;
     position: absolute;
     top: 15%;
     padding-top: 8px;
-    left: 35%;
+    left: 5%;
     transition: .3s;
 }
 
