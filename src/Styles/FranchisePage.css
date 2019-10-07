@@ -45,6 +45,7 @@
 
 #franchisee-section{
     background-image: url(../assets/img/franchise-bg.png);
+    padding-top: 5%;
     background-origin: top;
     background-size: cover;
 }
