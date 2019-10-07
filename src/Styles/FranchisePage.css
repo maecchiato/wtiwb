@@ -1,5 +1,5 @@
 @media only screen and (max-width: 600px) {
-    #franchise-section{
+    #waffledesc-section{
         padding-top: 20% !important;
         padding-left: 5% !important;
         padding-right: 5% !important;
@@ -11,7 +11,7 @@
     }
 }
 
-#franchise-section{
+#waffledesc-section{
     padding-top: 8%;
     padding-left: 10%;
     padding-right: 10%;
@@ -43,7 +43,7 @@
     padding-bottom: 7%;
 }
 
-#calltoaction-section{
+#franchisee-section{
     background-image: url(../assets/img/franchise-bg.png);
     background-origin: top;
     background-size: cover;

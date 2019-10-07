@@ -11,7 +11,7 @@ class Contact extends React.Component {
                     <p className="headline-h3 w-100">Interested? Contact Us!</p>
                     <img src={rec}></img>
                     <p className="body-reg-16 w-100 pt-2">Join our growing Waffle Time family today! Franchise now!</p>
-                    <a href="mailto:customerservice@waffletime.com?Subject=Franchise%20Inquiry" target="_top" className="mt-1 mb-3 p-2 mr-2 btn-stroke">
+                    <a href="https://mail.google.com/mail/?view=cm&to=customerservice@waffletime.com&su=Franchise%20Inquiry" target="_top _blank" rel=" noreferrer noopener" className="mt-1 mb-3 p-2 mr-2 btn-stroke">
                         Send us an Email
                     </a>
                 </div>

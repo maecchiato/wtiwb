@@ -3,7 +3,7 @@ import Modal from 'react-modal';
 import '../App.css';
 import ReactToolTip from 'react-tooltip';
 import { findDOMNode } from 'react-dom'
-
+import { HashLink } from 'react-router-hash-link';
 import title from '../assets/img/title.png';
 import rec from '../assets/img/Heading/rec.jpg';
 import wafflestorePackageA from '../assets/img/waffle-store-packageA.jpg';
@@ -88,7 +88,7 @@ class PartyPackage extends React.Component {
                       <div className="dropdown-menu">
                         <a className="dropdown-item" href="http://m.me/WaffleTimeInc" target="_blank" rel="noopener noreferrer">Facebook Messenger</a>
                         <a className="dropdown-item" href="mailto:customerservice@waffletime.com?Subject=Party%20Package%20Inquiry">Email</a>
-                        <a href="#v-pills-contact-tab" className="dropdown-item" ref="tooltip" data-tip="Refer to our Contact Section Below">Contact Us</a>
+                        <HashLink to ="/#contact-section" className="dropdown-item" ref="tooltip" onClick={this.closeModal} >Contact Us</HashLink>
                         <button className="d-none" onClick={() => { ReactToolTip.hide(findDOMNode(this.refs.tooltip)) }}></button>
                         <ReactToolTip effect="float" place="right" type="info" />
                       </div>
@@ -120,7 +120,7 @@ class PartyPackage extends React.Component {
                         <div className="dropdown-menu">
                           <a className="dropdown-item" href="https://www.facebook.com/messages/t/WaffleTimeInc" target="_blank" rel="noopener noreferrer">Facebook Messenger</a>
                           <a className="dropdown-item" href="mailto:customerservice@waffletime.com?Subject=Party%20Package%20Inquiry">Email</a>
-                          <a href="#v-pills-contact-tab" className="dropdown-item" ref="tooltip" data-tip="Refer to our Contact Section Below">Contact Us</a>
+                          <HashLink to ="/#contact-section" className="dropdown-item" ref="tooltip" onClick={this.closeModal} >Contact Us</HashLink>
                           <button className="d-none" onClick={() => { ReactToolTip.hide(findDOMNode(this.refs.tooltip)) }}></button>
                           <ReactToolTip effect="float" place="right" type="info" />
                         </div>

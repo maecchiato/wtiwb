@@ -5,7 +5,7 @@ import rec from '../assets/img/Heading/rec.jpg';
 class CallToAction extends React.Component {
     render() {
         return (
-            <div id="calltoaction-section" className="row">
+            <div id="franchisee-section" className="row">
                 <div className="col-xl-6 col-lg-6 col-md-6 col-xs-auto col-sm-auto">
 
                 </div>
