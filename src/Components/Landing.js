@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Button } from 'react-bootstrap';
+import  { HashLink } from 'react-router-hash-link';
 import { Carousel } from "react-responsive-carousel";
 import image1 from '../assets/img/carousel/img1.jpg';
 import image2 from '../assets/img/carousel/img2.jpg';
@@ -44,7 +45,7 @@ class Landing extends React.Component {
             </div>
           </Carousel>
           <div id="btn-franchise" className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center w-100 container-fluid">
-          <button className="btn-wide">BECOME A FRANCHISEE!</button>
+          <HashLink to="/franchise/#franchisee-section"><button className="btn-wide">BECOME A FRANCHISEE!</button></HashLink>
         </div>
         </div>
 

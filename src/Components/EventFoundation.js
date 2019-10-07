@@ -62,16 +62,16 @@ class EventFoundation extends React.Component{
             <a href="https://www.facebook.com/WaffleTimeInc/posts/10157447168432726" target="_blank" rel=" noreferrer noopener">
                 <div className="row">
                     <div className="col-xl-4 col-lg-4 col-md-4 col-xs-12 col-sm-12">
-                        <img id="eventf-img" className = "img-fluid " src = {fevents1} />
+                        <img id="eventf-img" className = "img-fluid mb-4" src = {fevents1} />
                     </div>
                     <div className="col-xl-8 col-lg-8 col-md-8 col-xs-12 col-sm-12 ">
-                        <p className = "color-yellow button-16 mt-xl-2 mt-lg-2 mt-sm-0 mr-3 text-left ml-4">
+                        <p className = "color-yellow button-16 mt-xl-2 mt-lg-2 mt-sm-0 mr-3 text-left event-margin">
                         7 Sep 2019
                         </p>
-                        <p id="eventf-title" className = "title-24 text-left text-white pt-3 ml-4">
+                        <p id="eventf-title" className = "title-24 text-left text-white pt-3 event-margin">
                         Waffle Time Honors Grandparents on National Grandparent&apos;s Day
                         </p>
-                        <p className = "w-75 event-description text-left text-white ml-4">
+                        <p id="eventf-desc" className = "event-description text-left text-white event-margin">
                         Ang Waffle Time sa pamamagitan ng Waffle Time Foundation ay nag-diriwang at nagbibigay pugay sa ating mga Lolo at Lola na nasa pangangalaga ng House of Nazareth. #waffletimefoundation
                         #waffletimecares
                         #lakingwaffletime
@@ -89,15 +89,14 @@ class EventFoundation extends React.Component{
                         <img id="eventf-img" className = "img-fluid" src = {fevents2} />
                     </div>
                     <div className="col-xl-8 col-lg-8 col-md-8 col-xs-12 col-sm-12">
-                        <p className = "color-yellow button-16 mt-xl-2 mt-lg-2 mt-sm-0 mr-3 text-left ml-4">
+                        <p className = "color-yellow button-16 mt-xl-2 mt-lg-2 mt-sm-0 mr-3 text-left event-margin">
                         8 Aug 2019
                         </p>
-                        <p id="eventf-title" className = "title-24 text-left text-white pt-3 ml-4">
+                        <p id="eventf-title" className = "title-24 text-left text-white pt-3 event-margin">
                         WTI holds Bloodletting Drive
                         </p>
-                        <p className = "w-75 event-description text-left text-white ml-4">
-                        In partnership with Red Cross Iloilo Chapter, Waffle Time Group of Companies conducted "Dugo para sa Dengue" to promote the health of employees and gather blood donations.  
-                        #AngPambansangWaffleNgPilipinas
+                        <p id="eventf-desc" className = "event-description text-left text-white event-margin">
+                        In partnership with Red Cross Iloilo Chapter, Waffle Time Group of Companies conducted "Dugo para sa Dengue" to promote the health of employees and gather blood donations. 
                         #WaffleTimeFoundation
                         #WaffleTimeCares
                         </p>              
@@ -110,16 +109,16 @@ class EventFoundation extends React.Component{
             <a href="https://www.facebook.com/WaffleTimeInc/posts/10157360042642726" target="_blank" rel=" noreferrer noopener">
                 <div className="row">
                     <div className="col-xl-4 col-lg-4 col-md-4 col-xs-12 col-sm-12">
-                        <img id="eventf-img" className = "img-fluid " src = {fevents3} />
+                        <img id="eventf-img" className = "img-fluid mb-4" src = {fevents3} />
                     </div>
                     <div className="col-xl-8 col-lg-8 col-md-8 col-xs-12 col-sm-12">
-                        <p className = "color-yellow button-16 mt-xl-2 mt-lg-2 mt-sm-0 mr-3 text-left ml-4">
+                        <p className = "color-yellow button-16 mt-xl-2 mt-lg-2 mt-sm-0 mr-3 text-left event-margin">
                         3 Aug 2019
                         </p>
-                        <p id="eventf-title" className = "title-24 text-left text-white pt-3 ml-4">
+                        <p id="eventf-title" className = "title-24 text-left text-white pt-3 event-margin">
                         Malasakit sa Kapwa Project
                         </p>
-                        <p className = "w-75 event-description text-left text-white ml-4">
+                        <p className = "event-description text-left text-white event-margin">
                         Waffle Time Foundation donates 20 folding beds to the Fifth District of Iloilo. Beds are received by the office of the Board Member, Atty. Carol Espinosa. #WaffleTimeFoundation #LakingWaffleTime
                         </p>              
                     </div>
@@ -131,16 +130,16 @@ class EventFoundation extends React.Component{
             <a href="https://www.facebook.com/WaffleTimeInc/posts/10157188534582726" target="_blank" rel=" noreferrer noopener">
                 <div className="row">
                     <div className="col-xl-4 col-lg-4 col-md-4 col-xs-12 col-sm-12">
-                        <img id="eventf-img" className = "img-fluid " src = {fevents4} />
+                        <img id="eventf-img" className = "img-fluid mb-4" src = {fevents4} />
                     </div>
                     <div className="col-xl-8 col-lg-8 col-md-8 col-xs-12 col-sm-12">
-                        <p className = "color-yellow button-16 mt-xl-2 mt-lg-2 mt-sm-0 mr-3 text-left ml-4">
+                        <p className = "color-yellow button-16 mt-xl-2 mt-lg-2 mt-sm-0 mr-3 text-left event-margin">
                         27 May 2019
                         </p>
-                        <p id="eventf-title" className = "title-24 text-left text-white pt-3 ml-4">
-                        Waffle Time participates in Brigada Eskwela 2019
+                        <p id="eventf-title" className = "title-24 text-left text-white pt-3 event-margin">
+                        WTI Brigada Eskwela 2019
                         </p>
-                        <p className = "w-75 event-description text-left text-white ml-4">
+                        <p id="eventf-desc" className = "event-description text-left text-white event-margin">
                         Waffle Time supports the following schools:
 
                         Ungka II Elementary School,
