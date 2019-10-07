@@ -10,10 +10,10 @@ class FranchisePage extends React.Component {
   render() {
     return (
       <div class="container-fluid">
+          <CallToAction />
           <WaffleDesc />
           <FranchiseInfo />
           <FranchisePackage />
-          <CallToAction />
       </div>
     )
   }
