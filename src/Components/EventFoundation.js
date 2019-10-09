@@ -163,6 +163,7 @@ class EventFoundation extends React.Component{
         </div>
         
         <div className = "col-xl-2 col-lg-2 col-md-2 col-xs-12 col-sm-12 text-center mb-1">
+          
         </div>
       </div>
 
