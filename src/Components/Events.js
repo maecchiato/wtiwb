@@ -41,7 +41,7 @@ class Events extends React.Component{
            }
          },
          {
-           breakpoint: 992,
+           breakpoint: 1200,
            settings: {
              arrows: false,
              centerMode: true,
@@ -154,12 +154,12 @@ class Events extends React.Component{
 
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-                7 Oct 2019
+                14 Oct 2019
               </small>
-              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157523950552726" target="_blank" rel=" noreferrer noopener">
+              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157543410812726" target="_blank" rel=" noreferrer noopener">
             <img className = "img-size" src = {events13} />
               <p className = "event-description">
-                Waffle Time opens at Lyceum of the Philippines - Davao
+                Waffle Time opens at Bulacan State University
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
 
@@ -169,9 +169,9 @@ class Events extends React.Component{
 
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-                8 Oct 2019
+                9 Oct 2019
               </small>
-              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157526124197726" target="_blank" rel=" noreferrer noopener">
+              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157528999177726" target="_blank" rel=" noreferrer noopener">
             <img className = "img-size" src = {events8} />
               <p className = "event-description">
                 Waffle Time is hiring!

@@ -67,7 +67,7 @@ class Contact extends React.Component {
 
                             <p className="contact-body text-left mb-2 mt-2">
                                 <i className="fas fa-home mr-2"></i>
-                                #32 B Mariner St., Dona Vicenta Village, Davao City                                
+                                #32 B Mariner St., Dona Vicenta Village, Davao City                               
                             </p>
                             <p className="contact-body text-left mb-2 mt-2">
                                 <i className="fas fa-phone-square mr-2"></i>
@@ -86,7 +86,7 @@ class Contact extends React.Component {
 
                             <p className="contact-body text-left mb-2 mt-2">
                                 <i className="fas fa-home mr-2"></i>
-                                338-8 G Victor Village, Tres de Abril,Punta Princesa, Labangon, Cebu City     
+                                31 La Guardia Ext, Cebu City, Cebu  
                                 </p>
                             <p className="contact-body text-left mb-2 mt-2">
                                 <i className="fas fa-phone-square mr-2"></i>
@@ -105,7 +105,7 @@ class Contact extends React.Component {
 
                             <p className="contact-body text-left mb-2 mt-2">
                                 <i className="fas fa-home mr-2"></i>
-                                3699 Las Piedras Village, Capisnon, Kauswagan, CDO City
+                                3699 Las Piedras Village, Capisnon, Kauswagan, Cagayan De Oro City
                                 </p>
                             <p className="contact-body text-left mb-2 mt-2">
                                 <i className="fas fa-phone-square mr-2"></i>

@@ -63,6 +63,21 @@ class StoreOpenings extends React.Component{
 
         <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
+                14 Oct 2019
+              </small>
+              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157543410812726" target="_blank" rel=" noreferrer noopener">
+            <img className = "img-size" src = {events13} />
+              <p className = "event-description">
+                Waffle Time opens at Bulacan State University
+              </p>
+              <p className = "mt-1 mx-1 event-description text-justify">
+
+              </p>
+              </a>
+          </div>
+
+        <div className = "zoom evt">
+          <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
                 7 Oct 2019
               </small>
               <a href="https://www.facebook.com/WaffleTimeInc/posts/10157523950552726" target="_blank" rel=" noreferrer noopener">
