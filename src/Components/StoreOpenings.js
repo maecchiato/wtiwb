@@ -14,6 +14,7 @@ import events9 from '../assets/img/advertisements/events9.jpg';
 import events10 from '../assets/img/advertisements/events10.jpg';
 import events11 from '../assets/img/advertisements/events11.jpg';
 import events12 from '../assets/img/advertisements/events12.jpg';
+import events13 from '../assets/img/advertisements/events13.jpg';
 
 import rec from '../assets/img/Heading/rec.jpg';
 
@@ -59,6 +60,37 @@ class StoreOpenings extends React.Component{
         </div>
         <div id = "event-slider" className = "col-xl-4 col-lg-4 col-md-4 col-xs-12 col-sm-12 text-center">
         <Slider {...settings}>
+
+        <div className = "zoom evt">
+          <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
+                14 Oct 2019
+              </small>
+              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157543410812726" target="_blank" rel=" noreferrer noopener">
+            <img className = "img-size" src = {events13} />
+              <p className = "event-description">
+                Waffle Time opens at Bulacan State University
+              </p>
+              <p className = "mt-1 mx-1 event-description text-justify">
+
+              </p>
+              </a>
+          </div>
+
+        <div className = "zoom evt">
+          <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
+                7 Oct 2019
+              </small>
+              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157523950552726" target="_blank" rel=" noreferrer noopener">
+            <img className = "img-size" src = {events13} />
+              <p className = "event-description">
+                Waffle Time opens at Lyceum of the Philippines - Davao
+              </p>
+              <p className = "mt-1 mx-1 event-description text-justify">
+
+              </p>
+              </a>
+          </div>
+
         <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
                 28 Sep 2019

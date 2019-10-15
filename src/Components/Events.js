@@ -13,7 +13,7 @@ import events7 from '../assets/img/advertisements/events7.jpg';
 import events8 from '../assets/img/advertisements/events8.jpg';
 import events9 from '../assets/img/advertisements/events9.jpg';
 import events10 from '../assets/img/advertisements/events10.jpg';
-
+import events13 from '../assets/img/advertisements/events13.jpg';
 import rec from '../assets/img/Heading/rec.jpg';
 
 class Events extends React.Component{
@@ -24,6 +24,7 @@ class Events extends React.Component{
        centerMode: true,
        centerPadding: '40px',
        slidesToShow: 1,
+       slidesToScroll: 1,
        speed: 1000,
        autoplay: true,
        arrows:true,
@@ -35,16 +36,18 @@ class Events extends React.Component{
              arrows: true,
              centerMode: true,
              centerPadding: '60px',
-             slidesToShow: 2
+             slidesToShow: 2,
+             slidesToScroll: 2
            }
          },
          {
-           breakpoint: 992,
+           breakpoint: 1200,
            settings: {
              arrows: false,
              centerMode: true,
              centerPadding: '60px',
-             slidesToShow: 3
+             slidesToShow: 3,
+             slidesToScroll: 3
            }
          }
        ]
@@ -57,6 +60,7 @@ class Events extends React.Component{
           <img src={rec}></img>
         </div>
         <div className = "col-xl-4 col-lg-4 col-md-4 col-xs-12 col-sm-12">
+          
         </div>
         <div id = "event-slider" className = "col-xl-4 col-lg-4 col-md-4 col-xs-12 col-sm-12 text-center">
         <Slider {...settings}>
@@ -150,13 +154,12 @@ class Events extends React.Component{
 
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-                28 Sep 2019
+                14 Oct 2019
               </small>
-              
-              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157499245567726" target="_blank" rel=" noreferrer noopener">
-            <img className = "img-size" src = {events10} />
+              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157543410812726" target="_blank" rel=" noreferrer noopener">
+            <img className = "img-size" src = {events13} />
               <p className = "event-description">
-                Waffle Time opens at Imus Terminal Mall, Cavite
+                Waffle Time opens at Bulacan State University
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
 
@@ -166,9 +169,9 @@ class Events extends React.Component{
 
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-                3 Oct 2019
+                9 Oct 2019
               </small>
-              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157512924567726" target="_blank" rel=" noreferrer noopener">
+              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157528999177726" target="_blank" rel=" noreferrer noopener">
             <img className = "img-size" src = {events8} />
               <p className = "event-description">
                 Waffle Time is hiring!
