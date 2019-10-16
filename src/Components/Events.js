@@ -13,7 +13,7 @@ import events7 from '../assets/img/advertisements/events7.jpg';
 import events8 from '../assets/img/advertisements/events8.jpg';
 import events9 from '../assets/img/advertisements/events9.jpg';
 import events10 from '../assets/img/advertisements/events10.jpg';
-import events13 from '../assets/img/advertisements/events13.jpg';
+import events14 from '../assets/img/advertisements/events14.jpg';
 import rec from '../assets/img/Heading/rec.jpg';
 
 class Events extends React.Component{
@@ -154,12 +154,12 @@ class Events extends React.Component{
 
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-                14 Oct 2019
+                15 Oct 2019
               </small>
-              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157543410812726" target="_blank" rel=" noreferrer noopener">
-            <img className = "img-size" src = {events13} />
+              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157546429182726" target="_blank" rel=" noreferrer noopener">
+            <img className = "img-size" src = {events14} />
               <p className = "event-description">
-                Waffle Time opens at Bulacan State University
+                Waffle Time opens at Waltermart Balanga
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
 
