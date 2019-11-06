@@ -14,6 +14,7 @@ import events8 from '../assets/img/advertisements/events8.jpg';
 import events9 from '../assets/img/advertisements/events9.jpg';
 import events10 from '../assets/img/advertisements/events10.jpg';
 import events14 from '../assets/img/advertisements/events14.jpg';
+import events17 from '../assets/img/advertisements/events17.jpg';
 import rec from '../assets/img/Heading/rec.jpg';
 
 class Events extends React.Component{
@@ -64,6 +65,39 @@ class Events extends React.Component{
         </div>
         <div id = "event-slider" className = "col-xl-4 col-lg-4 col-md-4 col-xs-12 col-sm-12 text-center">
         <Slider {...settings}>
+
+
+        <div className = "zoom evt">
+          <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
+                25 Oct 2019
+              </small>
+              
+              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157577925352726" target="_blank" rel=" noreferrer noopener">
+            <img className = "img-size" src = {events17} />
+              <p className = "event-description">
+                Party Package Discount from Nov 1 - Dec 31, 2019
+              </p>
+              <p className = "mt-1 mx-1 event-description text-justify">
+
+              </p>
+              </a>
+          </div>
+
+          <div className = "zoom evt">
+          <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
+                25 Oct 2019
+              </small>
+              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157577651637726" target="_blank" rel=" noreferrer noopener">
+            <img className = "img-size" src = {events8} />
+              <p className = "event-description">
+                Waffle Time is hiring!
+              </p>
+              <p className = "mt-1 mx-1 event-description text-justify">
+
+              </p>
+              </a>
+          </div>                                               
+
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
                 13 Sep 2019
@@ -79,6 +113,7 @@ class Events extends React.Component{
               </p>
               </a>
           </div>
+
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
           11 Sep 2019
@@ -93,6 +128,7 @@ class Events extends React.Component{
               </p>
               </a>
           </div>
+          
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
                7 Sep 2019
@@ -107,6 +143,7 @@ class Events extends React.Component{
               </p>
               </a>
           </div>
+
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
                 16 Sept 2019
@@ -154,27 +191,12 @@ class Events extends React.Component{
 
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-                15 Oct 2019
+                28 Oct 2019
               </small>
-              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157546429182726" target="_blank" rel=" noreferrer noopener">
+              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157587084292726" target="_blank" rel=" noreferrer noopener">
             <img className = "img-size" src = {events14} />
               <p className = "event-description">
-                Waffle Time opens at Waltermart Balanga
-              </p>
-              <p className = "mt-1 mx-1 event-description text-justify">
-
-              </p>
-              </a>
-          </div>
-
-          <div className = "zoom evt">
-          <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-                9 Oct 2019
-              </small>
-              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157528999177726" target="_blank" rel=" noreferrer noopener">
-            <img className = "img-size" src = {events8} />
-              <p className = "event-description">
-                Waffle Time is hiring!
+                Waffle Time opens at Metro Supermarket, Carmen, Cebu
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
 

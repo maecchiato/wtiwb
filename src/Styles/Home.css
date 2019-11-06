@@ -439,6 +439,7 @@ nav .nav-link:visited {
         padding: 10% !important;
     }
     #events-section {
+        display: flex;
         margin:auto;
     }
 }
@@ -532,6 +533,7 @@ nav .nav-link:visited {
         padding-right: 0px !important;
     }
     #events-section {
+        
         padding-top: 15% !important;
         padding-bottom: 15% !important;
     }
