@@ -15,7 +15,9 @@ import events10 from '../assets/img/advertisements/events10.jpg';
 import events11 from '../assets/img/advertisements/events11.jpg';
 import events12 from '../assets/img/advertisements/events12.jpg';
 import events13 from '../assets/img/advertisements/events13.jpg';
-
+import events14 from '../assets/img/advertisements/events14.jpg';
+import events15 from '../assets/img/advertisements/events15.jpg';
+import events16 from '../assets/img/advertisements/events16.jpg';
 import rec from '../assets/img/Heading/rec.jpg';
 
 class StoreOpenings extends React.Component{
@@ -63,6 +65,52 @@ class StoreOpenings extends React.Component{
 
         <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
+                28 Oct 2019
+              </small>
+              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157587084292726" target="_blank" rel=" noreferrer noopener">
+            <img className = "img-size" src = {events14} />
+              <p className = "event-description">
+                Waffle Time opens at Metro Supermarket, Carmen, Cebu
+              </p>
+              <p className = "mt-1 mx-1 event-description text-justify">
+
+              </p>
+              </a>
+          </div>
+
+          <div className = "zoom evt">
+          <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
+                26 Oct 2019
+              </small>
+              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157580761002726" target="_blank" rel=" noreferrer noopener">
+            <img className = "img-size" src = {events16} />
+              <p className = "event-description">
+                Waffle Time opens at RGM Bldg., Aldeguer St., Iloilo City
+              </p>
+              <p className = "mt-1 mx-1 event-description text-justify">
+
+              </p>
+              </a>
+          </div>
+
+        <div className = "zoom evt">
+          <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
+                15 Oct 2019
+              </small>
+              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157546429182726" target="_blank" rel=" noreferrer noopener">
+            <img className = "img-size" src = {events7} />
+              <p className = "event-description">
+                Waffle Time opens at Waltermart Balanga, Bataan
+              </p>
+              <p className = "mt-1 mx-1 event-description text-justify">
+
+              </p>
+              </a>
+          </div>
+
+
+        <div className = "zoom evt">
+          <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
                 14 Oct 2019
               </small>
               <a href="https://www.facebook.com/WaffleTimeInc/posts/10157543410812726" target="_blank" rel=" noreferrer noopener">
@@ -81,7 +129,7 @@ class StoreOpenings extends React.Component{
                 7 Oct 2019
               </small>
               <a href="https://www.facebook.com/WaffleTimeInc/posts/10157523950552726" target="_blank" rel=" noreferrer noopener">
-            <img className = "img-size" src = {events13} />
+            <img className = "img-size" src = {events15} />
               <p className = "event-description">
                 Waffle Time opens at Lyceum of the Philippines - Davao
               </p>
@@ -109,7 +157,7 @@ class StoreOpenings extends React.Component{
 
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-          25 Sep 2019
+                25 Sep 2019
               </small>
               <a href="https://www.facebook.com/WaffleTimeInc/posts/10157491309767726" target="_blank" rel=" noreferrer noopener">
             <img className = "img-size" src = {events11} />
@@ -122,21 +170,7 @@ class StoreOpenings extends React.Component{
               </a>
           </div>
 
-          <div className = "zoom evt">
-          <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-                17 Sep 2019
-              </small>
-              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157471033822726?__tn__=-R" target="_blank" rel=" noreferrer noopener">
-            <img className = "img-size" src = {events7} />
-              <p className = "event-description">
-                Waffle Time opens at Corpus Christi School, Cagayan de Oro
-              </p>
-              <p className = "mt-1 mx-1 event-description text-justify">
-
-              </p>
-              </a>
-          </div>
-
+          
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
                 13 Sep 2019
