@@ -7,7 +7,7 @@ import events1 from '../assets/img/advertisements/200101.jpg';
 import events2 from '../assets/img/advertisements/200106.jpg';
 import events3 from '../assets/img/advertisements/200114.jpg';
 import events4 from '../assets/img/advertisements/200115.jpg';
-import events5 from '../assets/img/advertisements/events5.jpg';
+import events5 from '../assets/img/advertisements/200203.jpg';
 import events6 from '../assets/img/advertisements/events6.jpg';
 import events7 from '../assets/img/advertisements/events7.jpg';
 import events8 from '../assets/img/advertisements/events8.jpg';
@@ -116,13 +116,27 @@ class Events extends React.Component{
 
           <div className = "zoom evt">
           <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
-          11 Sep 2019
+          15 Jan 2020
               </small>
               <a href="https://www.facebook.com/WaffleTimeInc/posts/10157815915542726" target="_blank" rel=" noreferrer noopener">
             <img className = "img-size" src = {events4} />
               <p className = "event-description">
               Few days until #IloiloDinagyangFestival2020! Waffle Time joins Kaon Ta, Iloilo Dinagyang Food Fest on January 24, 25, and 26, 2020 at Arsenal Street, Iloilo City! See you all soon!
               </p>
+              <p className = "mt-1 mx-1 event-description text-justify">
+
+              </p>
+              </a>
+          </div>
+
+          <div className = "zoom evt">
+          <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
+          03 Feb 2020
+              </small>
+              <a href="https://www.facebook.com/WaffleTimeInc/posts/10157872567972726" target="_blank" rel=" noreferrer noopener">
+            <img className = "img-size" src = {events5} />
+              <p className = "event-description">
+              SAVE THE DATE! Attend our Free Franchise Orientation and qualify for a SPECIAL DISCOUNT*. Hurry, limited seats only!              </p>
               <p className = "mt-1 mx-1 event-description text-justify">
 
               </p>
