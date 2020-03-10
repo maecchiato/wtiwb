@@ -22,6 +22,10 @@
 
 */
 
+html{
+    scroll-behavior: smooth;
+}
+
 :root {
     --main-red: #AF0700;
     --sec-yellow: #ffd454;
