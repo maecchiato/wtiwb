@@ -11,7 +11,6 @@ import events2 from '../assets/img/advertisements/events2.jpg';
 import events3 from '../assets/img/advertisements/events3.jpg';
 import events4 from '../assets/img/flavor-of-the-month-display.jpg';
 import events5 from '../assets/img/advertisements/events5.jpg';
-import events6 from '../assets/img/advertisements/events6.jpg';
 import events7 from '../assets/img/advertisements/events7.jpg';
 import events8 from '../assets/img/advertisements/events8.jpg';
 import events9 from '../assets/img/advertisements/events9.jpg';
@@ -162,10 +161,6 @@ class EventFoundation extends React.Component{
         </div>
         
         <div className = "col-xl-2 col-lg-2 col-md-2 col-xs-12 col-sm-12 text-center mb-1">
-          
-=======
-        <div className = "col-xl-1 col-lg-1 col-md-1 col-xs-auto col-sm-auto text-center mb-1">
->>>>>>> frontend_mae
         </div>
       </div>
 
