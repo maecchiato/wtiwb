@@ -386,11 +386,11 @@ nav .nav-link:visited {
 }
 
 @media only screen and (min-width: 1200px) {
-    #logo {
+    /* #logo {
         width: 200px !important;
         top: 10% !important;
         left: 43% !important;
-    }
+    } */
     #home-section {
         /* padding-bottom: 20% !important; */
     }
@@ -439,14 +439,17 @@ nav .nav-link:visited {
         padding: 10% !important;
     }
     #events-section {
-        height: 50%;
+        display: flex;
+        margin:auto;
     }
 }
 
 @media only screen and (min-width: 992px) {
-    #logo {
-        left: 42.5% !important;
-    }
+     #logo {
+        left: 43% !important;
+        width: 150px !important;
+    
+    } 
     .modal-footer {
         position: fixed;
         bottom: 0;
@@ -482,13 +485,14 @@ nav .nav-link:visited {
     .zoom evt {
         margin: auto;
     }
-    .navbar-nav {
-        /* height: 100vh; */
+
+    .contact-details{
+        height: fit-content !important;
     }
-    #logo {
+    /* #logo {
         left: 5% !important;
         width: 150px !important;
-    }
+    } */
     .headline-h2 {
         font-size: 40px;
         line-height: 40px;
@@ -529,6 +533,7 @@ nav .nav-link:visited {
         padding-right: 0px !important;
     }
     #events-section {
+        
         padding-top: 15% !important;
         padding-bottom: 15% !important;
     }
@@ -585,6 +590,7 @@ nav .nav-link:visited {
     .ReactModal__Content {
         width: 80% !important;
     }
+    
 }
 
 .vl {
@@ -615,11 +621,11 @@ nav .nav-link:visited {
 } */
 
 #logo {
-    width: 200px;
+    width: 150px !important;
     position: absolute;
     top: 15%;
     padding-top: 8px;
-    left: 35%;
+    left: 5%;
     transition: .3s;
 }
 
@@ -848,7 +854,7 @@ nav .nav-link:visited {
 }
 
 #expand-map {
-    padding-top: 200px;
+    /* padding-top: 200px; */
 }
 
 #footer-text {
@@ -1291,7 +1297,7 @@ nav .nav-link:visited {
     box-sizing: border-box;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
     border-radius: 3px;
-    width: fit-content;
+    height: 140px;
     width: 100%;
     padding-right: 10% !important;
     padding-left: 10% !important;
@@ -1339,22 +1345,12 @@ nav .nav-link:visited {
     padding-top: 0px !important;
 }
 
-/* .fillings-modal {
-    height: 100%;
-} */
+
 
 .modal-header {
     background-color: var(--main-red);
     height: 70px !important;
 }
 
-/* view for mobile */
 
-/* @media for screen only(max-width:767)
-{
-    .img-size{
-        width: 100%;    
-    }
-        
-    
-} */
+

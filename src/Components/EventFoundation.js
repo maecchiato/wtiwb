@@ -26,7 +26,7 @@ class EventFoundation extends React.Component{
        centerPadding: '60px',
        slidesToShow: 1,
        speed: 1000,
-       autoplay: false,
+       autoplay: true,
        arrows: true,
        autoplaySpeed: 4500,
        responsive: [
@@ -161,7 +161,11 @@ class EventFoundation extends React.Component{
          </Slider>
         </div>
         
+        <div className = "col-xl-2 col-lg-2 col-md-2 col-xs-12 col-sm-12 text-center mb-1">
+          
+=======
         <div className = "col-xl-1 col-lg-1 col-md-1 col-xs-auto col-sm-auto text-center mb-1">
+>>>>>>> frontend_mae
         </div>
       </div>
 

@@ -13,10 +13,13 @@ class Fillings extends React.Component {
                 <div id="fotm-desc" className="col-xl-6 col-lg-6 col-md-6 col-xs-12 col-sm-12">
                     <p className="headline-h4">Fillings of the Month is here!</p>
                     <img src={rec}></img>
+                    
                     <p className="body-reg-16">New WaffleTime #FillingsOfTheMonth Alert! Try #WaffleTime's newest savory fillings:</p>
                     <p className="body-reg-16 font-weight-bold">Chipotle and Corn Cheesedog now! #WaffleTimePaborito</p>
                     <p className="body-reg-16">#AngPambansangWaffleNgPilipinas </p>
+                    
                 </div>
+                
             </div>
         )
     }

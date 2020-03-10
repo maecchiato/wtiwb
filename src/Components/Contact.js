@@ -11,7 +11,7 @@ class Contact extends React.Component {
                     <p className="headline-h3 w-100">Interested? Contact Us!</p>
                     <img src={rec}></img>
                     <p className="body-reg-16 w-100 pt-2">Join our growing Waffle Time family today! Franchise now!</p>
-                    <a href="mailto:customerservice@waffletime.com?Subject=Franchise%20Inquiry" target="_top" className="mt-1 mb-3 p-2 mr-2 btn-stroke">
+                    <a href="https://mail.google.com/mail/?view=cm&?labs=0&to=customerservice@waffletime.com&su=Franchise%20Inquiry" target="_top _blank" rel=" noreferrer noopener" className="mt-1 mb-3 p-2 mr-2 btn-stroke">
                         Send us an Email
                     </a>
                 </div>
@@ -29,11 +29,11 @@ class Contact extends React.Component {
                                 </p>
                             <p className="contact-body text-left mb-2 mt-2">
                                 <i className="fas fa-phone-square mr-2"></i>
-                                (033) - 335 - 0935
+                                (033) 8 - 335 - 0935
                                 </p>
                             <p className="contact-body text-left mb-4">
                                 <i className="fas fa-fax mr-2"></i>
-                                (033) - 335 - 0026
+                                (033) 8 - 335 - 0026
                             </p>
                         </div>
                     </div>
@@ -48,11 +48,15 @@ class Contact extends React.Component {
                             </p>
                             <p className="contact-body text-left mb-2 mt-2">
                                 <i className="fas fa-phone-square mr-2"></i>
-                                (02) - 584 - 3704
+                                (02) 8 - 584 - 3704
+                                </p>
+                            <p className="contact-body text-left mb-2 mt-2">
+                                <i className="fas fa-phone-square mr-2"></i>
+                                (02) 8 - 477 - 2468
                                 </p>
                             <p className="contact-body text-left mb-4">
                                 <i className="fas fa-fax mr-2"></i>
-                                (02) - 642 - 1870
+                                (02) 8 - 642 - 1870
                             </p>
                         </div>
                     </div>
@@ -63,12 +67,12 @@ class Contact extends React.Component {
 
                             <p className="contact-body text-left mb-2 mt-2">
                                 <i className="fas fa-home mr-2"></i>
-                                #32 B Mariner St., Dona Vicenta Village, Davao City                                
+                                #32 B Mariner St., Dona Vicenta Village, Davao City                               
                             </p>
                             <p className="contact-body text-left mb-2 mt-2">
                                 <i className="fas fa-phone-square mr-2"></i>
-                                (082) - 298 - 5335
-                                </p><br/><br/>
+                                (082) 8 - 298 - 5335
+                                </p><br />
                             {/* <p className="contact-body text-left mb-4">
                                 <i className="fas fa-fax mr-2"></i>
                                 (6333) - 335 - 0026
@@ -82,15 +86,15 @@ class Contact extends React.Component {
 
                             <p className="contact-body text-left mb-2 mt-2">
                                 <i className="fas fa-home mr-2"></i>
-                                338-8 G Victor Village, Tres de Abril,Punta Princesa, Labangon, Cebu City     
+                                31 La Guardia Ext, Cebu City, Cebu  
                                 </p>
                             <p className="contact-body text-left mb-2 mt-2">
                                 <i className="fas fa-phone-square mr-2"></i>
-                                (032) - 253 - 9679
+                                (032) 8 - 253 - 9679
                                 </p>
                             <p className="contact-body text-left mb-4">
                                 <i className="fas fa-fax mr-2"></i>
-                                (032) - 253 - 9679
+                                (032) 8 - 253 - 9679
                                 </p>
                         </div>
                     </div>
@@ -101,12 +105,12 @@ class Contact extends React.Component {
 
                             <p className="contact-body text-left mb-2 mt-2">
                                 <i className="fas fa-home mr-2"></i>
-                                3699 Las Piedras Village, Capisnon, Kauswagan, CDO City
+                                3699 Las Piedras Village, Capisnon, Kauswagan, Cagayan De Oro City
                                 </p>
                             <p className="contact-body text-left mb-2 mt-2">
                                 <i className="fas fa-phone-square mr-2"></i>
-                                (088) - 850 - 0218 
-                                </p><br/><br/>
+                                (088) 8 - 850 - 0218 
+                                </p><br />
                             {/* <p className="contact-body text-left mb-4">
                                 <i className="fas fa-fax mr-2"></i>
                                 (6333) - 335 - 0026
