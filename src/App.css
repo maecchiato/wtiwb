@@ -33,6 +33,10 @@ html{
     --sec-red: #890f00;
     --sec-accent: #124886;
 }
+
+html{
+    scroll-behavior: smooth;
+}
 .add-padding {
     padding-top: 3%;
     padding-left: 10%;
