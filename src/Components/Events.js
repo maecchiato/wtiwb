@@ -67,8 +67,8 @@ class Events extends React.Component{
         <Slider {...settings}>
 
 
-        <div className = "zoom evt">
-          <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
+          <div className = "zoom evt">
+              <small className = "overline mt-xl-2 mt-lg-2 mt-sm-0 mr-3 float-right">
                 01 Jan 2020
               </small>
               
