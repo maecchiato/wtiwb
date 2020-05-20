@@ -90,12 +90,12 @@ class Contact extends React.Component {
                                 </p>
                             <p className="contact-body text-left mb-2 mt-2">
                                 <i className="fas fa-phone-square mr-2"></i>
-                                (032) 8 - 253 - 9679
+                                (032) 8 - 256 - 6105
                                 </p>
-                            <p className="contact-body text-left mb-4">
+                            {/* <p className="contact-body text-left mb-4">
                                 <i className="fas fa-fax mr-2"></i>
                                 (032) 8 - 253 - 9679
-                                </p>
+                                </p> */}
                         </div>
                     </div>
 
@@ -109,7 +109,7 @@ class Contact extends React.Component {
                                 </p>
                             <p className="contact-body text-left mb-2 mt-2">
                                 <i className="fas fa-phone-square mr-2"></i>
-                                (088) 8 - 850 - 0218 
+                                (088) 8 - 882 - 0095 
                                 </p><br />
                             {/* <p className="contact-body text-left mb-4">
                                 <i className="fas fa-fax mr-2"></i>
